@@ -1,105 +1,130 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
 
-<meta property="og:description" content="Safe Network Node Stats." />
-<meta property="og:image" content="https://github.com/javages/javages.github.io/blob/main/bubbles.png" />
-	
-<meta charset="utf-8"/>
-<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Safe Network Test Network Nodes</title>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <meta property="og:description" content="Safe Network Node Stats." />
+    <meta property="og:image" content="https://github.com/javages/javages.github.io/blob/main/bubbles.png" />
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        margin-top: 50px;
-        background-color: #333;  /* Dark background */
-        color: #f4f4f4;  /* Light text color */
-    }
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Safe Network Test Network Nodes</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
 
-    h1, h2 {
-        color: #ff6600;  /* Brighter orange for headers */
-        margin-bottom: 20px;
-    }
+    <!-- SVG favicon for modern browsers -->
+    <link rel="icon" type="image/svg+xml" href="#chartLogo" />
 
-    a {
-        text-decoration: none;
-        color: #ff6600;  /* Brighter orange for links */
-        padding: 12px 20px;
-        width: 200px;
-        height: 22px;
-        line-height: 25px;
-        text-align: center;
-        border: 2px solid #ff6600;  /* Brighter orange border */
-        border-radius: 5px;
-        transition: background-color 0.3s, color 0.3s;
-        display: inline-block;
-        margin-bottom: 10px;
-    }
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background: linear-gradient(45deg, #222, #444); /* subtle gradient for chart-like appearance */
+            color: rgba(244, 244, 244, 0.8);  /* slightly transparent text */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* soft shadow for a floating effect */
+        }
 
-    a:hover {
-        background-color: #ff6600;  /* Brighter orange background on hover */
-        color: #333;  /* Dark text on hover for contrast */
-    }
+        h1 {
+            color: rgba(255, 102, 0, 0.8);  /* slightly transparent orange */
+            margin-bottom: 20px;
+        }
 
-    hr {
-        border: 0;
-        border-top: 1px solid #666;  /* Darker border for contrast */
-        margin: 40px 0;
-    }
+        h1:hover {
+            color: #ff6600;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+        }
 
-    .half-page-hr {
-        width: 70%;
-        border: 1px solid darkgrey;
-        margin: 0 auto;
-    }
+        a {
+            text-decoration: none;
+            color: rgba(255, 102, 0, 0.8);
+            padding: 12px 20px;
+            width: 200px;
+            height: 22px;
+            line-height: 25px;
+            text-align: center;
+            border: 2px solid rgba(255, 102, 0, 0.8);
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+            display: inline-block;
+            margin-bottom: 10px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
 
-    .monochrome * {
-        filter: grayscale(100%);
-        color: #fff;  /* Light text color for monochrome */
-    }
-</style>
+        a:hover {
+            background-color: rgba(255, 102, 0, 0.8);
+            color: #222;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+        }
 
+        hr {
+            border: 0;
+            border-top: 1px solid #666;
+            margin: 40px 0;
+        }
 
+        .half-page-hr {
+            width: 70%;
+            border: 1px solid darkgrey;
+            margin: 0 auto;
+        }
+
+        .monochrome * {
+            filter: grayscale(100%);
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Logo styling */
+        .logo {
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
 
 </head>
 
 <body>
 
-<h1>Safe Network Nodes<br>Stats & Tracking.</h1>
+    <!-- Embedding the SVG logo directly in the body -->
+    <svg class="logo" width="50" height="50" xmlns="http://www.w3.org/2000/svg" id="chartLogo">
+        <!-- Background Circle -->
+        <circle cx="25" cy="25" r="23" fill="#2E2E2E" stroke="#FF6600" stroke-width="1.5"/>
+        <!-- Bar Chart - 3 bars of different heights -->
+        <rect x="10" y="27.5" width="5" height="15" fill="#FF6600"/>
+        <rect x="20" y="20" width="5" height="25" fill="#FF6600"/>
+        <rect x="30" y="32.5" width="5" height="10" fill="#FF6600"/>
+    </svg>
 
-<h4>ClientImprovementNet 22/09/23</h4>
+    <h1>Safe Network Nodes<br>Stats & Tracking.</h1>
 
-<!--
-<a href="#">Rewards Balance Plot</a><br/><br/>
-<a href="#">Memory Usage Plot</a><br/><br/>
-<a href="#">Rewards Bubbles</a><br/><br/>
--->
+    <h4>ClientImprovementNet 22/09/23</h4>
 
-<a href="https://javages.github.io/rewards_balance_plot.html">Rewards Graph</a><br/><br/>
-<a href="https://javages.github.io/memory_usage_plot.html">Memory & Stats</a><br/><br/>
-<a href="https://javages.github.io/bubble_rewards.html">Bubbles</a><br/><br/>
+    <a href="https://javages.github.io/rewards_balance_plot.html">Rewards Graph</a><br><br>
+    <a href="https://javages.github.io/memory_usage_plot.html">Memory & Stats</a><br><br>
+    <a href="https://javages.github.io/bubble_rewards.html">Bubbles</a><br><br>
 
+    <p>This page aims to provide a glimpse into what is happening with Safe Network test network nodes. It should, gremlins permitting, update 20 minutes past every hour.</p>
+    <p>Only my personal nodes are tracked, still it should give you a fairly decent idea of what is happening with the network.</p>
 
-<p>This page aims to provide a glimpse into what is happening with Safe Network test network nodes. It should, gremlins permitting, update 20 minutes past every hour.</p>
-<p>Only my personal nodes are tracked, still it should give you a fairly decent idea of what is happening with the network.</p>
+    <hr class="half-page-hr">
+    <div class="monochrome">
+        <h2>Previous Test Networks</h2>
+        <h4>IntolerantNodeNet 18/09/23</h4>
+        <a href="https://javages.github.io/rewards_balance_plot_IntolerantNodeNet.html">Rewards Graph</a><br><br>
+        <a href="https://javages.github.io/memory_usage_plot_IntolerantNodeNet.html">Memory & Stats</a><br><br>
+        <a href="https://javages.github.io/bubble_rewards_IntolerantNodeNet.html">Bubbles</a><br><br>
+    </div>
 
-<hr class="half-page-hr"><div class="monochrome"><h2>Previous Test Networks</h2><h4>IntolerantNodeNet 18/09/23</h4><a
-href="https://javages.github.io/rewards_balance_plot_IntolerantNodeNet.html">Rewards Graph</a><br/><br/><a 
-href="https://javages.github.io/memory_usage_plot_IntolerantNodeNet.html">Memory & Stats</a><br/><br/><a 
-href="https://javages.github.io/bubble_rewards_IntolerantNodeNet.html">Bubbles</a><br/><br/></div>
-
-<div class="monochrome"><h4>RewardNet 04/09/23</h4><a
-href="https://javages.github.io/rewards_balance_plot_rewardnet.html">Rewards Graph</a><br/><br/><a 
-href="https://javages.github.io/memory_usage_plot_rewardnet.html">Memory & Stats</a><br/><br/><a 
-href="https://javages.github.io/bubble_rewards_rewardnet.html">Bubbles</a><br/><br/></div>
-
-
+    <div class="monochrome">
+        <h4>RewardNet 04/09/23</h4>
+        <a href="https://javages.github.io/rewards_balance_plot_rewardnet.html">Rewards Graph</a><br><br>
+        <a href="https://javages.github.io/memory_usage_plot_rewardnet.html">Memory & Stats</a><br><br>
+        <a href="https://javages.github.io/bubble_rewards_rewardnet.html">Bubbles</a><br><br>
+    </div>
 
 </body>
 
 </html>
+
