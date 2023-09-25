@@ -1,230 +1,251 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta content="Safe Network Node Stats." property="og:description" />
-    <meta
-      content="https://github.com/javages/javages.github.io/blob/main/bubbles.png"
-      property="og:image"
-    />
-    <meta charset="utf-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Safe Network Test Network Nodes</title>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-      rel="stylesheet"
-    />
-    <!-- SVG favicon -->
-    <link href="#chartLogo" rel="icon" type="image/svg+xml" />
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        margin-top: 50px;
-        background: linear-gradient(
-          45deg,
+
+<head>
+  <meta content="Safe Network Node Stats." property="og:description" />
+  <meta content="https://github.com/javages/javages.github.io/blob/main/bubbles.png" property="og:image" />
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Safe Network Test Network Nodes</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- SVG favicon -->
+  <link href="#chartLogo" rel="icon" type="image/svg+xml" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+      background: linear-gradient(45deg,
           #222,
-          #444
-        ); /* subtle gradient */
-        color: rgba(244, 244, 244, 0.8); /* slightly transparent text */
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* soft shadow */
-      }
+          #444);
+      /* subtle gradient */
+      color: rgba(244, 244, 244, 0.8);
+      /* slightly transparent text */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+      /* soft shadow */
+    }
 
-      h1 {
-        color: rgba(255, 102, 0, 0.8); /* slightly transparent orange */
-        margin-bottom: 20px;
-      }
+    h1 {
+      color: rgba(255, 102, 0, 0.8);
+      /* slightly transparent orange */
+      margin-bottom: 20px;
+    }
 
-      h1:hover {
-        color: #ff6600;
-        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
-      }
+    h1:hover {
+      color: #ff6600;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    }
 
-      a {
-        text-decoration: none;
-        color: rgba(255, 102, 0, 0.8);
-        padding: 12px 20px;
-        width: 200px;
-        height: 22px;
-        line-height: 25px;
-        text-align: center;
-        border: 2px solid rgba(255, 102, 0, 0.8);
-        border-radius: 5px;
-        transition: background-color 0.3s, color 0.3s;
-        display: inline-block;
-        margin-bottom: 10px;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-      }
+    a {
+      text-decoration: none;
+      color: rgba(255, 102, 0, 0.8);
+      padding: 12px 20px;
+      width: 200px;
+      height: 22px;
+      line-height: 25px;
+      text-align: center;
+      border: 2px solid rgba(255, 102, 0, 0.8);
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+      display: inline-block;
+      margin-bottom: 10px;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
 
-      a:hover {
-        background-color: rgba(255, 102, 0, 0.8);
-        color: #222;
-        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
-      }
+    a:hover {
+      background-color: rgba(255, 102, 0, 0.8);
+      color: #222;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    }
 
-      hr {
-        border: 0;
-        border-top: 1px solid #666;
-        margin: 40px 0;
-      }
+    hr {
+      border: 0;
+      border-top: 1px solid #666;
+      margin: 40px 0;
+    }
 
-      /* Logo styling */
-      .logo {
-        display: inline-block;
-        margin-right: 10px;
-        vertical-align: middle;
-      }
+    /* Logo styling */
+    .logo {
+      display: inline-block;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
 
-      #bar1,
-      #bar2,
-      #bar3 {
-        transform-origin: bottom;
-        transition: transform 0.3s ease-in-out;
-      }
+    #bar1,
+    #bar2,
+    #bar3 {
+      transform-origin: bottom;
+      transition: transform 0.3s ease-in-out;
+    }
 
-      /* Scale effect on hover */
-      .logo:hover #bar1 {
-        transform: scaleY(1.2);
-      }
+    /* Scale effect on hover */
+    .logo:hover #bar1 {
+      transform: scaleY(1.2);
+    }
 
-      .logo:hover #bar2 {
-        transform: scaleY(1.5);
-      }
+    .logo:hover #bar2 {
+      transform: scaleY(1.5);
+    }
 
-      .logo:hover #bar3 {
-        transform: scaleY(0.8);
-      }
+    .logo:hover #bar3 {
+      transform: scaleY(0.8);
+    }
 
-      /* Toggle Fullscreen buttons */
-      button[onclick^="toggleFullscreen"] {
-        background-color: rgba(255, 102, 0, 0.678); /* Orange background */
-        font-size: 10px;
-        color: #f1efef; /* Dark text */
-        border: 2px solid rgba(255, 102, 0, 0.678); /* Orange border */
-        padding: 1px 1px; /* Reduced padding for a smaller appearance */
-        border-radius: 5px;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Shadow effect */
-        margin-right: 10px; /* Spacing from the iframe */
-        float: left; /* Positioning to the left */
-        cursor: pointer; /* Hand cursor on hover */
-        transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
-        margin-left: 10px; /* Added 10px left padding */
-      }
+    .iframe-container {
+      position: relative;
+      margin-bottom: 1px;
+    }
 
-      button[onclick^="toggleFullscreen"]:hover {
-        background-color: #ff6600; /* Slightly darker orange on hover */
-        color: rgba(
-          244,
-          244,
-          244,
-          0.8
-        ); /* Slightly transparent text on hover */
-        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); /* Enhanced shadow effect on hover */
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Embedding the SVG logo directly in the body -->
-    <svg
-      class="logo"
-      height="50"
-      id="chartLogo"
-      width="50"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <!-- Background Circle -->
-      <circle
-        cx="25"
-        cy="25"
-        fill="#2E2E2E"
-        r="23"
-        stroke="#FF6600"
-        stroke-width="1.5"
-      ></circle>
-      <!-- Bar Chart - 3 bars of different heights -->
-      <rect
-        fill="#FF6600"
-        height="15"
-        id="bar1"
-        width="5"
-        x="10"
-        y="27.5"
-      ></rect>
-      <rect fill="#FF6600" height="25" id="bar2" width="5" x="20" y="20"></rect>
-      <rect
-        fill="#FF6600"
-        height="10"
-        id="bar3"
-        width="5"
-        x="30"
-        y="32.5"
-      ></rect>
-    </svg>
-    <h1>Safe Network Nodes<br />Stats &amp; Tracking</h1>
-    <h4>ClientImprovementNet 22/09/23</h4>
-    <br />
-    <button onclick="toggleFullscreen(this.nextElementSibling)">Full</button
-    ><iframe
-      frameborder="0"
-      height="400"
-      src="https://javages.github.io/bubble_rewards.html"
-      width="100%"
-    ></iframe
-    ><br />
-    <button onclick="toggleFullscreen(this.nextElementSibling)">Full</button
-    ><iframe
-      frameborder="0"
-      height="400"
-      src="https://javages.github.io/rewards_balance_plot.html"
-      width="100%"
-    ></iframe
-    ><br />
-    <button onclick="toggleFullscreen(this.nextElementSibling)">Full</button
-    ><iframe
-      frameborder="0"
-      height="400"
-      src="https://javages.github.io/memory_usage_plot.html"
-      width="100%"
-    ></iframe
-    ><br />
-    <br />
-    <br />
-    <p>
-      This page aims to provide a glimpse into what is happening with Safe
-      Network test network nodes.
-    </p>
-    <p>It should, gremlins permitting, update every 10 minutes.</p>
-    <br />
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        setInterval(function () {
-          var iframes = document.querySelectorAll("iframe");
-          iframes.forEach(function (iframe) {
-            iframe.src = iframe.src;
-          });
-        }, 600000); // 600,000 milliseconds = 10 minutes
-      });
-    </script>
-    <script>
-      function toggleFullscreen(iframe) {
-        if (!document.fullscreenElement) {
-          iframe.requestFullscreen();
-        } else {
-          document.exitFullscreen();
-        }
-      }
+    .iframe-container button {
+      position: absolute;
+      top: 15px;
+      /* Adjust this value to position the button vertically */
+      left: 15px;
+      /* Adjust this value to position the button horizontally */
+      z-index: 10;
+      /* This ensures the button stays above the iframe */
+    }
 
-      document.addEventListener("fullscreenchange", function () {
-        if (!document.fullscreenElement) {
+
+    .hide-individual-buttons button[onclick^="toggleFullscreen"] {
+      display: none;
+    }
+
+    /* Appearance styles for all fullscreen buttons */
+    .fullscreen-btn-style {
+      background-color: rgba(255, 255, 255, 0.1);
+      font-size: 10px;
+      color: rgba(255, 255, 255, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 1px 1px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .fullscreen-btn-style:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      color: rgba(255, 255, 255, 0.8);
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Positioning styles specific to iframe buttons */
+    .iframe-btn-position {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 10;
+      margin-right: 10px;
+      float: left;
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Embedding the SVG logo directly in the body -->
+  <svg class="logo" height="50" id="chartLogo" width="50" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="25" cy="25" fill="#2E2E2E" r="23" stroke="#FF6600" stroke-width="1.5"></circle>
+    <!-- Bar Chart - 3 bars of different heights -->
+    <rect fill="#FF6600" height="15" id="bar1" width="5" x="10" y="27.5"></rect>
+    <rect fill="#FF6600" height="25" id="bar2" width="5" x="20" y="20"></rect>
+    <rect fill="#FF6600" height="10" id="bar3" width="5" x="30" y="32.5"></rect>
+  </svg>
+  <h1>Safe Network Nodes<br />Stats &amp; Tracking</h1>
+  <h4>ClientImprovementNet 22/09/23</h4>
+  <br />
+  <button class="fullscreen-btn-style" onclick="toggleAllIframesFullscreen()">Fullscreen All</button>
+  <div id="iframesContainer">
+    <div class="iframe-container">
+      <button class="iframe-btn-position fullscreen-btn-style"
+        onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
+
+      <iframe frameborder="0" height="400" src="https://javages.github.io/bubble_rewards.html" width="100%"></iframe>
+    </div>
+
+    <div class="iframe-container">
+      <button class="iframe-btn-position fullscreen-btn-style"
+        onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
+
+      <iframe frameborder="0" height="400" src="https://javages.github.io/rewards_balance_plot.html"
+        width="100%"></iframe>
+    </div>
+
+    <div class="iframe-container">
+      <button class="iframe-btn-position fullscreen-btn-style"
+        onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
+
+      <iframe frameborder="0" height="400" src="https://javages.github.io/memory_usage_plot.html" width="100%"></iframe>
+    </div>
+  </div>
+  <br />
+  <br />
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      setInterval(function () {
+        var iframes = document.querySelectorAll("iframe");
+        iframes.forEach(function (iframe) {
+          iframe.src = iframe.src;
+        });
+      }, 600000); // 600,000 milliseconds = 10 minutes
+    });
+  </script>
+  <script>
+    function toggleFullscreen(iframe) {
+      if (!document.fullscreenElement) {
+        iframe.requestFullscreen();
+      } else {
+        document.exitFullscreen();
+      }
+    }
+
+    function toggleAllIframesFullscreen() {
+      var containers = document.querySelectorAll('.iframe-container');
+
+      if (!document.fullscreenElement) {
+        // Before going fullscreen, set the iframes to fill the container and hide buttons.
+        containers.forEach(container => {
+          var iframe = container.querySelector("iframe");
+          iframe.style.height = "33.33vh";  // Divide the height by 3 (since there are 3 iframes)
+          iframe.style.width = "100vw";     // 100% of viewport width
+          container.classList.add('hide-individual-buttons');  // Hide the individual buttons
+        });
+        document.getElementById("iframesContainer").requestFullscreen();
+      } else {
+        // Reset the iframes to their original size when exiting fullscreen and show buttons.
+        containers.forEach(container => {
+          var iframe = container.querySelector("iframe");
+          iframe.style.height = "400px";
+          iframe.style.width = "100%";
+          container.classList.remove('hide-individual-buttons');  // Show the individual buttons again
+        });
+        document.exitFullscreen();
+      }
+    }
+
+    document.addEventListener("fullscreenchange", function () {
+      var containers = document.querySelectorAll('.iframe-container');
+
+      if (!document.fullscreenElement) {
+        containers.forEach(function (container) {
+          var iframes = container.querySelectorAll("iframe");
           // Reset iframe dimensions if they were changed during fullscreen
-          var iframes = document.querySelectorAll("iframe");
           iframes.forEach(function (iframe) {
             iframe.style.width = "100%";
             iframe.style.height = "400px";
           });
-        }
-      });
-    </script>
-  </body>
+
+          // Ensure the individual buttons are shown when exiting fullscreen
+          container.classList.remove('hide-individual-buttons');
+        });
+      }
+    });
+
+
+  </script>
+</body>
+
 </html>
