@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
 <head>
-
-    <meta property="og:description" content="Safe Network Node Stats." />
-    <meta property="og:image" content="https://github.com/javages/javages.github.io/blob/main/bubbles.png" />
-
-    <meta charset="utf-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Safe Network Test Network Nodes</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
-
-    <!-- SVG favicon for modern browsers -->
-    <link rel="icon" type="image/svg+xml" href="#chartLogo" />
-
-    <style>
+<meta content="Safe Network Node Stats." property="og:description"/>
+<meta content="https://github.com/javages/javages.github.io/blob/main/bubbles.png" property="og:image"/>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Safe Network Test Network Nodes</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+<!-- SVG favicon for modern browsers -->
+<link href="#chartLogo" rel="icon" type="image/svg+xml"/>
+<style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -64,17 +59,6 @@
             margin: 40px 0;
         }
 
-        .half-page-hr {
-            width: 70%;
-            border: 1px solid darkgrey;
-            margin: 0 auto;
-        }
-
-        .monochrome * {
-            filter: grayscale(100%);
-            color: rgba(255, 255, 255, 0.8);
-        }
-
         /* Logo styling */
         .logo {
             display: inline-block;
@@ -99,56 +83,81 @@
         .logo:hover #bar3 {
         transform: scaleY(0.8);
         }
-    </style>
+    
+	/* Customization for Toggle Fullscreen buttons */
+	button[onclick^="toggleFullscreen"] {
+	    background-color: rgba(255, 102, 0, 0.8);  /* Orange background */
+	    font-size: 10px;  /* Adjust the text size here */
+	    color: #222;  /* Dark text */
+	    border: 2px solid rgba(255, 102, 0, 0.8);  /* Orange border */
+	    padding: 1px 1px;  /* Further reduced padding for a smaller appearance */
+	    border-radius: 5px;
+	    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);  /* Shadow effect */
+	    margin-right: 10px;  /* Spacing from the iframe */
+	    float: left;  /* Positioning to the left */
+	    cursor: pointer;  /* Hand cursor on hover */
+	    transition: background-color 0.3s, color 0.3s;  /* Smooth transition for hover effects */
+	    margin-left: 10px;  /* Added 10px left padding */
+	}
+
+	button[onclick^="toggleFullscreen"]:hover {
+	    background-color: #ff6600;  /* Slightly darker orange on hover */
+	    color: rgba(244, 244, 244, 0.8);  /* Slightly transparent text on hover */
+	    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);  /* Enhanced shadow effect on hover */
+	}
+</style>
 
 </head>
-
 <body>
+<!-- Embedding the SVG logo directly in the body -->
+<svg class="logo" height="50" id="chartLogo" width="50" xmlns="http://www.w3.org/2000/svg">
+<!-- Background Circle -->
+<circle cx="25" cy="25" fill="#2E2E2E" r="23" stroke="#FF6600" stroke-width="1.5"></circle>
+<!-- Bar Chart - 3 bars of different heights -->
+<rect fill="#FF6600" height="15" id="bar1" width="5" x="10" y="27.5"></rect>
+<rect fill="#FF6600" height="25" id="bar2" width="5" x="20" y="20"></rect>
+<rect fill="#FF6600" height="10" id="bar3" width="5" x="30" y="32.5"></rect>
+</svg>
+<h1>Safe Network Nodes<br/>Stats &amp; Tracking</h1>
+<h4>ClientImprovementNet 22/09/23</h4>
+<br/>
+<button onclick="toggleFullscreen(this.nextElementSibling)">Full</button><iframe frameborder="0" height="400" src="https://javages.github.io/bubble_rewards.html" width="100%"></iframe><br/>
+<button onclick="toggleFullscreen(this.nextElementSibling)">Full</button><iframe frameborder="0" height="400" src="https://javages.github.io/rewards_balance_plot.html" width="100%"></iframe><br/>
+<button onclick="toggleFullscreen(this.nextElementSibling)">Full</button><iframe frameborder="0" height="400" src="https://javages.github.io/memory_usage_plot.html" width="100%"></iframe><br/>
+<br/>
+<br/>
+<p>This page aims to provide a glimpse into what is happening with Safe Network test network nodes.</p>
+<p>It should, gremlins permitting, update every 10 minutes.</p>
+<br/>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    setInterval(function() {
+        var iframes = document.querySelectorAll('iframe');
+        iframes.forEach(function(iframe) {
+            iframe.src = iframe.src;
+        });
+    }, 300000);  // 300,000 milliseconds = 5 minutes
+});
+</script><script>
+function toggleFullscreen(iframe) {
+    if (!document.fullscreenElement) {
+        iframe.requestFullscreen();
+    } else {
+        document.exitFullscreen();
+    }
+}
 
-    <!-- Embedding the SVG logo directly in the body -->
-    <svg class="logo" width="50" height="50" xmlns="http://www.w3.org/2000/svg" id="chartLogo">
-	<!-- Background Circle -->
-	<circle cx="25" cy="25" r="23" fill="#2E2E2E" stroke="#FF6600" stroke-width="1.5"/>
-	<!-- Bar Chart - 3 bars of different heights -->
-	<rect id="bar1" x="10" y="27.5" width="5" height="15" fill="#FF6600"/>
-	<rect id="bar2" x="20" y="20" width="5" height="25" fill="#FF6600"/>
-	<rect id="bar3" x="30" y="32.5" width="5" height="10" fill="#FF6600"/>
-    </svg>
-
-    <h1>Safe Network Nodes<br>Stats & Tracking</h1>
-
-    <h4>ClientImprovementNet 22/09/23</h4>
-    <br>
-    
-    <a href="https://javages.github.io/rewards_balance_plot.html">Rewards Graph</a><br><br>
-    <a href="https://javages.github.io/memory_usage_plot.html">Memory & Stats</a><br><br>
-    <a href="https://javages.github.io/bubble_rewards.html">Bubbles</a><br><br>
-    <br>
-    <br>
-    <p>This page aims to provide a glimpse into what is happening with Safe Network test network nodes.</p>
-    <p>It should, gremlins permitting, update every 10 minutes.</p>
-    <br>
-    <br>
-    <hr class="half-page-hr">
-    <br>
-    <br>
-    <div class="monochrome">
-        <h2>Previous Test Networks</h2>
-        <br>
-        <h4>IntolerantNodeNet 18/09/23</h4>
-        <a href="https://javages.github.io/rewards_balance_plot_IntolerantNodeNet.html">Rewards Graph</a><br><br>
-        <a href="https://javages.github.io/memory_usage_plot_IntolerantNodeNet.html">Memory & Stats</a><br><br>
-        <a href="https://javages.github.io/bubble_rewards_IntolerantNodeNet.html">Bubbles</a><br><br>
-    </div>
-
-    <div class="monochrome">
-        <h4>RewardNet 04/09/23</h4>
-        <a href="https://javages.github.io/rewards_balance_plot_rewardnet.html">Rewards Graph</a><br><br>
-        <a href="https://javages.github.io/memory_usage_plot_rewardnet.html">Memory & Stats</a><br><br>
-        <a href="https://javages.github.io/bubble_rewards_rewardnet.html">Bubbles</a><br><br>
-    </div>
+document.addEventListener("fullscreenchange", function() {
+    if (!document.fullscreenElement) {
+        // Reset iframe dimensions if they were changed during fullscreen
+        var iframes = document.querySelectorAll('iframe');
+        iframes.forEach(function(iframe) {
+            iframe.style.width = "100%";
+            iframe.style.height = "400px";
+        });
+    }
+});
+</script>
 
 </body>
-
 </html>
-
