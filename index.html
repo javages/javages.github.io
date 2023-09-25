@@ -98,10 +98,10 @@
 
       /* Toggle Fullscreen buttons */
       button[onclick^="toggleFullscreen"] {
-        background-color: rgba(255, 102, 0, 0.8); /* Orange background */
+        background-color: rgba(255, 102, 0, 0.678); /* Orange background */
         font-size: 10px;
-        color: #222; /* Dark text */
-        border: 2px solid rgba(255, 102, 0, 0.8); /* Orange border */
+        color: #f1efef; /* Dark text */
+        border: 2px solid rgba(255, 102, 0, 0.678); /* Orange border */
         padding: 1px 1px; /* Reduced padding for a smaller appearance */
         border-radius: 5px;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Shadow effect */
@@ -203,7 +203,7 @@
           iframes.forEach(function (iframe) {
             iframe.src = iframe.src;
           });
-        }, 300000); // 300,000 milliseconds = 5 minutes
+        }, 600000); // 600,000 milliseconds = 10 minutes
       });
     </script>
     <script>
