@@ -27,15 +27,19 @@
       /* soft shadow */
     }
 
-    h1 {
-      color: rgba(255, 102, 0, 0.8);
-      /* slightly transparent orange */
-      margin-bottom: 20px;
+    .full-logo {
+      display: flex;
+      align-items: center;
+      margin-left: 20px; /* Adjust the margin as needed */
     }
 
-    h1:hover {
-      color: #ff6600;
-      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    .logo {
+      margin-right: 10px;
+    }
+
+    .logo-text {
+      color: rgba(255, 102, 0, 0.8);
+      font-size: 24px; /* Adjust the font size as needed */
     }
 
     a {
@@ -145,17 +149,20 @@
 </head>
 
 <body>
-  <!-- Embedding the SVG logo directly in the body -->
-  <svg class="logo" height="50" id="chartLogo" width="50" xmlns="http://www.w3.org/2000/svg">
-    <!-- Background Circle -->
-    <circle cx="25" cy="25" fill="#2E2E2E" r="23" stroke="#FF6600" stroke-width="1.5"></circle>
-    <!-- Bar Chart - 3 bars of different heights -->
-    <rect fill="#FF6600" height="15" id="bar1" width="5" x="10" y="27.5"></rect>
-    <rect fill="#FF6600" height="25" id="bar2" width="5" x="20" y="20"></rect>
-    <rect fill="#FF6600" height="10" id="bar3" width="5" x="30" y="32.5"></rect>
-  </svg>
-  <h1>Safe Network Nodes<br />Stats &amp; Tracking</h1>
-  <h4>ClientImprovementNet 22/09/23</h4>
+  <!-- Use a single div for the full logo -->
+  <div class="full-logo">
+    <!-- Embedding the SVG logo directly in the body -->
+    <svg class="logo" height="50" id="chartLogo" width="50" xmlns="http://www.w3.org/2000/svg">
+      <!-- Background Circle -->
+      <circle cx="25" cy="25" fill="#2E2E2E" r="23" stroke="#FF6600" stroke-width="1.5"></circle>
+      <!-- Bar Chart - 3 bars of different heights -->
+      <rect fill="#FF6600" height="15" id="bar1" width="5" x="10" y="27.5"></rect>
+      <rect fill="#FF6600" height="25" id="bar2" width="5" x="20" y="20"></rect>
+      <rect fill="#FF6600" height="10" id="bar3" width="5" x="30" y="32.5"></rect>
+    </svg>
+    <!-- Add the text for the logo here -->
+    <span class="logo-text">Safe Network Nodes<br />Stats &amp; Tracking</span>
+  </div>
   <br />
   <button class="fullscreen-btn-style" onclick="toggleAllIframesFullscreen()">Fullscreen All</button>
   <div id="iframesContainer">
