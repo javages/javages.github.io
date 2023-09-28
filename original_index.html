@@ -12,19 +12,14 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
   <!-- SVG favicon -->
   <link href="#chartLogo" rel="icon" type="image/svg+xml" />
-  
   <style>
-    * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-    }
-
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      margin-top: 30px;
-      background: black;
+      margin-top: 50px;
+      background: linear-gradient(45deg,
+          #222,
+          #444);
       /* subtle gradient */
       color: rgba(244, 244, 244, 0.8);
       /* slightly transparent text */
@@ -104,7 +99,7 @@
 
     .iframe-container {
       position: relative;
-      margin-bottom: 0px;
+      margin-bottom: 1px;
     }
 
     .iframe-container button {
@@ -116,6 +111,7 @@
       z-index: 10;
       /* This ensures the button stays above the iframe */
     }
+
 
     .hide-individual-buttons button[onclick^="toggleFullscreen"] {
       display: none;
@@ -149,79 +145,12 @@
       float: left;
       box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     }
-
-    #topContainer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        padding: 1px;
-    }
-
-    #logoContainer {
-        display: flex;
-        align-items: center;
-    }
-
-    #dataWindow {
-    width: 35%;
-    max-height: 150px;
-    overflow-y: scroll;
-    border: 1px solid rgba(252, 252, 252, 0); /* Faint border */
-    background-color: transparent;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Faint shadow */
-    margin-right: 5%;
-    text-align: left;
-    position: relative;
-}
-
-#dataWindow::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 10px; /* You can adjust this as needed */
-    background: linear-gradient(rgba(252, 252, 252, 0), #0a0a0a); /* Adjust this gradient to match your background */
-    pointer-events: none; /* Ensure this doesn't interfere with any interactions */
-}
-
-#dataWindow::before {
-    content: "";
-    position: absolute;
-    bottom: 5px; /* Adjust this value to position the arrow */
-    left: 50%; /* Centering the arrow */
-    transform: translateX(-50%); /* Ensures the arrow is centered regardless of its width */
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent; /* Arrow size */
-    border-right: 5px solid transparent; /* Arrow size */
-    border-top: 7px solid #0a0a0a; /* Arrow color and size */
-    pointer-events: none;
-}
-
-#dataWindow::-webkit-scrollbar {
-    width: 0; /* Hide scrollbar */
-}
-
-#dataWindow pre {
-    white-space: pre-wrap;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: left; 
-}
-
-
-</style>
+  </style>
 </head>
 
 <body>
   <!-- Use a single div for the full logo -->
-  
-<div id="topContainer">
-    <div id="logoContainer">
-        <div class="full-logo">
+  <div class="full-logo">
     <!-- Embedding the SVG logo directly in the body -->
     <svg class="logo" height="50" id="chartLogo" width="50" xmlns="http://www.w3.org/2000/svg">
       <!-- Background Circle -->
@@ -234,12 +163,6 @@
     <!-- Add the text for the logo here -->
     <span class="logo-text">Safe Network Nodes<br />Stats &amp; Tracking</span>
   </div>
-    </div>
-    <div id="dataWindow">
-        <pre>{sorted_results_content}</pre>
-    </div>
-</div>
-
   <br />
   <button class="fullscreen-btn-style" onclick="toggleAllIframesFullscreen()">Fullscreen All</button>
   <div id="iframesContainer">
@@ -247,27 +170,22 @@
       <button class="iframe-btn-position fullscreen-btn-style"
         onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
 
-      <iframe frameborder="0" height="400" src="bubble_rewards.html" width="100%"></iframe>
+      <iframe frameborder="0" height="400" src="https://javages.github.io/bubble_rewards.html" width="100%"></iframe>
     </div>
 
     <div class="iframe-container">
       <button class="iframe-btn-position fullscreen-btn-style"
         onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
 
-      <iframe frameborder="0" height="400" src="rewards_balance_plot.html" width="100%"></iframe>
+      <iframe frameborder="0" height="400" src="https://javages.github.io/rewards_balance_plot.html"
+        width="100%"></iframe>
     </div>
 
     <div class="iframe-container">
       <button class="iframe-btn-position fullscreen-btn-style"
         onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
 
-      <iframe frameborder="0" height="400" src="memory_usage_plot.html" width="100%"></iframe>
-
-      <div class="iframe-container">
-        <button class="iframe-btn-position fullscreen-btn-style"
-          onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-  
-        <iframe frameborder="0" height="400" src="durations.html" width="100%"></iframe>
+      <iframe frameborder="0" height="400" src="https://javages.github.io/memory_usage_plot.html" width="100%"></iframe>
     </div>
   </div>
   <br />
@@ -291,30 +209,29 @@
       }
     }
 
-function toggleAllIframesFullscreen() {
-  var containers = document.querySelectorAll('.iframe-container');
+    function toggleAllIframesFullscreen() {
+      var containers = document.querySelectorAll('.iframe-container');
 
-  if (!document.fullscreenElement) {
-    // Before going fullscreen, set the iframes to fill the container and hide buttons.
-    containers.forEach(container => {
-      var iframe = container.querySelector("iframe");
-      iframe.style.height = "25vh";  // Divide the height by 4 (since there are 4 iframes)
-      iframe.style.width = "100vw";  // 100% of viewport width
-      container.classList.add('hide-individual-buttons');  // Hide the individual buttons
-    });
-    document.getElementById("iframesContainer").requestFullscreen();
-  } else {
-    // Reset the iframes to their original size when exiting fullscreen and show buttons.
-    containers.forEach(container => {
-      var iframe = container.querySelector("iframe");
-      iframe.style.height = "400px";
-      iframe.style.width = "100%";
-      container.classList.remove('hide-individual-buttons');  // Show the individual buttons again
-    });
-    document.exitFullscreen();
-  }
-}
-
+      if (!document.fullscreenElement) {
+        // Before going fullscreen, set the iframes to fill the container and hide buttons.
+        containers.forEach(container => {
+          var iframe = container.querySelector("iframe");
+          iframe.style.height = "33.33vh";  // Divide the height by 3 (since there are 3 iframes)
+          iframe.style.width = "100vw";     // 100% of viewport width
+          container.classList.add('hide-individual-buttons');  // Hide the individual buttons
+        });
+        document.getElementById("iframesContainer").requestFullscreen();
+      } else {
+        // Reset the iframes to their original size when exiting fullscreen and show buttons.
+        containers.forEach(container => {
+          var iframe = container.querySelector("iframe");
+          iframe.style.height = "400px";
+          iframe.style.width = "100%";
+          container.classList.remove('hide-individual-buttons');  // Show the individual buttons again
+        });
+        document.exitFullscreen();
+      }
+    }
 
     document.addEventListener("fullscreenchange", function () {
       var containers = document.querySelectorAll('.iframe-container');
@@ -336,20 +253,6 @@ function toggleAllIframesFullscreen() {
 
 
   </script>
-
-<script>
-window.addEventListener('load', function() {
-    fetch('https://raw.githubusercontent.com/javages/javages.github.io/main/sorted_results.txt')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('dataWindow').innerHTML = '<pre>' + data + '</pre>';
-        })
-        .catch(error => {
-            console.error('Error fetching data:', error);
-        });
-});
-
-</script>
 </body>
 
 </html>
