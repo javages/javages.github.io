@@ -1,5 +1,5 @@
 == Node Info ==
-Total Rewards: 0.00010961
+Total Rewards: 0.00011417
 Running Nodes: 60
 Dead Nodes: 0
 
@@ -7,15 +7,15 @@ Dead Nodes: 0
 
 
 === Best Earners Decending ===
+Number: 3:2
+Node: 12D3KooWR4hxtxFz6kp111up8x18g8Y6UVhmnGo9RZyrF7pvuRhi
+PID: 2084
+Rewards balance: 0.00002443
+---------
 Number: 3:9
 Node: 12D3KooWScuVECUBh1jRw2syBSAw1gQtcKZbeirAfZHZaHS41zAd
 PID: 1686
 Rewards balance: 0.00002197
----------
-Number: 3:2
-Node: 12D3KooWR4hxtxFz6kp111up8x18g8Y6UVhmnGo9RZyrF7pvuRhi
-PID: 2084
-Rewards balance: 0.00002051
 ---------
 Number: 3:8
 Node: 12D3KooWBazcJkiqkpN939bvhh8d4qkKEgaGqXCdnPYWHuMFUwJA
@@ -52,6 +52,11 @@ Node: 12D3KooWPwrSNADvxkzofKNwywiFuzgpo8mUKYrnQPSBXqyHQfe3
 PID: 1876
 Rewards balance: 0.00000253
 ---------
+Number: 3:1
+Node: 12D3KooWALYPXsa34D2gT7gyRBLey7KGsKgBNB645baZEA1Ae4Y4
+PID: 1762
+Rewards balance: 0.00000222
+---------
 Number: 3:15
 Node: 12D3KooWCzZMV4naSTuVtr92pVy82iDaDrZpZDDgVcc9bBqmwz1g
 PID: 1568
@@ -61,11 +66,6 @@ Number: 3:15
 Node: 12D3KooWAVH7cwL7CWuKo39T4GWVRUGirdnqk66iWkdWQZQU2GWA
 PID: 1876
 Rewards balance: 0.00000188
----------
-Number: 3:1
-Node: 12D3KooWALYPXsa34D2gT7gyRBLey7KGsKgBNB645baZEA1Ae4Y4
-PID: 1762
-Rewards balance: 0.00000183
 ---------
 Number: 3:3
 Node: 12D3KooWKAwYNojogYXAtaLPgVYCawyHBkrhjPQvqegozogALe7T
@@ -80,7 +80,7 @@ Rewards balance: 0.00000132
 Number: 3:0
 Node: 12D3KooWQApAxjzS8bwkGjLi6m5LJpGj8RpVXf8pSUbdLrunv9Kh
 PID: 2225
-Rewards balance: 0.00000114
+Rewards balance: 0.00000131
 ---------
 Number: 3:19
 Node: 12D3KooWE4P99XLhCccgJGhL9N4o7fLJqYZFFjq2QqCH9J4TWxJZ
@@ -177,6 +177,11 @@ Node: 12D3KooWEZduf5Xoi1LsF1CT7GB3Nr3atWro7xLggnBrGnFYnYf2
 PID: 1850
 Rewards balance: 0.00000021
 ---------
+Number: 3:1
+Node: 12D3KooW9xxaueHqu37F1MhxYqwDDKhYQyvReX6AF1W5nAhsnv8y
+PID: 1580
+Rewards balance: 0.00000020
+---------
 Number: 3:13
 Node: 12D3KooWCHE5XviCut48HbJnDoh1Riuyt2qP7ScVu1oh6YT47hnW
 PID: 1762
@@ -206,11 +211,6 @@ Number: 3:10
 Node: 12D3KooWC7MiTWwHQYqGLoLPsYxajY5Rx2HqBwDSPxFx9JZ21xTm
 PID: 2187
 Rewards balance: 0.00000014
----------
-Number: 3:1
-Node: 12D3KooW9xxaueHqu37F1MhxYqwDDKhYQyvReX6AF1W5nAhsnv8y
-PID: 1580
-Rewards balance: 0.00000013
 ---------
 Number: 3:9
 Node: 12D3KooWGh7gEadw4ATBLJZF9j1xdA2MkAuFFjgxTbjHCg3fisSN
