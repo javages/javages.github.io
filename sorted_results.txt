@@ -1,6 +1,6 @@
 === Node Info ===
 
-Total Rewards: 0.00047204
+Total Rewards: 0.00047443
 
 Running Nodes: 60
 
@@ -10,7 +10,7 @@ Dead Nodes: 0
 Number: 18
 Node: 12D3KooWSut7TuvK4wErnakeW9MJQjT1JHVTekH2uRaau5KiBSUx
 PID: 1539
-Rewards balance: 0.00006124
+Rewards balance: 0.00006261
 ---------
 Number: 16
 Node: 12D3KooWCzpVAATXMGP74fY5NSbEAnALFsCrQwYSA5giB2fbLwN5
@@ -35,7 +35,7 @@ Rewards balance: 0.00002918
 Number: 0
 Node: 12D3KooWHGTNstGXz3cjyThXrwLgKLcfnPoFEZYVuRkF1mXe4hAX
 PID: 1632
-Rewards balance: 0.00002175
+Rewards balance: 0.00002226
 ---------
 Number: 7
 Node: 12D3KooWCPPh5o2nQr8dRmkdisEDukfMh8ar32vSWABKLGaeuuj9
@@ -47,15 +47,15 @@ Node: 12D3KooWJSPDpza9cq39HkKDATwm1yek2Q2Zr1pQTLzDhGfefA37
 PID: 1488
 Rewards balance: 0.00000871
 ---------
+Number: 2
+Node: 12D3KooWKSrWkA1c3LYhwjvEViSa7m6hk4QzP2hiqhnweZYVWDnk
+PID: 1659
+Rewards balance: 0.00000728
+---------
 Number: 14
 Node: 12D3KooWNUnSFtsCn1kM9nzFgXtfHeaX4RcwF5aiSmTbkMyCHvYk
 PID: 1605
 Rewards balance: 0.00000713
----------
-Number: 2
-Node: 12D3KooWKSrWkA1c3LYhwjvEViSa7m6hk4QzP2hiqhnweZYVWDnk
-PID: 1659
-Rewards balance: 0.00000711
 ---------
 Number: 6
 Node: 12D3KooWEYiNZJnbvTzCGDrSYZnkHCVzLs2DYCHoos6voT7NG7Hz
@@ -145,22 +145,22 @@ Rewards balance: 0.00000364
 Number: 5
 Node: 12D3KooWGMpwfB4tPr8sWbdytyGw8YGcbJGRBfaAmNnkPcAaVJ7o
 PID: 1488
-Rewards balance: 0.00000349
+Rewards balance: 0.00000356
 ---------
 Number: 8
 Node: 12D3KooWS1nkryAYyjWmsduEpk1wEprdgACE3KAq4LHwD2iJQHmf
 PID: 1551
-Rewards balance: 0.00000349
+Rewards balance: 0.00000355
 ---------
 Number: 14
 Node: 12D3KooWMjDbsriWW2iepRPwrTaeqKUvhrG15h2ayg6t1NyQVsQL
 PID: 1501
-Rewards balance: 0.00000341
+Rewards balance: 0.00000347
 ---------
 Number: 14
 Node: 12D3KooWPMAjpQML13xdtoufCYRnoZHqbAQMfxybauqUXJUE3Asp
 PID: 1650
-Rewards balance: 0.00000318
+Rewards balance: 0.00000324
 ---------
 Number: 3
 Node: 12D3KooWBDEcvZeggn3HdHG9Zg39PpzmrYgBcg38chKcpebhuPat
@@ -230,12 +230,12 @@ Rewards balance: 0.00000239
 Number: 15
 Node: 12D3KooWJDKKPuYq5UUKxMWcTtvntA6PzD5yqw9ZqMr6t15iXStF
 PID: 1587
-Rewards balance: 0.00000231
+Rewards balance: 0.00000235
 ---------
 Number: 15
 Node: 12D3KooWEyFb7gfYXq3MxVvFzPKPsYVmmxLYxYDFxVmnyBurP3bi
 PID: 1575
-Rewards balance: 0.00000229
+Rewards balance: 0.00000234
 ---------
 Number: 6
 Node: 12D3KooWDupaX73VuTPEVzQMCL1v4eUjkxWf6PV2KsRHcGZdZU36
