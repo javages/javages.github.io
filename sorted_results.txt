@@ -1,6 +1,6 @@
 === Node Info ===
 
-Total Rewards: 0.00022291
+Total Rewards: 0.00022469
 
 Running Nodes: 60
 
@@ -10,7 +10,7 @@ Dead Nodes: 0
 Number: 18
 Node: 12D3KooWSut7TuvK4wErnakeW9MJQjT1JHVTekH2uRaau5KiBSUx
 PID: 1539
-Rewards balance: 0.00002323
+Rewards balance: 0.00002384
 ---------
 Number: 16
 Node: 12D3KooWCzpVAATXMGP74fY5NSbEAnALFsCrQwYSA5giB2fbLwN5
@@ -25,12 +25,12 @@ Rewards balance: 0.00001967
 Number: 5
 Node: 12D3KooWDSbPvZ2eKGRSCXXBBrUSqMfXAAePAbYqG1xgnCBNvVde
 PID: 1596
-Rewards balance: 0.00001760
+Rewards balance: 0.00001802
 ---------
 Number: 1
 Node: 12D3KooWMicBVvgaacsteiHoz3HUrTutGcU3T8uYEvSSddwZv4oQ
 PID: 1622
-Rewards balance: 0.00001254
+Rewards balance: 0.00001285
 ---------
 Number: 7
 Node: 12D3KooWCPPh5o2nQr8dRmkdisEDukfMh8ar32vSWABKLGaeuuj9
@@ -45,7 +45,7 @@ Rewards balance: 0.00000875
 Number: 19
 Node: 12D3KooWJSPDpza9cq39HkKDATwm1yek2Q2Zr1pQTLzDhGfefA37
 PID: 1488
-Rewards balance: 0.00000464
+Rewards balance: 0.00000475
 ---------
 Number: 2
 Node: 12D3KooWKSrWkA1c3LYhwjvEViSa7m6hk4QzP2hiqhnweZYVWDnk
@@ -117,6 +117,11 @@ Node: 12D3KooWH73friAe8VQb9yrVh5qp94ENwbXymwY6yJ6Kv89cBDEU
 PID: 1530
 Rewards balance: 0.00000254
 ---------
+Number: 3
+Node: 12D3KooWNfhryoeVMeW8KZAenis6ssRRQ6jEc5cLkkuM8Hw1ts5X
+PID: 1623
+Rewards balance: 0.00000251
+---------
 Number: 2
 Node: 12D3KooWAVNV4YikWWvWSJG2ppjYmEQDa2mojtNmZgHUUvzNmjs8
 PID: 1515
@@ -126,11 +131,6 @@ Number: 16
 Node: 12D3KooWJBZaRyEkeWEuBzmCfDisq5wbJpifQTkqH8tzgs36FrDy
 PID: 1533
 Rewards balance: 0.00000245
----------
-Number: 3
-Node: 12D3KooWNfhryoeVMeW8KZAenis6ssRRQ6jEc5cLkkuM8Hw1ts5X
-PID: 1623
-Rewards balance: 0.00000236
 ---------
 Number: 16
 Node: 12D3KooWJ9sm68tBSrkM2nL3zsqskvBJq9Ka3Ksr31CXKV7CpUJ1
@@ -157,6 +157,11 @@ Node: 12D3KooWFfxJCfoYCtnDANJEG8HCiigP5pUDPvgGMM6yyiApujmZ
 PID: 1612
 Rewards balance: 0.00000194
 ---------
+Number: 3
+Node: 12D3KooWBDEcvZeggn3HdHG9Zg39PpzmrYgBcg38chKcpebhuPat
+PID: 1510
+Rewards balance: 0.00000189
+---------
 Number: 5
 Node: 12D3KooWGMpwfB4tPr8sWbdytyGw8YGcbJGRBfaAmNnkPcAaVJ7o
 PID: 1488
@@ -172,25 +177,20 @@ Node: 12D3KooWFkTpfVpybvF38ST1yjEMaWqehjdk9VCqAhrBneXbrahB
 PID: 1479
 Rewards balance: 0.00000183
 ---------
-Number: 3
-Node: 12D3KooWBDEcvZeggn3HdHG9Zg39PpzmrYgBcg38chKcpebhuPat
-PID: 1510
-Rewards balance: 0.00000181
----------
 Number: 10
 Node: 12D3KooWRaqTWo7Z8vhk6T9pUjSgs5hHNFL6pB7Y1ijyKZtfE8Sc
 PID: 1542
 Rewards balance: 0.00000177
 ---------
+Number: 12
+Node: 12D3KooWD57fPb5Ca5ix6YGWhtsnpDFXGDDE6d8ejuCGYWApRfz6
+PID: 1631
+Rewards balance: 0.00000174
+---------
 Number: 15
 Node: 12D3KooWJDKKPuYq5UUKxMWcTtvntA6PzD5yqw9ZqMr6t15iXStF
 PID: 1587
 Rewards balance: 0.00000172
----------
-Number: 12
-Node: 12D3KooWD57fPb5Ca5ix6YGWhtsnpDFXGDDE6d8ejuCGYWApRfz6
-PID: 1631
-Rewards balance: 0.00000170
 ---------
 Number: 18
 Node: 12D3KooWR6R2qjDe1kHLU2aVVBw3TtaqiGj434SkDg1M911BqTFQ
@@ -270,7 +270,7 @@ Rewards balance: 0.00000121
 Number: 18
 Node: 12D3KooWAFCMiqtAHk4NfVd2SUUtqtJa9HySL8JneyuecJp88BPx
 PID: 1659
-Rewards balance: 0.00000108
+Rewards balance: 0.00000111
 ---------
 Number: 12
 Node: 12D3KooWCx16VTZxXgyAdnkGfzwG3a5L9H6PpMorLjNjmgYbieii
@@ -305,5 +305,5 @@ Rewards balance: 0.00000064
 Number: 9
 Node: 12D3KooWNJRvKCLwa3L7TGqzaDo58yqQw76xBmWKfrvYGrXJY4J7
 PID: 1632
-Rewards balance: 0.00000040
+Rewards balance: 0.00000042
 ---------
