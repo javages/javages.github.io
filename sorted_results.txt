@@ -1,6 +1,6 @@
 === Node Info ===
 
-Total Rewards: 0.00042700
+Total Rewards: 0.00042997
 
 Running Nodes: 60
 
@@ -15,7 +15,7 @@ Rewards balance: 0.00005355
 Number: 16
 Node: 12D3KooWCzpVAATXMGP74fY5NSbEAnALFsCrQwYSA5giB2fbLwN5
 PID: 1641
-Rewards balance: 0.00004716
+Rewards balance: 0.00004825
 ---------
 Number: 5
 Node: 12D3KooWDSbPvZ2eKGRSCXXBBrUSqMfXAAePAbYqG1xgnCBNvVde
@@ -25,7 +25,7 @@ Rewards balance: 0.00004367
 Number: 10
 Node: 12D3KooWBR538cAZYVA8pwTPYdcm88Zini5ySeTgy8iFTG1WLyZF
 PID: 1542
-Rewards balance: 0.00004149
+Rewards balance: 0.00004243
 ---------
 Number: 1
 Node: 12D3KooWMicBVvgaacsteiHoz3HUrTutGcU3T8uYEvSSddwZv4oQ
@@ -50,7 +50,7 @@ Rewards balance: 0.00000816
 Number: 2
 Node: 12D3KooWKSrWkA1c3LYhwjvEViSa7m6hk4QzP2hiqhnweZYVWDnk
 PID: 1659
-Rewards balance: 0.00000661
+Rewards balance: 0.00000677
 ---------
 Number: 14
 Node: 12D3KooWNUnSFtsCn1kM9nzFgXtfHeaX4RcwF5aiSmTbkMyCHvYk
@@ -80,7 +80,7 @@ Rewards balance: 0.00000613
 Number: 0
 Node: 12D3KooWKCD6twt4KPz83v5NzEyx5JBxWJjZPpMMrvBQMXeoQFNp
 PID: 1524
-Rewards balance: 0.00000580
+Rewards balance: 0.00000591
 ---------
 Number: 17
 Node: 12D3KooWKDmZtHANinHi7kCWDr51RoHJSERwCqVfy8umsRd2cKR8
@@ -100,7 +100,7 @@ Rewards balance: 0.00000495
 Number: 17
 Node: 12D3KooW9pSX8tWLcdALiwTnZJD2USPNM5ep5h3cVgZqGNd6tMm9
 PID: 1640
-Rewards balance: 0.00000476
+Rewards balance: 0.00000481
 ---------
 Number: 3
 Node: 12D3KooWNfhryoeVMeW8KZAenis6ssRRQ6jEc5cLkkuM8Hw1ts5X
@@ -130,7 +130,7 @@ Rewards balance: 0.00000410
 Number: 8
 Node: 12D3KooWFfxJCfoYCtnDANJEG8HCiigP5pUDPvgGMM6yyiApujmZ
 PID: 1612
-Rewards balance: 0.00000342
+Rewards balance: 0.00000352
 ---------
 Number: 2
 Node: 12D3KooWK8Yt8rusWf2TAasoJ2VuMkvyWkgnqtgchUCujBkP2khP
@@ -160,7 +160,7 @@ Rewards balance: 0.00000315
 Number: 14
 Node: 12D3KooWPMAjpQML13xdtoufCYRnoZHqbAQMfxybauqUXJUE3Asp
 PID: 1650
-Rewards balance: 0.00000307
+Rewards balance: 0.00000313
 ---------
 Number: 3
 Node: 12D3KooWBDEcvZeggn3HdHG9Zg39PpzmrYgBcg38chKcpebhuPat
@@ -170,27 +170,27 @@ Rewards balance: 0.00000302
 Number: 18
 Node: 12D3KooWR6R2qjDe1kHLU2aVVBw3TtaqiGj434SkDg1M911BqTFQ
 PID: 1578
-Rewards balance: 0.00000293
+Rewards balance: 0.00000300
 ---------
 Number: 16
 Node: 12D3KooWJ9sm68tBSrkM2nL3zsqskvBJq9Ka3Ksr31CXKV7CpUJ1
 PID: 1548
 Rewards balance: 0.00000282
 ---------
-Number: 17
-Node: 12D3KooWHMpwMj5F2TvSqWJuPYvVNQcFW9qDphp1LCm4e4Czk6ah
-PID: 1596
-Rewards balance: 0.00000276
----------
 Number: 12
 Node: 12D3KooWD57fPb5Ca5ix6YGWhtsnpDFXGDDE6d8ejuCGYWApRfz6
 PID: 1631
-Rewards balance: 0.00000276
+Rewards balance: 0.00000281
 ---------
 Number: 15
 Node: 12D3KooWGjgKQrECiKuQb1vKq9uGNejii18JRnr7hR1KmJjTKK43
 PID: 1569
-Rewards balance: 0.00000271
+Rewards balance: 0.00000280
+---------
+Number: 17
+Node: 12D3KooWHMpwMj5F2TvSqWJuPYvVNQcFW9qDphp1LCm4e4Czk6ah
+PID: 1596
+Rewards balance: 0.00000276
 ---------
 Number: 4
 Node: 12D3KooWNBb4L2H6oNW6CXdYXSJxYyD99GPpkx4nqij2eoJf2YrS
@@ -205,27 +205,27 @@ Rewards balance: 0.00000257
 Number: 10
 Node: 12D3KooWRaqTWo7Z8vhk6T9pUjSgs5hHNFL6pB7Y1ijyKZtfE8Sc
 PID: 1542
-Rewards balance: 0.00000248
+Rewards balance: 0.00000253
 ---------
 Number: 11
 Node: 12D3KooWFkTpfVpybvF38ST1yjEMaWqehjdk9VCqAhrBneXbrahB
 PID: 1479
-Rewards balance: 0.00000231
----------
-Number: 1
-Node: 12D3KooWJGZNDSejkL2d18rWLaJQ6zYMMGFu2N6PVcf375kUm1jm
-PID: 1560
-Rewards balance: 0.00000228
+Rewards balance: 0.00000234
 ---------
 Number: 19
 Node: 12D3KooWRndvMr8k1jXycM7b6nH84p1gvGza9GJvaVTdkXcZeijE
 PID: 1641
-Rewards balance: 0.00000227
+Rewards balance: 0.00000234
+---------
+Number: 1
+Node: 12D3KooWJGZNDSejkL2d18rWLaJQ6zYMMGFu2N6PVcf375kUm1jm
+PID: 1560
+Rewards balance: 0.00000231
 ---------
 Number: 15
 Node: 12D3KooWJDKKPuYq5UUKxMWcTtvntA6PzD5yqw9ZqMr6t15iXStF
 PID: 1587
-Rewards balance: 0.00000221
+Rewards balance: 0.00000225
 ---------
 Number: 13
 Node: 12D3KooWFwpFnNBeScpcFUFKfPf3P3gDzibeXGDBNrx2TLefvZUN
@@ -240,7 +240,7 @@ Rewards balance: 0.00000219
 Number: 6
 Node: 12D3KooWDupaX73VuTPEVzQMCL1v4eUjkxWf6PV2KsRHcGZdZU36
 PID: 1515
-Rewards balance: 0.00000212
+Rewards balance: 0.00000218
 ---------
 Number: 7
 Node: 12D3KooWBn9UHWxcjQVGyeYQigFodCpRSNM1FgCpaVg23tyMCUgq
