@@ -6,7 +6,8 @@ Dead: 0
 ↓ more info ↓
 
 
-=== Best Earners Decending ===
+=== Best Earners Descending ===
+
 Number: 3:9
 Node: 12D3KooWScuVECUBh1jRw2syBSAw1gQtcKZbeirAfZHZaHS41zAd
 PID: 1686
