@@ -1,6 +1,6 @@
 === Node Info ===
 
-Total Rewards: 0.00021492
+Total Rewards: 0.00021495
 
 Running Nodes: 60
 
@@ -257,15 +257,15 @@ Node: 12D3KooWSwi7cW97xA66JrdEyMADKLbAKuZCQaELx8i8LeRKo7yZ
 PID: 1603
 Rewards balance: 0.00000124
 ---------
+Number: 0
+Node: 12D3KooWExCqFLEG2Kja3GzagwCywnqzZHDdN87jKCZjDN99Lywa
+PID: 1566
+Rewards balance: 0.00000121
+---------
 Number: 11
 Node: 12D3KooWD3LiMDcPMXZP3VjAKvWsRmLpyNUwSdaN7LHJAFhfB8hm
 PID: 1569
 Rewards balance: 0.00000120
----------
-Number: 0
-Node: 12D3KooWExCqFLEG2Kja3GzagwCywnqzZHDdN87jKCZjDN99Lywa
-PID: 1566
-Rewards balance: 0.00000117
 ---------
 Number: 18
 Node: 12D3KooWAFCMiqtAHk4NfVd2SUUtqtJa9HySL8JneyuecJp88BPx
