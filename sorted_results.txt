@@ -1,5 +1,5 @@
 = Stats =
-Rewards: 0.00147981
+Rewards: 0.00148948
 Running: 60
 Dead: 0
 
@@ -21,7 +21,7 @@ Rewards balance: 0.00018008
 Number: 2:2
 Node: 12D3KooWR4hxtxFz6kp111up8x18g8Y6UVhmnGo9RZyrF7pvuRhi
 PID: 2084
-Rewards balance: 0.00012328
+Rewards balance: 0.00012745
 ---------
 Number: 1:8
 Node: 12D3KooWBazcJkiqkpN939bvhh8d4qkKEgaGqXCdnPYWHuMFUwJA
@@ -36,7 +36,7 @@ Rewards balance: 0.00005677
 Number: 1:14
 Node: 12D3KooWFoR3tnWsBQ7C8duA86WRQmqLEbjaWTDeTQYnYBjKg9JF
 PID: 1838
-Rewards balance: 0.00003983
+Rewards balance: 0.00004229
 ---------
 Number: 1:4
 Node: 12D3KooWNdGVFFBQWwQjiAmxkwropVtfGxVNFP679MrZpETpiCKn
@@ -63,29 +63,29 @@ Node: 12D3KooWH5EoLQPCtF2VBgxhqtZJEbpF5C2osKp7TUvoMKrvVnta
 PID: 2046
 Rewards balance: 0.00001935
 ---------
+Number: 1:16
+Node: 12D3KooWBaskoYdgFQKiJWhaPEpcfCVz7rkZ4A5Q6kYpqdsfC3mL
+PID: 1686
+Rewards balance: 0.00001866
+---------
 Number: 3:6
 Node: 12D3KooWPwrSNADvxkzofKNwywiFuzgpo8mUKYrnQPSBXqyHQfe3
 PID: 1876
 Rewards balance: 0.00001861
 ---------
-Number: 1:16
-Node: 12D3KooWBaskoYdgFQKiJWhaPEpcfCVz7rkZ4A5Q6kYpqdsfC3mL
-PID: 1686
-Rewards balance: 0.00001691
----------
 Number: 3:1
 Node: 12D3KooWALYPXsa34D2gT7gyRBLey7KGsKgBNB645baZEA1Ae4Y4
 PID: 1762
-Rewards balance: 0.00001655
----------
-Number: 3:15
-Node: 12D3KooWCzZMV4naSTuVtr92pVy82iDaDrZpZDDgVcc9bBqmwz1g
-PID: 1568
-Rewards balance: 0.00001487
+Rewards balance: 0.00001723
 ---------
 Number: 3:14
 Node: 12D3KooWRKhEnaKB3oxSzdmxFpahpzunaK5AEwqcWFxPutQ2gMEy
 PID: 2111
+Rewards balance: 0.00001533
+---------
+Number: 3:15
+Node: 12D3KooWCzZMV4naSTuVtr92pVy82iDaDrZpZDDgVcc9bBqmwz1g
+PID: 1568
 Rewards balance: 0.00001487
 ---------
 Number: 1:3
@@ -183,15 +183,15 @@ Node: 12D3KooWLvZ89SZD6RhgoBBHqDpoT2TbFXbimtC3KhzATWWkYUps
 PID: 2149
 Rewards balance: 0.00000212
 ---------
+Number: 1:13
+Node: 12D3KooWCHE5XviCut48HbJnDoh1Riuyt2qP7ScVu1oh6YT47hnW
+PID: 1762
+Rewards balance: 0.00000185
+---------
 Number: 1:1
 Node: 12D3KooWBMMRb6cTjfuS11HDXecRBbxpAC2immyUykoY6K5rdPGF
 PID: 1643
 Rewards balance: 0.00000172
----------
-Number: 1:13
-Node: 12D3KooWCHE5XviCut48HbJnDoh1Riuyt2qP7ScVu1oh6YT47hnW
-PID: 1762
-Rewards balance: 0.00000171
 ---------
 Number: 2:13
 Node: 12D3KooWCZu7GRUn81ooZLT4dbm4nB1sTbVFJZvvmz5uGDBSDndT
