@@ -1,5 +1,5 @@
 = Stats =
-Rewards: 2268.12329429
+Rewards: 2271.71705790
 Running: 60
 Dead: 0
 
@@ -21,7 +21,7 @@ Rewards balance: 78.38657454
 Number: 1:5
 Node: 12D3KooWE2jFjc4nspAFNCAN7sqwQTLrcHJpzmk2mgeKE8uWCPpY
 PID: 1952
-Rewards balance: 13.00244211
+Rewards balance: 16.58860378
 ---------
 Number: 3:0
 Node: 12D3KooWCeHNKrv9NZ99nw4m5s2w466h652yAhroNadjdBZMieka
@@ -38,15 +38,15 @@ Node: 12D3KooWKAwYNojogYXAtaLPgVYCawyHBkrhjPQvqegozogALe7T
 PID: 2187
 Rewards balance: 0.04130953
 ---------
+Number: 2:15
+Node: 12D3KooWEF9GQ6kSASi67PsdMgdr4eYHyPL2ADbgq5puYcCrH1Z7
+PID: 1736
+Rewards balance: 0.01494965
+---------
 Number: 1:4
 Node: 12D3KooWNdGVFFBQWwQjiAmxkwropVtfGxVNFP679MrZpETpiCKn
 PID: 1604
 Rewards balance: 0.01068457
----------
-Number: 2:15
-Node: 12D3KooWEF9GQ6kSASi67PsdMgdr4eYHyPL2ADbgq5puYcCrH1Z7
-PID: 1736
-Rewards balance: 0.00735939
 ---------
 Number: 3:14
 Node: 12D3KooWSUnYZGAAAYt8kBn3pHATxhCfKq9gjGuraPizANtcHYKU
@@ -106,7 +106,7 @@ Rewards balance: 0.00031368
 Number: 1:15
 Node: 12D3KooWAVH7cwL7CWuKo39T4GWVRUGirdnqk66iWkdWQZQU2GWA
 PID: 1876
-Rewards balance: 0.00027901
+Rewards balance: 0.00028395
 ---------
 Number: 1:7
 Node: 12D3KooWDAGdWPVY1mNQVPUmeosonffE55YFUrPAsj4sUQ5NwCtG
@@ -121,7 +121,7 @@ Rewards balance: 0.00009298
 Number: 3:6
 Node: 12D3KooWSwy44zKYoXYsaSFpGBv5KpbLPFJe2YEXA5Lr6Wvm5Dqk
 PID: 1853
-Rewards balance: 0.00007542
+Rewards balance: 0.00007894
 ---------
 Number: 1:2
 Node: 12D3KooWPjPZTi2m34Bg4HHbqAcvg1BnJoKUZDjVcLEVVVL6UGBL
@@ -141,12 +141,12 @@ Rewards balance: 0.00004919
 Number: 1:19
 Node: 12D3KooWE4P99XLhCccgJGhL9N4o7fLJqYZFFjq2QqCH9J4TWxJZ
 PID: 2111
-Rewards balance: 0.00004558
+Rewards balance: 0.00004674
 ---------
 Number: 1:12
 Node: 12D3KooWNASN8Yk4Z6hnqDcrjrSBp82hp37eyqATbyFYMSdb6JoA
 PID: 2225
-Rewards balance: 0.00003414
+Rewards balance: 0.00003530
 ---------
 Number: 2:10
 Node: 12D3KooWMQqXqCBq6uxvBhvWMQ9DGfsm7A1uxTMAStn46NCmgFPB
@@ -166,7 +166,7 @@ Rewards balance: 0.00002966
 Number: 3:18
 Node: 12D3KooWS9KxnMFrHGjBadJTfp5YnVnxH7uBXGpnRWhKaRNhUU1Q
 PID: 1617
-Rewards balance: 0.00002707
+Rewards balance: 0.00002762
 ---------
 Number: 1:13
 Node: 12D3KooWCHE5XviCut48HbJnDoh1Riuyt2qP7ScVu1oh6YT47hnW
@@ -226,7 +226,7 @@ Rewards balance: 0.00001400
 Number: 2:13
 Node: 12D3KooWCZu7GRUn81ooZLT4dbm4nB1sTbVFJZvvmz5uGDBSDndT
 PID: 2198
-Rewards balance: 0.00001245
+Rewards balance: 0.00001271
 ---------
 Number: 2:9
 Node: 12D3KooWDnXbmjWxfcsBYtWicP1xevUPjL7Uq2qvpjvBFbQFUngj
@@ -291,7 +291,7 @@ Rewards balance: 0.00000381
 Number: 2:3
 Node: 12D3KooWCuZTxAtSXu6idHZusUKYhixGjm4gdiiDu6Q34S2C3iTb
 PID: 1540
-Rewards balance: 0.00000255
+Rewards balance: 0.00000262
 ---------
 Number: 3:7
 Node: 12D3KooWA9FC8MVLEsbwfk4M8CFkfVwJG1zU36uLqPkiqN8zFxm1
