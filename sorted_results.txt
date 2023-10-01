@@ -1,5 +1,5 @@
 = Stats =
-Rewards: 2910.24421553
+Rewards: 2910.24852638
 Running: 60
 Dead: 0
 
@@ -41,7 +41,7 @@ Rewards balance: 0.05612152
 Number: 2:15
 Node: 12D3KooWEF9GQ6kSASi67PsdMgdr4eYHyPL2ADbgq5puYcCrH1Z7
 PID: 1736
-Rewards balance: 0.02715189
+Rewards balance: 0.03140074
 ---------
 Number: 1:4
 Node: 12D3KooWNdGVFFBQWwQjiAmxkwropVtfGxVNFP679MrZpETpiCKn
@@ -66,7 +66,7 @@ Rewards balance: 0.00241955
 Number: 2:2
 Node: 12D3KooWR4hxtxFz6kp111up8x18g8Y6UVhmnGo9RZyrF7pvuRhi
 PID: 2084
-Rewards balance: 0.00231015
+Rewards balance: 0.00236511
 ---------
 Number: 1:9
 Node: 12D3KooWGh7gEadw4ATBLJZF9j1xdA2MkAuFFjgxTbjHCg3fisSN
@@ -106,7 +106,7 @@ Rewards balance: 0.00036325
 Number: 1:15
 Node: 12D3KooWAVH7cwL7CWuKo39T4GWVRUGirdnqk66iWkdWQZQU2GWA
 PID: 1876
-Rewards balance: 0.00031472
+Rewards balance: 0.00031995
 ---------
 Number: 1:7
 Node: 12D3KooWDAGdWPVY1mNQVPUmeosonffE55YFUrPAsj4sUQ5NwCtG
@@ -151,7 +151,7 @@ Rewards balance: 0.00003897
 Number: 1:12
 Node: 12D3KooWNASN8Yk4Z6hnqDcrjrSBp82hp37eyqATbyFYMSdb6JoA
 PID: 2225
-Rewards balance: 0.00003530
+Rewards balance: 0.00003648
 ---------
 Number: 2:10
 Node: 12D3KooWMQqXqCBq6uxvBhvWMQ9DGfsm7A1uxTMAStn46NCmgFPB
@@ -226,7 +226,7 @@ Rewards balance: 0.00001569
 Number: 2:13
 Node: 12D3KooWCZu7GRUn81ooZLT4dbm4nB1sTbVFJZvvmz5uGDBSDndT
 PID: 2198
-Rewards balance: 0.00001299
+Rewards balance: 0.00001326
 ---------
 Number: 1:17
 Node: 12D3KooWRdiNut1TLPMLUo9tgSA2dZd5mAZSedYRgmzUDEPzUy2V
@@ -261,12 +261,12 @@ Rewards balance: 0.00000562
 Number: 2:4
 Node: 12D3KooWMEtwbjNmiA3GisPdTtaC8BNPrF6oCKnjw8onbJHzGwkx
 PID: 2122
-Rewards balance: 0.00000498
+Rewards balance: 0.00000507
 ---------
 Number: 2:11
 Node: 12D3KooWQz4B27Wij8pC6UuSdxizRdKMmonYK1WRDJHrwW79KY55
 PID: 1698
-Rewards balance: 0.00000455
+Rewards balance: 0.00000469
 ---------
 Number: 3:12
 Node: 12D3KooWJmWmnmjz9r2JautpvdjpVkZ959e1hCbPfiZwPXWYdsmK
@@ -276,7 +276,7 @@ Rewards balance: 0.00000445
 Number: 2:8
 Node: 12D3KooWEZduf5Xoi1LsF1CT7GB3Nr3atWro7xLggnBrGnFYnYf2
 PID: 1850
-Rewards balance: 0.00000430
+Rewards balance: 0.00000443
 ---------
 Number: 2:14
 Node: 12D3KooWEiRPpRygBavRmB2aP9UW8VxQyZFxCcokqMVbiKH664vL
