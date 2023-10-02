@@ -299,7 +299,7 @@ function toggleAllIframesFullscreen() {
 
 <script>
 window.addEventListener('load', function() {
-    fetch('https://raw.githubusercontent.com/javages/javages.github.io/main/sorted_results.txt')
+    fetch('https://raw.githubusercontent.com/javages/javages.github.io/main/node_info.txt')
         .then(response => response.text())
         .then(data => {
             document.getElementById('dataWindow').innerHTML = '<pre>' + data + '</pre>';
