@@ -1,5 +1,5 @@
 = Stats =
-Rewards: 5486.45698147
+Rewards: 5486.45708681
 Running: 59
 Dead: 1
 
@@ -11,7 +11,7 @@ Number: 3:7
 Node: 12D3KooWA9FC8MVLEsbwfk4M8CFkfVwJG1zU36uLqPkiqN8zFxm1
 PID: 1594
 Status: killed
-Total Rewards: 5486.45698147
+Total Rewards: 5486.45708681
 First Killed At: Mon Oct 02 11:20:04 UTC 2023
 Rewards Balance When Killed: 0.00000213
 ---------
@@ -71,7 +71,7 @@ Rewards balance: 0.00376941
 Number: 2:2
 Node: 12D3KooWR4hxtxFz6kp111up8x18g8Y6UVhmnGo9RZyrF7pvuRhi
 PID: 2084
-Rewards balance: 0.00331496
+Rewards balance: 0.00339656
 ---------
 Number: 3:19
 Node: 12D3KooWSNDWSoHe1gNNu9ScM2NkVwR951c3gFpk7j7ScNq8TPfZ
@@ -116,12 +116,12 @@ Rewards balance: 0.00085263
 Number: 1:15
 Node: 12D3KooWAVH7cwL7CWuKo39T4GWVRUGirdnqk66iWkdWQZQU2GWA
 PID: 1876
-Rewards balance: 0.00040272
+Rewards balance: 0.00040940
 ---------
 Number: 3:6
 Node: 12D3KooWSwy44zKYoXYsaSFpGBv5KpbLPFJe2YEXA5Lr6Wvm5Dqk
 PID: 1853
-Rewards balance: 0.00021569
+Rewards balance: 0.00022054
 ---------
 Number: 1:7
 Node: 12D3KooWDAGdWPVY1mNQVPUmeosonffE55YFUrPAsj4sUQ5NwCtG
@@ -136,7 +136,7 @@ Rewards balance: 0.00011585
 Number: 1:2
 Node: 12D3KooWPjPZTi2m34Bg4HHbqAcvg1BnJoKUZDjVcLEVVVL6UGBL
 PID: 1724
-Rewards balance: 0.00010620
+Rewards balance: 0.00011326
 ---------
 Number: 2:12
 Node: 12D3KooWJcFbWGHeBYTdDjj1oXPPdYqt1jPG8tCecWBgArsS9K4u
@@ -156,12 +156,12 @@ Rewards balance: 0.00005289
 Number: 3:5
 Node: 12D3KooWDwgtpmxg1wB2Rtdy2ptfQY4ZmZDKmqMy3gfJkfENjT1M
 PID: 1825
-Rewards balance: 0.00004914
+Rewards balance: 0.00005280
 ---------
 Number: 1:12
 Node: 12D3KooWNASN8Yk4Z6hnqDcrjrSBp82hp37eyqATbyFYMSdb6JoA
 PID: 2225
-Rewards balance: 0.00004431
+Rewards balance: 0.00004576
 ---------
 Number: 2:10
 Node: 12D3KooWMQqXqCBq6uxvBhvWMQ9DGfsm7A1uxTMAStn46NCmgFPB
@@ -311,7 +311,7 @@ Rewards balance: 0.00000213
 Number: 2:18
 Node: 12D3KooWSxmtF6zE6PbmN2S4ZDmPACRtn8uf9JxJ3mAYWqX9nJda
 PID: 1774
-Rewards balance: 0.00000122
+Rewards balance: 0.00000126
 ---------
 Number: 3:16
 Node: 12D3KooWRhzxs5LG33VMrz75rN8QfDEYgESntK4rr4s2Gc9NNjNJ
