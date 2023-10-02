@@ -1,5 +1,5 @@
 = Stats =
-Rewards: 5486.47064132
+Rewards: 5486.47587374
 Running: 59
 Dead: 1
 
@@ -11,7 +11,7 @@ Number: 3:7
 Node: 12D3KooWA9FC8MVLEsbwfk4M8CFkfVwJG1zU36uLqPkiqN8zFxm1
 PID: 1594
 Status: killed
-Total Rewards: 5486.47064132
+Total Rewards: 5486.47587374
 First Killed At: Mon Oct 02 11:20:04 UTC 2023
 Rewards Balance When Killed: 0.00000213
 ---------
@@ -51,7 +51,7 @@ Rewards balance: 0.22572746
 Number: 2:15
 Node: 12D3KooWEF9GQ6kSASi67PsdMgdr4eYHyPL2ADbgq5puYcCrH1Z7
 PID: 1736
-Rewards balance: 0.06960532
+Rewards balance: 0.07483154
 ---------
 Number: 1:4
 Node: 12D3KooWNdGVFFBQWwQjiAmxkwropVtfGxVNFP679MrZpETpiCKn
@@ -168,6 +168,11 @@ Node: 12D3KooWNASN8Yk4Z6hnqDcrjrSBp82hp37eyqATbyFYMSdb6JoA
 PID: 2225
 Rewards balance: 0.00004576
 ---------
+Number: 1:13
+Node: 12D3KooWCHE5XviCut48HbJnDoh1Riuyt2qP7ScVu1oh6YT47hnW
+PID: 1762
+Rewards balance: 0.00003731
+---------
 Number: 3:18
 Node: 12D3KooWS9KxnMFrHGjBadJTfp5YnVnxH7uBXGpnRWhKaRNhUU1Q
 PID: 1617
@@ -177,11 +182,6 @@ Number: 1:0
 Node: 12D3KooWR9njoa9nqedGdgoeYXzVbfFHuE9rAxEbP3ESzZSdenJ1
 PID: 2028
 Rewards balance: 0.00003217
----------
-Number: 1:13
-Node: 12D3KooWCHE5XviCut48HbJnDoh1Riuyt2qP7ScVu1oh6YT47hnW
-PID: 1762
-Rewards balance: 0.00003112
 ---------
 Number: 2:5
 Node: 12D3KooWEZ4MXut7aQiNNRZS3nGk17hiukmXtXp7iEByCtDJWHJu
