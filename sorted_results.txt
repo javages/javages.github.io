@@ -1,5 +1,5 @@
 = Stats =
-Rewards: 3667.42701213
+Rewards: 3667.43757282
 Running: 60
 Dead: 0
 
@@ -36,7 +36,7 @@ Rewards balance: 2.75603280
 Number: 1:3
 Node: 12D3KooWKAwYNojogYXAtaLPgVYCawyHBkrhjPQvqegozogALe7T
 PID: 2187
-Rewards balance: 0.18235974
+Rewards balance: 0.19284630
 ---------
 Number: 2:15
 Node: 12D3KooWEF9GQ6kSASi67PsdMgdr4eYHyPL2ADbgq5puYcCrH1Z7
@@ -61,7 +61,7 @@ Rewards balance: 0.00376941
 Number: 2:2
 Node: 12D3KooWR4hxtxFz6kp111up8x18g8Y6UVhmnGo9RZyrF7pvuRhi
 PID: 2084
-Rewards balance: 0.00273231
+Rewards balance: 0.00279865
 ---------
 Number: 3:19
 Node: 12D3KooWSNDWSoHe1gNNu9ScM2NkVwR951c3gFpk7j7ScNq8TPfZ
@@ -106,7 +106,7 @@ Rewards balance: 0.00047148
 Number: 1:15
 Node: 12D3KooWAVH7cwL7CWuKo39T4GWVRUGirdnqk66iWkdWQZQU2GWA
 PID: 1876
-Rewards balance: 0.00036498
+Rewards balance: 0.00037105
 ---------
 Number: 3:6
 Node: 12D3KooWSwy44zKYoXYsaSFpGBv5KpbLPFJe2YEXA5Lr6Wvm5Dqk
@@ -136,7 +136,7 @@ Rewards balance: 0.00007439
 Number: 1:10
 Node: 12D3KooWRPX7VrHAHkGtKBxZTQEiqgYRAoFydB4eQnWWTHy5RDxU
 PID: 1490
-Rewards balance: 0.00005162
+Rewards balance: 0.00005294
 ---------
 Number: 1:19
 Node: 12D3KooWE4P99XLhCccgJGhL9N4o7fLJqYZFFjq2QqCH9J4TWxJZ
@@ -236,7 +236,7 @@ Rewards balance: 0.00001167
 Number: 1:17
 Node: 12D3KooWRdiNut1TLPMLUo9tgSA2dZd5mAZSedYRgmzUDEPzUy2V
 PID: 2149
-Rewards balance: 0.00001141
+Rewards balance: 0.00001164
 ---------
 Number: 2:9
 Node: 12D3KooWDnXbmjWxfcsBYtWicP1xevUPjL7Uq2qvpjvBFbQFUngj
@@ -268,15 +268,15 @@ Node: 12D3KooWQz4B27Wij8pC6UuSdxizRdKMmonYK1WRDJHrwW79KY55
 PID: 1698
 Rewards balance: 0.00000469
 ---------
+Number: 3:12
+Node: 12D3KooWJmWmnmjz9r2JautpvdjpVkZ959e1hCbPfiZwPXWYdsmK
+PID: 1922
+Rewards balance: 0.00000463
+---------
 Number: 2:8
 Node: 12D3KooWEZduf5Xoi1LsF1CT7GB3Nr3atWro7xLggnBrGnFYnYf2
 PID: 1850
 Rewards balance: 0.00000456
----------
-Number: 3:12
-Node: 12D3KooWJmWmnmjz9r2JautpvdjpVkZ959e1hCbPfiZwPXWYdsmK
-PID: 1922
-Rewards balance: 0.00000445
 ---------
 Number: 2:14
 Node: 12D3KooWEiRPpRygBavRmB2aP9UW8VxQyZFxCcokqMVbiKH664vL
