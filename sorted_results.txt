@@ -1,5 +1,5 @@
 = Stats =
-Rewards: 5486.45733700
+Rewards: 5486.46012046
 Running: 59
 Dead: 1
 
@@ -11,7 +11,7 @@ Number: 3:7
 Node: 12D3KooWA9FC8MVLEsbwfk4M8CFkfVwJG1zU36uLqPkiqN8zFxm1
 PID: 1594
 Status: killed
-Total Rewards: 5486.45733700
+Total Rewards: 5486.46012046
 First Killed At: Mon Oct 02 11:20:04 UTC 2023
 Rewards Balance When Killed: 0.00000213
 ---------
@@ -56,12 +56,12 @@ Rewards balance: 0.05925032
 Number: 1:4
 Node: 12D3KooWNdGVFFBQWwQjiAmxkwropVtfGxVNFP679MrZpETpiCKn
 PID: 1604
-Rewards balance: 0.04080965
+Rewards balance: 0.04327127
 ---------
 Number: 1:14
 Node: 12D3KooWFoR3tnWsBQ7C8duA86WRQmqLEbjaWTDeTQYnYBjKg9JF
 PID: 1838
-Rewards balance: 0.00580274
+Rewards balance: 0.00591511
 ---------
 Number: 3:14
 Node: 12D3KooWSUnYZGAAAYt8kBn3pHATxhCfKq9gjGuraPizANtcHYKU
@@ -81,12 +81,12 @@ Rewards balance: 0.00287871
 Number: 1:9
 Node: 12D3KooWGh7gEadw4ATBLJZF9j1xdA2MkAuFFjgxTbjHCg3fisSN
 PID: 1566
-Rewards balance: 0.00236098
+Rewards balance: 0.00246326
 ---------
 Number: 2:1
 Node: 12D3KooW9xxaueHqu37F1MhxYqwDDKhYQyvReX6AF1W5nAhsnv8y
 PID: 1580
-Rewards balance: 0.00235692
+Rewards balance: 0.00246312
 ---------
 Number: 1:8
 Node: 12D3KooWBazcJkiqkpN939bvhh8d4qkKEgaGqXCdnPYWHuMFUwJA
@@ -203,15 +203,15 @@ Node: 12D3KooWNVjerv47EmzNv754SrgYGGWgri68KMrfTmcHrhy7HCPw
 PID: 1564
 Rewards balance: 0.00002519
 ---------
+Number: 2:0
+Node: 12D3KooWFpfkZwxzB7CgyoMhDe5N4h9deHyYuobcGiTcz6tBowCZ
+PID: 2004
+Rewards balance: 0.00002399
+---------
 Number: 2:17
 Node: 12D3KooWE1rmMAU5fc9z7CzwrAudbEdyxKjZ5BwX1fEsfhXbwyfw
 PID: 1926
 Rewards balance: 0.00002364
----------
-Number: 2:0
-Node: 12D3KooWFpfkZwxzB7CgyoMhDe5N4h9deHyYuobcGiTcz6tBowCZ
-PID: 2004
-Rewards balance: 0.00002345
 ---------
 Number: 1:11
 Node: 12D3KooWCWoMgGX969Qq4w6inSp1tmasufribR1hgxX1juzNKdTR
@@ -246,12 +246,12 @@ Rewards balance: 0.00001301
 Number: 2:9
 Node: 12D3KooWDnXbmjWxfcsBYtWicP1xevUPjL7Uq2qvpjvBFbQFUngj
 PID: 2160
-Rewards balance: 0.00001191
+Rewards balance: 0.00001214
 ---------
 Number: 3:1
 Node: 12D3KooWKp3d7wamANvYuJKh53gSxNrNGJHiM8muxjZLkwKZ3hQ9
 PID: 1899
-Rewards balance: 0.00001189
+Rewards balance: 0.00001211
 ---------
 Number: 2:6
 Node: 12D3KooWFwq2XzXaJMyid1Zv4J2vE2H7FUrsjn76GqQNmtsPvPFi
