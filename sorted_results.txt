@@ -1,5 +1,5 @@
 = Stats =
-Rewards: 5486.45732534
+Rewards: 5486.45733157
 Running: 59
 Dead: 1
 
@@ -11,7 +11,7 @@ Number: 3:7
 Node: 12D3KooWA9FC8MVLEsbwfk4M8CFkfVwJG1zU36uLqPkiqN8zFxm1
 PID: 1594
 Status: killed
-Total Rewards: 5486.45732534
+Total Rewards: 5486.45733157
 First Killed At: Mon Oct 02 11:20:04 UTC 2023
 Rewards Balance When Killed: 0.00000213
 ---------
@@ -158,20 +158,20 @@ Node: 12D3KooWDwgtpmxg1wB2Rtdy2ptfQY4ZmZDKmqMy3gfJkfENjT1M
 PID: 1825
 Rewards balance: 0.00005280
 ---------
+Number: 2:10
+Node: 12D3KooWMQqXqCBq6uxvBhvWMQ9DGfsm7A1uxTMAStn46NCmgFPB
+PID: 2236
+Rewards balance: 0.00004620
+---------
 Number: 1:12
 Node: 12D3KooWNASN8Yk4Z6hnqDcrjrSBp82hp37eyqATbyFYMSdb6JoA
 PID: 2225
 Rewards balance: 0.00004576
 ---------
-Number: 2:10
-Node: 12D3KooWMQqXqCBq6uxvBhvWMQ9DGfsm7A1uxTMAStn46NCmgFPB
-PID: 2236
-Rewards balance: 0.00004275
----------
 Number: 3:18
 Node: 12D3KooWS9KxnMFrHGjBadJTfp5YnVnxH7uBXGpnRWhKaRNhUU1Q
 PID: 1617
-Rewards balance: 0.00003438
+Rewards balance: 0.00003504
 ---------
 Number: 1:0
 Node: 12D3KooWR9njoa9nqedGdgoeYXzVbfFHuE9rAxEbP3ESzZSdenJ1
@@ -183,15 +183,15 @@ Node: 12D3KooWCHE5XviCut48HbJnDoh1Riuyt2qP7ScVu1oh6YT47hnW
 PID: 1762
 Rewards balance: 0.00003112
 ---------
+Number: 3:13
+Node: 12D3KooWRjQjUqor56khN7Yc71BVYmCmPQKxLGV7Aqq4nzrMiz3D
+PID: 1778
+Rewards balance: 0.00002906
+---------
 Number: 2:5
 Node: 12D3KooWEZ4MXut7aQiNNRZS3nGk17hiukmXtXp7iEByCtDJWHJu
 PID: 1888
 Rewards balance: 0.00002868
----------
-Number: 3:13
-Node: 12D3KooWRjQjUqor56khN7Yc71BVYmCmPQKxLGV7Aqq4nzrMiz3D
-PID: 1778
-Rewards balance: 0.00002820
 ---------
 Number: 3:17
 Node: 12D3KooWQQMh8FnhDTa2CCWviMhMFJVbyaKgBpJsaK1DmnUR9vpM
@@ -201,7 +201,7 @@ Rewards balance: 0.00002736
 Number: 3:10
 Node: 12D3KooWNVjerv47EmzNv754SrgYGGWgri68KMrfTmcHrhy7HCPw
 PID: 1564
-Rewards balance: 0.00002403
+Rewards balance: 0.00002519
 ---------
 Number: 2:0
 Node: 12D3KooWFpfkZwxzB7CgyoMhDe5N4h9deHyYuobcGiTcz6tBowCZ
@@ -261,7 +261,7 @@ Rewards balance: 0.00001064
 Number: 2:4
 Node: 12D3KooWMEtwbjNmiA3GisPdTtaC8BNPrF6oCKnjw8onbJHzGwkx
 PID: 2122
-Rewards balance: 0.00000593
+Rewards balance: 0.00000603
 ---------
 Number: 3:9
 Node: 12D3KooWPqJ6qZXRKhMraE4UXvBtoubAe8sj1o9sNcBy3wicwhJi
