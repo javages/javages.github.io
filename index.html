@@ -37,7 +37,7 @@
 
     .logo-text {
       color: rgba(255, 102, 0, 0.8);
-      font-size: 18px;
+      font-size: 24px;
       z-index: 0;
       position: relative;
     }
@@ -167,6 +167,17 @@
     position: relative;
 }
 
+#dataWindow::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: linear-gradient(rgba(252, 252, 252, 0), #0a0a0a);
+    pointer-events: none;
+}
+
 #dataWindow::-webkit-scrollbar {
     width: 0;
 }
@@ -205,7 +216,7 @@
 </div>
 
   <br />
-  <button class="fullscreen-btn-style" onclick="toggleAllIframesFullscreen()">Fullscreen All</button>
+  <button class="fullscreen-btn-style" onclick="toggleAllIframesFullscreen()">Full 4</button>
   <div id="iframesContainer">
     <div class="iframe-container">
       <button class="iframe-btn-position fullscreen-btn-style"
@@ -226,6 +237,12 @@
         onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
 
       <iframe frameborder="0" height="400" src="memory_usage_plot.html" width="100%"></iframe>
+      
+      <div class="iframe-container">
+      <button class="iframe-btn-position fullscreen-btn-style"
+        onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
+
+      <iframe frameborder="0" height="400" src="tcp.html" width="100%"></iframe>
 
       <div class="iframe-container">
         <button class="iframe-btn-position fullscreen-btn-style"
