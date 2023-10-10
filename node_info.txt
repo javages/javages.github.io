@@ -1,5 +1,5 @@
 = Stats =
-Rewards: 78.47813773
+Rewards: 78.47816874
 Running: 73
 Dead: 0
 
@@ -96,7 +96,7 @@ Rewards balance: 0.00007800
 Number: 4:2
 Node: 12D3KooW9wwyMvJuPYxgABKSwGmGjHXw79GZmgosHiyoQ21NTWJk
 PID: 1280
-Rewards balance: 0.00007256
+Rewards balance: 0.00007365
 ---------
 Number: 2:2
 Node: 12D3KooWA7Knjtuqk1FnV6tRyxPN9TeDdty2DF8Zi83j4oejpGqw
@@ -121,12 +121,12 @@ Rewards balance: 0.00005984
 Number: 3:16
 Node: 12D3KooWKmfjx22Rk8xvjn96cRKtcdqV1oisLGa4yV5aXvyvj3Lj
 PID: 1515
-Rewards balance: 0.00005848
+Rewards balance: 0.00005975
 ---------
 Number: 2:7
 Node: 12D3KooWPTKBJet7zdoDV2Mo4GjPRrbZb3qYPhVsoBCdRw83tWDE
 PID: 1585
-Rewards balance: 0.00005760
+Rewards balance: 0.00005883
 ---------
 Number: 1:3
 Node: 12D3KooWJVBbv3V6jeXnVW5h5cbsUazZ6dMR7bwkVNJe7RAZ7854
@@ -187,6 +187,11 @@ Number: 1:5
 Node: 12D3KooWQ9H1atuaBZfh2hY2anwfEHfdnZiMNYGwEHCqcUKVNWY3
 PID: 1624
 Rewards balance: 0.00002908
+---------
+Number: 5:1
+Node: 12D3KooWNNtC17Zv27mKPHX6B3KQo7uNQpzLCznTXsRfTKBMmTot
+PID: 1509
+Rewards balance: 0.00002688
 ---------
 Number: 2:6
 Node: 12D3KooWL41zLGuNR8AAiQV6fduuGfTGx4ugyJGV6iWpSaPa77bG
@@ -276,7 +281,7 @@ Rewards balance: 0.00000838
 Number: 3:19
 Node: 12D3KooWSh1LmZ4zrj4gpYq4SMY8h129xF8rhkJYjWkfhqRXT2ce
 PID: 1569
-Rewards balance: 0.00000821
+Rewards balance: 0.00000831
 ---------
 Number: 2:9
 Node: 12D3KooWCJ7bYeNbd6dLx9Dj7axBfNy7VLNvepdWSYySiJnCpcVF
@@ -296,7 +301,7 @@ Rewards balance: 0.00000606
 Number: 2:4
 Node: 12D3KooWPLHKGUjx8vgHaDtAA81kpMidYj4UYrsTLzfxA7XJ9x2e
 PID: 1477
-Rewards balance: 0.00000576
+Rewards balance: 0.00000586
 ---------
 Number: 1:15
 Node: 12D3KooWJKzPt4XmDDaMFxNrYj6ZuDWUN7qcR9RoY6cHR7JdRzBZ
@@ -336,12 +341,7 @@ Rewards balance: 0.00000237
 Number: 5:0
 Node: 12D3KooWEeQkpDV4kzr3A52cygSzTUCkm9ybxeg3c353F9YCHk6U
 PID: 1580
-Rewards balance: 0.00000000
----------
-Number: 5:1
-Node: 12D3KooWNNtC17Zv27mKPHX6B3KQo7uNQpzLCznTXsRfTKBMmTot
-PID: 1509
-Rewards balance: 0.00000000
+Rewards balance: 0.00000033
 ---------
 Number: 5:2
 Node: 12D3KooWRK7XCXeoaNBERud57CKeDj9DQ2FML1u5DgCijSPUfEGr
