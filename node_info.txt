@@ -1,5 +1,5 @@
 = Stats =
-Rewards: 74.50376398
+Rewards: 75.25568582
 Running: 65
 Dead: 0
 
@@ -21,7 +21,7 @@ Rewards balance: 13.32050060
 Number: 3:0
 Node: 12D3KooWBdD3CMWu7RVFkWVcC1pg7TZB62a1FxLTWVvoUpwqyUne
 PID: 1560
-Rewards balance: 12.44043253
+Rewards balance: 13.19235418
 ---------
 Number: 3:2
 Node: 12D3KooWJ8JgfRfF3jA45ghHV4NqHY4xF3GYX3ikfEXtWPjddKWL
@@ -226,7 +226,7 @@ Rewards balance: 0.00001437
 Number: 4:1
 Node: 12D3KooWNFGSk4nxmPHR1jirp49CAkC7vPELJtz7ZhAB7XXEQ3zQ
 PID: 1453
-Rewards balance: 0.00001402
+Rewards balance: 0.00001421
 ---------
 Number: 1:13
 Node: 12D3KooWGKzsyf6voMentEcioVSeUah1cQhnoutnmeXRmGv7HABM
