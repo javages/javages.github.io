@@ -1,5 +1,5 @@
 = Stats =
-Rewards: 76.83973137
+Rewards: 76.83974073
 Running: 65
 Dead: 0
 
@@ -76,7 +76,7 @@ Rewards balance: 0.00036907
 Number: 3:10
 Node: 12D3KooWChGS8UYxNXc1udWnwjn96QfvoA5eUZKN6zgT5j3FXFYW
 PID: 1578
-Rewards balance: 0.00025639
+Rewards balance: 0.00026430
 ---------
 Number: 3:8
 Node: 12D3KooWNsw2yztAG8REkMjWuA1UgrzCz6WihL4MUE2e6MbcHgSu
@@ -146,7 +146,7 @@ Rewards balance: 0.00005160
 Number: 2:8
 Node: 12D3KooWN8ufug6h8DfJpqCgPiFiWkbeaW2mT1Fxa2gnQ1aZKBJ9
 PID: 1576
-Rewards balance: 0.00004990
+Rewards balance: 0.00005108
 ---------
 Number: 2:14
 Node: 12D3KooWJxMDd2Pp4a4UuE6AJuyFKQqPhZBK8FMjjefhzJGUeXvq
@@ -246,12 +246,12 @@ Rewards balance: 0.00001106
 Number: 3:7
 Node: 12D3KooWPzZUGtEta7s9GXVq5jnmxKWDfp8vwLAt6QVfUAP2Apei
 PID: 1551
-Rewards balance: 0.00001044
+Rewards balance: 0.00001058
 ---------
 Number: 1:2
 Node: 12D3KooWReNWdfjKbUgxqPvsqrzaqsoX27cxJyzWqTUZ2gJ4jG3K
 PID: 1642
-Rewards balance: 0.00000927
+Rewards balance: 0.00000941
 ---------
 Number: 2:5
 Node: 12D3KooWHm5qCXaQkdgSmhZvmG2zTAA23P7ZioqzWbRig1Lwn4wC
