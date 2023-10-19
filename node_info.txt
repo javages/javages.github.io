@@ -1,5 +1,5 @@
 = Stats =
-Rewards: 3.97886085
+Rewards: 3.97983752
 Running: 131
 Dead: 9
 
@@ -119,7 +119,7 @@ Rewards balance: 0.00006169
 Number: 1:7
 Node: 12D3KooWAgap4ixJCR4pgfhNgXQScb3WWnbjz4mbkbj6HQAHWxC5
 PID: 61522
-Rewards balance: 0.00057217
+Rewards balance: 0.00058483
 ---------
 Number: 1:8
 Node: 12D3KooWGdfTTNo7t5gw4tdyycYWobwswT3BmaYqCGD9rbaKdkLL
@@ -134,7 +134,7 @@ Rewards balance: 0.00053387
 Number: 1:10
 Node: 12D3KooWL9DjQoK4UxkV7w3j7oCctBaUeem989am7RM7Rh8K1dqZ
 PID: 61504
-Rewards balance: 0.00028196
+Rewards balance: 0.00029002
 ---------
 Number: 1:11
 Node: 12D3KooWHvQ9rvPfEc2AEcW2A7KwPZqEeMQEtrxDZpHcU9cPUF3q
@@ -399,7 +399,7 @@ Rewards balance: 0.00047675
 Number: 2:23
 Node: 12D3KooWJ1Fdz7G2Dwh4ab27jCUUqQa8HbnGP68Sr7SiuQv1jv4U
 PID: 67947
-Rewards balance: 0.00266500
+Rewards balance: 0.00271996
 ---------
 Number: 2:24
 Node: 12D3KooWEqyP41EG279V1DEb7EoPAZcBP6TSWMsmbLApm8dDB7iv
@@ -414,17 +414,17 @@ Rewards balance: 0.00141598
 Number: 2:26
 Node: 12D3KooWFZseTPSBPpEPECQ5eaoJAeVxxm3kwkgB4SayDixyjdSb
 PID: 2993
-Rewards balance: 0.00127053
+Rewards balance: 0.00130006
 ---------
 Number: 2:27
 Node: 12D3KooWDNZr17Aq3eD4wysst5PGWGAPCinefsTPfm6XZ4GyAimu
 PID: 3199
-Rewards balance: 0.00061456
+Rewards balance: 0.00063768
 ---------
 Number: 2:28
 Node: 12D3KooWMUPp49bzMMpPLkfAyeFJevtV278gsmYpZ97HJUhFdYV7
 PID: 67956
-Rewards balance: 0.00030812
+Rewards balance: 0.00032727
 ---------
 Number: 2:29
 Node: 12D3KooWEP72kJDnUHxR9oHHTWTZL6ch7bR8A5shPS7dYxH1Nyqm
@@ -559,12 +559,12 @@ Rewards balance: 0.06328276
 Number: 3:15
 Node: 12D3KooWGqzDB7jxM8eePDc8RmDNhmXPDWcfSwbJpEdY2vDagnKG
 PID: 1723
-Rewards balance: 0.00050744
+Rewards balance: 0.00051919
 ---------
 Number: 3:16
 Node: 12D3KooWC8U4ZzuaRTg7ig42myUYVBECPAzNydbhgsFmwFeCvY4Y
 PID: 43520
-Rewards balance: 0.02274410
+Rewards balance: 0.02327004
 ---------
 Number: 3:17
 Node: 12D3KooWPAeRCceG58wCWWsis7ithALm5MHxRCpAU4f78TWywn8Z
@@ -599,7 +599,7 @@ Rewards balance: 0.00003585
 Number: 3:23
 Node: 12D3KooWEyuQrnVKmyqYuV6rU6X9QTEAeqP5dnrokPLt7bcbEaqi
 PID: 43538
-Rewards balance: 0.00363033
+Rewards balance: 0.00382429
 ---------
 Number: 3:24
 Node: 12D3KooWQ3jPtmWQp21WaLnq4ujJ43HtFXY8KsHxjaw4Wsg4iv22
@@ -614,12 +614,12 @@ Rewards balance: 0.00078669
 Number: 3:26
 Node: 12D3KooWFnssE7miUvLrkiEgYMFVKFi6rj18721McQp67eejdYx9
 PID: 43502
-Rewards balance: 0.00162261
+Rewards balance: 0.00166033
 ---------
 Number: 3:27
 Node: 12D3KooWAZC3oKrxZTdz7fLTHeUTuNi6dLg7tQdQFMqeKiHHz6c6
 PID: 1732
-Rewards balance: 0.00015889
+Rewards balance: 0.00016058
 ---------
 Number: 3:28
 Node: 12D3KooWFtz6xWcA84r1YNAMvcborPSzGzqR3agi6BSmdv2akK8q
@@ -749,7 +749,7 @@ Rewards balance: 0.00006084
 Number: 5:8
 Node: 12D3KooW9qr21ffnM7pGqYRNzKStAnynJzSeyk1L85gPMp4XDRSh
 PID: 1157
-Rewards balance: 0.00190371
+Rewards balance: 0.00196186
 ---------
 Number: 5:9
 Node: 12D3KooWDax2eG9bpVeNxoS9wKLqvUP5BKjV8axFaLi1EtKUNNDj
