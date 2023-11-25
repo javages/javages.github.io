@@ -1,10 +1,19 @@
 = Stats =
-Rewards: 0.00003454
-Running: 66
-Dead: 0
+Rewards: 0.00003464
+Running: 65
+Dead: 1
 
 ↓ more info ↓
 
+
+=== Dead Nodes Details ===
+Number: 2:12
+Node: 12D3KooWL5tHCQcTcCDguc89wLPfTjvKffWnb3ZtV5XxVcpYSgMp
+PID: 1554
+Status: killed
+Timestamp: Sat Nov 25 00:00:11 UTC 2023
+Rewards balance: 0.00000020
+---------
 
 === All Live Nodes ===
 
@@ -21,7 +30,7 @@ Rewards balance: 0.00000002
 Number: 0:2
 Node: 12D3KooWGCoLMZ9wc58NXMGBauXEQTYwJ1tZ5T4gqaxEevrj4Jgx
 PID: 1523
-Rewards balance: 0.00000054
+Rewards balance: 0.00000064
 ---------
 Number: 0:3
 Node: 12D3KooWKwYEiHaDxahtH8LFYiHSJuynHSQ7RuZbJ9ChLPmLLjV5
