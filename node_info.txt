@@ -1,5 +1,5 @@
 = Stats =
-Rewards: 0.00010112
+Rewards: 0.00010253
 Running: 66
 Dead: 0
 
@@ -16,12 +16,12 @@ Rewards balance: 0.00000080
 Number: 0:1
 Node: 12D3KooWDQoMQG2VYAbEnxgvQiV3x69mt8usnTyoXDCMGU6ioLok
 PID: 1561
-Rewards balance: 0.00000422
+Rewards balance: 0.00000445
 ---------
 Number: 0:2
 Node: 12D3KooWEgR3VSTdWNviM9j2pz6bsnrTL6cL3iMcFCtvuiuZw4tA
 PID: 1510
-Rewards balance: 0.00000061
+Rewards balance: 0.00000065
 ---------
 Number: 0:3
 Node: 12D3KooWEidvTdzim54EUyn5Uae5DT8aeoZT5AzV2n5WgPCxur3R
@@ -46,7 +46,7 @@ Rewards balance: 0.00000228
 Number: 1:1
 Node: 12D3KooWADWjq1gjzA79dX6xbqEupif3EisQDUGkUKXohtrrePHa
 PID: 6326
-Rewards balance: 0.00000027
+Rewards balance: 0.00000030
 ---------
 Number: 1:2
 Node: 12D3KooWAsD8BpbnbxsFvAgXs2ZxZDh6mAg9CAGxQLgzCxrwNobL
@@ -66,7 +66,7 @@ Rewards balance: 0.00000005
 Number: 1:5
 Node: 12D3KooWGkZBMJxYDNbr9tUS64SfGtfA8hRdy8VgyMFCkdjskJCz
 PID: 6221
-Rewards balance: 0.00000052
+Rewards balance: 0.00000053
 ---------
 Number: 1:6
 Node: 12D3KooWHYhHJff2ZZST5iX1jxvzdAhAykAqfjhHDmXYbvSTooNq
@@ -86,7 +86,7 @@ Rewards balance: 0.00000149
 Number: 1:9
 Node: 12D3KooWM2AmHFALKCwrC3xUQkiTWFeCf8CrENz9PCUSXKYFPz7V
 PID: 6356
-Rewards balance: 0.00000045
+Rewards balance: 0.00000054
 ---------
 Number: 1:10
 Node: 12D3KooWR1brNYtyQvAZSfw1GYG2AnDS3rtNo6kDn22Ltj86j2YA
@@ -96,12 +96,12 @@ Rewards balance: 0.00000043
 Number: 1:11
 Node: 12D3KooWRTXRx1uFT6VK5GAEg7nCPsxHuZi7rQAemMugb4FxB3k7
 PID: 6311
-Rewards balance: 0.00000182
+Rewards balance: 0.00000185
 ---------
 Number: 1:12
 Node: 12D3KooWSa8zweKotNzLGeafnV1zmTRt1ArETUXQ8NvZJYi5QNDL
 PID: 6251
-Rewards balance: 0.00000012
+Rewards balance: 0.00000016
 ---------
 Number: 1:13
 Node: 12D3KooWSCi4nvoB6TyQrJ7VKHNTEr6gLBaq6MfB6hacHxYRrt2L
@@ -131,7 +131,7 @@ Rewards balance: 0.00000107
 Number: 2:3
 Node: 12D3KooWJYU2fUiWYV7DvPo8NNsErh6La2GTkBxiu1TpEW9thZyo
 PID: 32610
-Rewards balance: 0.00000083
+Rewards balance: 0.00000087
 ---------
 Number: 2:4
 Node: 12D3KooWK5ENZffGwAATysTeF5FnJBTVuTtXzfo6ucjrkA2fjp8v
@@ -146,7 +146,7 @@ Rewards balance: 0.00000019
 Number: 2:6
 Node: 12D3KooWLNkknbLdUYdtLGHBbD3br3yu5wxo3y6W9hTqG6ivU25o
 PID: 32391
-Rewards balance: 0.00000035
+Rewards balance: 0.00000046
 ---------
 Number: 2:7
 Node: 12D3KooWMtxSfsfVLGV74odKWsAsKZKG1a228ZxGQNJVL8WYoNNA
@@ -156,7 +156,7 @@ Rewards balance: 0.00000010
 Number: 2:8
 Node: 12D3KooWN1WzdEsWkBhvPM4UNEhpEDkeA3fLvMPtPtyuyt3FutFb
 PID: 32471
-Rewards balance: 0.00000063
+Rewards balance: 0.00000065
 ---------
 Number: 2:9
 Node: 12D3KooWNDeuW7pU7yFfGeGf55qKTTm4jSdoE3aGD5gX75wx75nj
@@ -166,7 +166,7 @@ Rewards balance: 0.00000011
 Number: 2:10
 Node: 12D3KooWNepkZyd1vpADibG6N6HsJNMWGDE4hpxbRbdbqNYSHbhb
 PID: 32550
-Rewards balance: 0.00000021
+Rewards balance: 0.00000023
 ---------
 Number: 2:11
 Node: 12D3KooWNGa6HnHMWhC34gvH96rZuwenSx9T2WT8zWzwed8FRp4X
@@ -196,7 +196,7 @@ Rewards balance: 0.00000010
 Number: 3:1
 Node: 12D3KooWBFaNhuFDb1WDEDbp5ikwGP8H4Bhpz7BmfdacKX5S57FR
 PID: 7226
-Rewards balance: 0.00000257
+Rewards balance: 0.00000261
 ---------
 Number: 3:2
 Node: 12D3KooWCHWSNSACj4eVRxQQ6zA4K8b3zKVruNVEq96vMmwFb4rx
@@ -266,7 +266,7 @@ Rewards balance: 0.00000015
 Number: 4:0
 Node: 12D3KooWCDobb94yFyiEcZERVTne7RRbEJypmekGoqTDb6mmnVtr
 PID: 6475
-Rewards balance: 0.00000339
+Rewards balance: 0.00000349
 ---------
 Number: 4:1
 Node: 12D3KooWCiUU7uGRdN92ooawq5ok4B5XLKNRgZpZ6ehAxPDN1ihx
@@ -291,12 +291,12 @@ Rewards balance: 0.00000042
 Number: 4:5
 Node: 12D3KooWERZZAyvuKhuHc1HrkMkByZvbpAbYAvfUofef5QCpGneE
 PID: 6383
-Rewards balance: 0.00000116
+Rewards balance: 0.00000120
 ---------
 Number: 4:6
 Node: 12D3KooWGT6ym47czTui9iMUBUN5utuEnwDspYDeoqwtXVXGEWso
 PID: 6458
-Rewards balance: 0.00000780
+Rewards balance: 0.00000836
 ---------
 Number: 4:7
 Node: 12D3KooWH3HmHtsv1jk1LekcFu1VJ1sUsteBZnz2B7rRx1xcYUbc
@@ -311,7 +311,7 @@ Rewards balance: 0.00000001
 Number: 4:9
 Node: 12D3KooWKEANKhLfMDQ2Brnsr8jEQibJkLFXgcf71uTqBywFyyDf
 PID: 6398
-Rewards balance: 0.00001548
+Rewards balance: 0.00001550
 ---------
 Number: 4:10
 Node: 12D3KooWMiAfp6AhXERSrTiUPY63WhZ7szsasXwokgbuwcaTnLwY
