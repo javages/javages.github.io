@@ -1,5 +1,5 @@
 = Stats =
-Rewards: 0.00312304
+Rewards: 0.00313103
 Running: 66
 Dead: 0
 
@@ -41,7 +41,7 @@ Rewards balance: 0.00000101
 Number: 1:0
 Node: 12D3KooW9vdKoHt8ZZkHUg3mApbiiGSxrdb5T9WpYBasFQS2ZxmC
 PID: 6191
-Rewards balance: 0.00003340
+Rewards balance: 0.00004066
 ---------
 Number: 1:1
 Node: 12D3KooWADWjq1gjzA79dX6xbqEupif3EisQDUGkUKXohtrrePHa
@@ -146,7 +146,7 @@ Rewards balance: 0.00000645
 Number: 2:6
 Node: 12D3KooWLNkknbLdUYdtLGHBbD3br3yu5wxo3y6W9hTqG6ivU25o
 PID: 32391
-Rewards balance: 0.00000111
+Rewards balance: 0.00000112
 ---------
 Number: 2:7
 Node: 12D3KooWMtxSfsfVLGV74odKWsAsKZKG1a228ZxGQNJVL8WYoNNA
@@ -176,7 +176,7 @@ Rewards balance: 0.00000018
 Number: 2:12
 Node: 12D3KooWRMx1ZcHkUgNipR6dcLPqnuJKLHwbEEX11mCmeQPaoeFf
 PID: 32516
-Rewards balance: 0.00000246
+Rewards balance: 0.00000259
 ---------
 Number: 2:13
 Node: 12D3KooWSU2iWzUQFnyFcsxdso4s16S2R2SjAMKNz3RcC5orZi72
@@ -236,7 +236,7 @@ Rewards balance: 0.00001476
 Number: 3:9
 Node: 12D3KooWHf6p6TLdpLnHK2bLuPPJvt6oFzeJvs7N92cUWevcmDzj
 PID: 7136
-Rewards balance: 0.00000186
+Rewards balance: 0.00000242
 ---------
 Number: 3:10
 Node: 12D3KooWJ42WKEX72wTjVeERz7wuTgvn8mMRjLzcmw2y8q2osoPL
@@ -316,7 +316,7 @@ Rewards balance: 0.00229904
 Number: 4:10
 Node: 12D3KooWMiAfp6AhXERSrTiUPY63WhZ7szsasXwokgbuwcaTnLwY
 PID: 6443
-Rewards balance: 0.00000083
+Rewards balance: 0.00000086
 ---------
 Number: 4:11
 Node: 12D3KooWNBmUF9yji8Xa4NDuw7zbrB3tPUBXTfi1ZRvz87KEACEL
