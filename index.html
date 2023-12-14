@@ -211,7 +211,11 @@
   </div>
     </div>
     <div id="dataWindow">
-        <pre>{sorted_results_content}</pre>
+      <input type="text" id="searchInput" placeholder="Node Search (e.g., 1:1)">
+<button id="searchButton">Search</button>
+<button id="clearButton">Clear</button>
+<div id="resultDisplay"></div>
+        <pre></pre>
     </div>
 </div>
 
@@ -314,19 +318,89 @@ function toggleAllIframesFullscreen() {
 
   </script>
 
+
 <script>
 window.addEventListener('load', function() {
-    fetch('https://raw.githubusercontent.com/javages/javages.github.io/main/node_info.txt')
+  fetch('node_info.txt')
+    .then(response => response.text())
+    .then(data => {
+      const lines = data.split('\n').slice(0, 4); // Get the first four lines
+      const summary = lines.join('<br>');
+      document.getElementById('resultDisplay').innerHTML = summary;
+    })
+    .catch(error => {
+      console.error('Error fetching data:', error);
+    });
+});
+</script>
+
+<script>
+  async function fetchData() {
+    const response = await fetch('node_info.txt');
+    const text = await response.text();
+    return text.split('\n');
+  }
+  
+  function searchNodeData(query, data) {
+    let resultIndex = data.findIndex(line => line.includes(query));
+    if (resultIndex === -1) return 'No match found';
+  
+    let result = '';
+    // Traverse backwards to find the start of the block
+    while (resultIndex >= 0 && !data[resultIndex].startsWith('---------')) {
+      resultIndex--;
+    }
+    resultIndex++; // Move to the first line of the block
+  
+    // Traverse forwards to include the entire block
+    while (resultIndex < data.length && !data[resultIndex].startsWith('---------')) {
+      result += data[resultIndex] + '\n';
+      resultIndex++;
+    }
+  
+    return result;
+  }
+  
+  async function setupSearch() {
+    const fileData = await fetchData();
+
+    const searchButton = document.getElementById('searchButton');
+    const clearButton = document.getElementById('clearButton');
+    const searchInput = document.getElementById('searchInput');
+    const resultDisplay = document.getElementById('resultDisplay');
+  
+    function performSearch() {
+      const query = searchInput.value;
+      const result = searchNodeData(query, fileData);
+      resultDisplay.innerHTML = result.replace(/\n/g, '<br>'); // Replace newline characters with HTML line breaks
+    }
+
+    searchButton.addEventListener('click', performSearch);
+
+    searchInput.addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        performSearch();
+      }
+    });
+
+    clearButton.addEventListener('click', function() {
+      searchInput.value = '';
+      fetch('node_info.txt')
         .then(response => response.text())
         .then(data => {
-            document.getElementById('dataWindow').innerHTML = '<pre>' + data + '</pre>';
+          const lines = data.split('\n').slice(0, 4);
+          const summary = lines.join('<br>');
+          resultDisplay.innerHTML = summary;
         })
         .catch(error => {
-            console.error('Error fetching data:', error);
+          console.error('Error fetching data:', error);
         });
-});
+    });
+  }
 
+  document.addEventListener('DOMContentLoaded', setupSearch);
 </script>
+  
 </body>
 
 </html>
