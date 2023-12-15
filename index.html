@@ -29,19 +29,6 @@
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     }
 
-    .full-logo {
-      display: flex;
-      align-items: center;
-      margin-left: 20px;
-    }
-
-    .logo-text {
-      color: rgba(255, 102, 0, 0.8);
-      font-size: 24px;
-      z-index: 0;
-      position: relative;
-    }
-
     a {
       text-decoration: none;
       color: rgba(255, 102, 0, 0.8);
@@ -68,33 +55,6 @@
       border: 0;
       border-top: 1px solid #666;
       margin: 40px 0;
-    }
-
-    .logo {
-      display: inline-block;
-      margin-right: 10px;
-      vertical-align: middle;
-      z-index: 1;
-      margin-right: 10px;
-    }
-
-    #bar1,
-    #bar2,
-    #bar3 {
-      transform-origin: bottom;
-      transition: transform 0.3s ease-in-out;
-    }
-
-    .logo:hover #bar1 {
-      transform: scaleY(1.2);
-    }
-
-    .logo:hover #bar2 {
-      transform: scaleY(1.5);
-    }
-
-    .logo:hover #bar3 {
-      transform: scaleY(0.8);
     }
 
     .iframe-container {
@@ -141,28 +101,25 @@
     }
 
     #topContainer {
+        width: 100%;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: left;
         width: 100%;
         padding: 1px;
     }
 
-    #logoContainer {
-        display: flex;
-        align-items: center;
-    }
-
     #dataWindow {
-    width: 35%;
+    width: 70%;
     max-height: 150px;
     overflow-y: scroll;
     border: 1px solid rgba(252, 252, 252, 0);
     background-color: transparent;
     padding: 15px;
+    padding-left: 0px;
     border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     margin-right: 5%;
+    margin-top: 20px;
     text-align: left;
     position: relative;
 }
@@ -174,7 +131,6 @@
     left: 0;
     right: 0;
     height: 10px;
-    background: linear-gradient(rgba(252, 252, 252, 0), #0a0a0a);
     pointer-events: none;
 }
 
@@ -188,36 +144,41 @@
     text-align: left; 
 }
 
+#searchContainer {
+    width: 100%;           /* Full width */
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;   /* Center children horizontally */
+    width: 100%;           /* Take the full width */
+    padding-left: 30px;    /* Maintain your existing padding */
+    margin-right: 5%;      /* Maintain your existing margin */
+}
 
 </style>
 </head>
 
 <body>
-  
-<div id="topContainer">
-    <div id="logoContainer">
-        <div class="full-logo">
-
-    <svg class="logo" height="50" id="chartLogo" width="50" xmlns="http://www.w3.org/2000/svg">
-
-      <circle cx="25" cy="25" fill="#2E2E2E" r="23" stroke="#FF6600" stroke-width="1.5"></circle>
-
-      <rect fill="#FF6600" height="15" id="bar1" width="5" x="10" y="27.5"></rect>
-      <rect fill="#FF6600" height="25" id="bar2" width="5" x="20" y="20"></rect>
-      <rect fill="#FF6600" height="10" id="bar3" width="5" x="30" y="32.5"></rect>
-    </svg>
-
-    <span class="logo-text">NTracking</span>
-  </div>
+<div id="mainContainer">
+    <div id="searchContainer">
+      <input type="text" id="searchInput" placeholder="Search (e.g. 1:1)">
+      <button id="searchButton">Search</button>
+      <button id="clearButton">Clear</button>
     </div>
+
     <div id="dataWindow">
-      <input type="text" id="searchInput" placeholder="Node Search (e.g., 1:1)">
-<button id="searchButton">Search</button>
-<button id="clearButton">Clear</button>
-<div id="resultDisplay"></div>
-        <pre></pre>
+      <div id="resultDisplay"></div>
+      <pre></pre>
     </div>
 </div>
+
 
   <br />
   <button class="fullscreen-btn-style" onclick="toggleAllIframesFullscreen()">Full 4</button>
@@ -335,56 +296,101 @@ window.addEventListener('load', function() {
 </script>
 
 <script>
+  // Defines an asynchronous function to fetch data from 'node_info.txt'.
   async function fetchData() {
-    const response = await fetch('node_info.txt');
-    const text = await response.text();
-    return text.split('\n');
+    const response = await fetch('node_info.txt'); // Fetches the file.
+    const text = await response.text();            // Converts the fetched data to text.
+    return text.split('\n');                       // Splits the text into an array of lines.
   }
   
-  function searchNodeData(query, data) {
-    let resultIndex = data.findIndex(line => line.includes(query));
-    if (resultIndex === -1) return 'No match found';
-  
-    let result = '';
-    // Traverse backwards to find the start of the block
+  // Function to search within the fetched data for a specific query.
+function searchNodeData(query, data) {
+  let result = '';
+  let startIndex = 0;
+
+  // Check if the query is the shorthand 'zero' and replace it with '0.00000000'.
+  let searchQuery = query.toLowerCase() === 'zero' ? '0.00000000' : query;
+  let lowerCaseQuery = searchQuery.toLowerCase(); // Convert query to lower case for case-insensitive search
+
+  // Determine if the query requires an exact match.
+  let requiresExactMatch = /^(\d+:\d+)$/.test(searchQuery); // Regex for pattern like '3:3'
+
+  // Loop through the data to find all occurrences of the query.
+  while (startIndex < data.length) {
+    let resultIndex = -1;
+    if (requiresExactMatch) {
+      // Find the next occurrence of the query as an exact match.
+      resultIndex = data.slice(startIndex).findIndex(line => {
+        let parts = line.split(' '); // Assuming the pattern is separated by spaces
+        return parts.some(part => part === searchQuery); // Exact match in any part
+      });
+    } else {
+      // Find the next occurrence of the query, using a case-insensitive comparison.
+      resultIndex = data.slice(startIndex).findIndex(line => line.toLowerCase().includes(lowerCaseQuery));
+    }
+
+    // If no more matches are found, break out of the loop.
+    if (resultIndex === -1) break;
+
+    // Adjust resultIndex to the actual index in the data array.
+    resultIndex += startIndex;
+
+    // Find the start of the block.
     while (resultIndex >= 0 && !data[resultIndex].startsWith('---------')) {
       resultIndex--;
     }
-    resultIndex++; // Move to the first line of the block
-  
-    // Traverse forwards to include the entire block
+    resultIndex++; // Adjust to point to the first line of the block.
+
+    // Collect the block of text.
     while (resultIndex < data.length && !data[resultIndex].startsWith('---------')) {
       result += data[resultIndex] + '\n';
       resultIndex++;
     }
-  
-    return result;
-  }
-  
-  async function setupSearch() {
-    const fileData = await fetchData();
 
+    // Add an extra newline character for spacing between blocks.
+    result += '\n';
+
+    // Prepare for the next search iteration.
+    startIndex = resultIndex;
+  }
+
+   return result.trim() || 'No match found';
+}
+
+
+
+  
+  // Function to set up the search interface and functionality.
+  async function setupSearch() {
+    const fileData = await fetchData(); // Fetches and stores the data from the file.
+
+    // Retrieves HTML elements by their IDs.
     const searchButton = document.getElementById('searchButton');
     const clearButton = document.getElementById('clearButton');
     const searchInput = document.getElementById('searchInput');
     const resultDisplay = document.getElementById('resultDisplay');
   
+    // Function to execute the search and display results.
     function performSearch() {
-      const query = searchInput.value;
-      const result = searchNodeData(query, fileData);
-      resultDisplay.innerHTML = result.replace(/\n/g, '<br>'); // Replace newline characters with HTML line breaks
+      const query = searchInput.value;                     // Gets the query from the input field.
+      const result = searchNodeData(query, fileData);      // Searches the data for the query.
+      resultDisplay.innerHTML = result.replace(/\n/g, '<br>'); // Displays the results, converting newlines to HTML breaks.
     }
 
+    // Adds an event listener to the search button to perform a search on click.
     searchButton.addEventListener('click', performSearch);
 
+    // Adds an event listener to the search input for the 'Enter' key to perform a search.
     searchInput.addEventListener('keypress', function(e) {
       if (e.key === 'Enter') {
         performSearch();
       }
     });
 
+    // Adds an event listener to the clear button to reset the search interface.
     clearButton.addEventListener('click', function() {
-      searchInput.value = '';
+      searchInput.value = ''; // Clears the input field.
+      // Fetches and displays the first few lines of the file as a summary.
       fetch('node_info.txt')
         .then(response => response.text())
         .then(data => {
@@ -393,13 +399,15 @@ window.addEventListener('load', function() {
           resultDisplay.innerHTML = summary;
         })
         .catch(error => {
-          console.error('Error fetching data:', error);
+          console.error('Error fetching data:', error); // Error handling for fetch operation.
         });
     });
   }
 
+  // Adds an event listener to call 'setupSearch' when the document content is fully loaded.
   document.addEventListener('DOMContentLoaded', setupSearch);
 </script>
+
   
 </body>
 
