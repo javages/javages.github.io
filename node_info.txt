@@ -1,5 +1,5 @@
 = NTracking =
-Rewards: 0.00043472
+Rewards: 0.00043703
 Running: 90
 Dead: 0
 
@@ -91,7 +91,7 @@ Rewards balance: 0.00000033
 Number: 1:6
 Node: 12D3KooWDdx8x3cr2T6F2niQbwNoE6gheTqfyXbGmMWNnr6X8GAh
 PID: 2278
-Rewards balance: 0.00004697
+Rewards balance: 0.00004820
 ---------
 Number: 1:7
 Node: 12D3KooWGkziWkLRFgCTBDYNEsTAUUW4shPAPEkmCCCy46csLtmV
@@ -131,7 +131,7 @@ Rewards balance: 0.00000084
 Number: 1:14
 Node: 12D3KooWMpjzuQuNABD7oKXrDthvW5eydDsyeZtVZWQMgXUwfJRM
 PID: 2368
-Rewards balance: 0.00000186
+Rewards balance: 0.00000191
 ---------
 Number: 1:15
 Node: 12D3KooWNMq8FtxdK7Tg8aLmxVzfWZJKneLyQVp2tFvrFGwn4Nrt
@@ -306,7 +306,7 @@ Rewards balance: 0.00000697
 Number: 3:9
 Node: 12D3KooWFivhaEAFuxjFpjyP4XNyruf1ZGa6Z4h6G1pYVSDpkyzx
 PID: 3391
-Rewards balance: 0.00003303
+Rewards balance: 0.00003405
 ---------
 Number: 3:10
 Node: 12D3KooWGA2vbgHXQsX7rXXrvFgTcDx9sHYUWvaVNFbAuFyUJwKH
