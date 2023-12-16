@@ -10,8 +10,6 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>Safe Network Test Network Nodes</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
-  <!-- SVG favicon -->
-  <link href="#chartLogo" rel="icon" type="image/svg+xml" />
   
   <style>
     * {
@@ -145,7 +143,7 @@
 }
 
 #searchContainer {
-    width: 100%;           /* Full width */
+    width: 100%;        
     display: flex;
     justify-content: center;
     display: flex;
@@ -155,12 +153,44 @@
 
 #mainContainer {
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center;   /* Center children horizontally */
-    width: 100%;           /* Take the full width */
-    padding-left: 30px;    /* Maintain your existing padding */
-    margin-right: 5%;      /* Maintain your existing margin */
+    flex-direction: column; 
+    align-items: center;   
+    width: 100%;           
+    padding-left: 30px;    
+    margin-right: 5%;      
 }
+
+#searchInput {
+    color: white;                    
+    background-color: black;         
+    border: 1px solid grey;          
+    padding: 3px 3px;                
+    border-radius: 1px;             
+    font-size: 11px;                 
+}
+
+#searchInput::placeholder {
+    color: white;                    
+    opacity: 1;            
+}
+
+
+#searchButton, #clearButton {
+    color: white;               
+    background-color: black;   
+    border: 1px solid grey;    
+    padding: 3px 3px;      
+    border-radius: 1px;         
+    font-size: 11px;           
+    cursor: pointer;           
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+#searchButton:hover, #clearButton:hover {
+    background-color: grey;     
+    color: black;        
+}
+
 
 </style>
 </head>
@@ -357,9 +387,6 @@ function searchNodeData(query, data) {
    return result.trim() || 'No match found';
 }
 
-
-
-  
   // Function to set up the search interface and functionality.
   async function setupSearch() {
     const fileData = await fetchData(); // Fetches and stores the data from the file.
