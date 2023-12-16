@@ -1,5 +1,5 @@
-= Stats =
-Rewards: 0.00044161
+= NTracking =
+Rewards: 0.00044822
 Running: 90
 Dead: 0
 
@@ -42,7 +42,7 @@ Node: 12D3KooWKmwRZCU8vUENxAwbK7G8Cg5pw6R5mnabyvpkArddhmV5
 Public IP Address: 47.207.67.50
 PID: 2170
 Rewards balance: 0.00000011
-Disk Usage: 88M
+Disk Usage: 89M
 CPU Usage: 1.1%
 ---------
 Number: 0:5
@@ -290,7 +290,7 @@ Node: 12D3KooWDoox3eRvzHYtebWt8ERA4fsCAPkt9UCTyGW7qSE9L2wz
 Public IP Address: 47.207.67.50
 PID: 5855
 Rewards balance: 0.00000081
-Disk Usage: 129M
+Disk Usage: 130M
 CPU Usage: 1.1%
 ---------
 Number: 2:6
@@ -402,7 +402,7 @@ Node: 12D3KooWPo4xxpk6jqJADCY5mdnhe3gkhxL7HDNNDcm4v6osNtBh
 Public IP Address: 47.207.67.50
 PID: 5884
 Rewards balance: 0.00000000
-Disk Usage: 129M
+Disk Usage: 130M
 CPU Usage: 1.1%
 ---------
 Number: 3:0
@@ -450,7 +450,7 @@ Node: 12D3KooWE8iGHDhTcDCJCPVBWVv4KVcEF8oLv8HHojKAUFEv3BBi
 Public IP Address: 47.207.67.50
 PID: 3255
 Rewards balance: 0.00000006
-Disk Usage: 154M
+Disk Usage: 155M
 CPU Usage: 2.8%
 ---------
 Number: 3:6
@@ -545,8 +545,8 @@ Number: 3:17
 Node: 12D3KooWP4fus2Kr5kebENQsZMSbHRJdTBA5Qf9xRVDhsyegV49t
 Public IP Address: 47.207.67.50
 PID: 3421
-Rewards balance: 0.00008320
-Disk Usage: 211M
+Rewards balance: 0.00008980
+Disk Usage: 212M
 CPU Usage: 3.9%
 ---------
 Number: 3:18
@@ -554,7 +554,7 @@ Node: 12D3KooWPZCnzXDBZoLJy3ABWk9NhXuZhW5reZ9DacA8WcA3E31T
 Public IP Address: 47.207.67.50
 PID: 3240
 Rewards balance: 0.00000049
-Disk Usage: 118M
+Disk Usage: 119M
 CPU Usage: 1.1%
 ---------
 Number: 3:19
@@ -586,7 +586,7 @@ Node: 12D3KooWCyHMH1rZuFFhznfNmykSSTps5SUZDR4A6XsrLzMX6BvE
 Public IP Address: 47.207.67.50
 PID: 2211
 Rewards balance: 0.00000497
-Disk Usage: 73M
+Disk Usage: 74M
 CPU Usage: 0.9%
 ---------
 Number: 4:3
