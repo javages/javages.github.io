@@ -137,9 +137,10 @@
 }
 
 #dataWindow pre {
-    white-space: pre-wrap;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: left; 
+    color: white; 
+    font-weight: bold; 
+    -webkit-font-smoothing: antialiased; 
+    font-size: 16px; 
 }
 
 #searchContainer {
@@ -191,7 +192,13 @@
     color: black;        
 }
 
+@media screen and (max-width: 1500px) {
+    #iframesContainer {
+        padding-right: 20px; /* Sapce for swiping on mobile */
+    }
+}
 
+    
 </style>
 </head>
 
