@@ -75,7 +75,7 @@ Public IP Address: xx.xx.67.50
 PID: 2037
 Rewards balance: 0.00000036
 Disk Usage: 169M
-CPU Usage: 4.4%
+CPU Usage: 4.3%
 ---------
 Number: 0:9
 Node: 12D3KooWSWKJBETcLxtUHUu7D2bzXv6vHPS5sSzBHYTAb7t3jbkt
@@ -107,7 +107,7 @@ Public IP Address: xx.xx.67.50
 PID: 2339
 Rewards balance: 0.00000065
 Disk Usage: 171M
-CPU Usage: 3.1%
+CPU Usage: 3.0%
 ---------
 Number: 1:3
 Node: 12D3KooWBvK6hvUEvbya11K18doWDnqiFBDsGxBTBDJXj651wq5H
@@ -147,7 +147,7 @@ Public IP Address: xx.xx.67.50
 PID: 2412
 Rewards balance: 0.00000541
 Disk Usage: 185M
-CPU Usage: 2.9%
+CPU Usage: 2.8%
 ---------
 Number: 1:8
 Node: 12D3KooWJpcAonrFHzG5UY5BP22jhng48uEF4v4pE859m9QcBgvt
@@ -443,7 +443,7 @@ Public IP Address: xx.xx.67.50
 PID: 3451
 Rewards balance: 0.00000000
 Disk Usage: 129M
-CPU Usage: 2.5%
+CPU Usage: 2.4%
 ---------
 Number: 3:5
 Node: 12D3KooWE8iGHDhTcDCJCPVBWVv4KVcEF8oLv8HHojKAUFEv3BBi
