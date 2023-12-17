@@ -1,5 +1,5 @@
 = NTracking =
-Rewards: 0.00058537
+Rewards: 0.00060618
 Running: 90
 Dead: 0
 
@@ -9,32 +9,32 @@ Number: 0:0
 Node: 12D3KooWBM6JAkk3mRQQu7YwrTFKgKtV5BCCvcppbwNnY1ceU42v
 Public IP Address: xx.xx.67.50
 PID: 2074
-Rewards balance: 0.00000327
-Disk Usage: 200M
-CPU Usage: 1.5%
+Rewards balance: 0.00000331
+Disk Usage: 201M
+CPU Usage: 1.6%
 ---------
 Number: 0:1
 Node: 12D3KooWDgZoQFMeEH51g9SWLHjAbaYCLY2Mw6GHFfGsi2htfXN8
 Public IP Address: xx.xx.67.50
 PID: 2132
 Rewards balance: 0.00000431
-Disk Usage: 169M
+Disk Usage: 170M
 CPU Usage: 1.2%
 ---------
 Number: 0:2
 Node: 12D3KooWEHMB6ryHfoW5ZinLFCJCJRHrFZovKqprj7sLTDCdtVF7
 Public IP Address: xx.xx.67.50
 PID: 2059
-Rewards balance: 0.00000205
-Disk Usage: 180M
+Rewards balance: 0.00000211
+Disk Usage: 181M
 CPU Usage: 1.4%
 ---------
 Number: 0:3
 Node: 12D3KooWJ7K4C1WWteJFPJaw352djALxWUxTyL5XzCsf3eiv3YbQ
 Public IP Address: xx.xx.67.50
 PID: 2111
-Rewards balance: 0.00000131
-Disk Usage: 207M
+Rewards balance: 0.00000148
+Disk Usage: 209M
 CPU Usage: 1.3%
 ---------
 Number: 0:4
@@ -50,7 +50,7 @@ Node: 12D3KooWLLK3wtSAb8PT254APDrgcAiNmsbk4c7kVZfEVGM3Ke5s
 Public IP Address: xx.xx.67.50
 PID: 2000
 Rewards balance: 0.00000017
-Disk Usage: 89M
+Disk Usage: 90M
 CPU Usage: 1.1%
 ---------
 Number: 0:6
@@ -58,7 +58,7 @@ Node: 12D3KooWMCpVMcJYzfVK8zJZtwtCbGHrNX9SFyWZdx19kAgj1wnf
 Public IP Address: xx.xx.67.50
 PID: 2147
 Rewards balance: 0.00000013
-Disk Usage: 245M
+Disk Usage: 246M
 CPU Usage: 1.7%
 ---------
 Number: 0:7
@@ -74,7 +74,7 @@ Node: 12D3KooWSQV8Lsh5r4hBufuQeBWCm53orjNhrR1bSQwRq4n35XGq
 Public IP Address: xx.xx.67.50
 PID: 2037
 Rewards balance: 0.00000036
-Disk Usage: 177M
+Disk Usage: 178M
 CPU Usage: 4.1%
 ---------
 Number: 0:9
@@ -98,7 +98,7 @@ Node: 12D3KooWAd9bpJ25xLUcy1toZy9zorFmuwnArTCQgio16NRANz1X
 Public IP Address: xx.xx.67.50
 PID: 2547
 Rewards balance: 0.00000000
-Disk Usage: 134M
+Disk Usage: 135M
 CPU Usage: 1.0%
 ---------
 Number: 1:2
@@ -137,8 +137,8 @@ Number: 1:6
 Node: 12D3KooWDdx8x3cr2T6F2niQbwNoE6gheTqfyXbGmMWNnr6X8GAh
 Public IP Address: xx.xx.67.50
 PID: 2278
-Rewards balance: 0.00006400
-Disk Usage: 259M
+Rewards balance: 0.00006561
+Disk Usage: 260M
 CPU Usage: 1.4%
 ---------
 Number: 1:7
@@ -169,8 +169,8 @@ Number: 1:10
 Node: 12D3KooWKaJMmZvZCD8NYpXZGQNCt84nB6thUj7hibBiZtLFcCS1
 Public IP Address: xx.xx.67.50
 PID: 2382
-Rewards balance: 0.00000581
-Disk Usage: 200M
+Rewards balance: 0.00000627
+Disk Usage: 201M
 CPU Usage: 1.3%
 ---------
 Number: 1:11
@@ -185,8 +185,8 @@ Number: 1:12
 Node: 12D3KooWMfry9A3wp1Wp6A4tzJKf32sUyUPNtghd9DNBiVWPpvaH
 Public IP Address: xx.xx.67.50
 PID: 2472
-Rewards balance: 0.00000297
-Disk Usage: 181M
+Rewards balance: 0.00000333
+Disk Usage: 182M
 CPU Usage: 1.6%
 ---------
 Number: 1:13
@@ -201,15 +201,15 @@ Number: 1:14
 Node: 12D3KooWMpjzuQuNABD7oKXrDthvW5eydDsyeZtVZWQMgXUwfJRM
 Public IP Address: xx.xx.67.50
 PID: 2368
-Rewards balance: 0.00000222
-Disk Usage: 182M
+Rewards balance: 0.00000228
+Disk Usage: 183M
 CPU Usage: 1.7%
 ---------
 Number: 1:15
 Node: 12D3KooWNMq8FtxdK7Tg8aLmxVzfWZJKneLyQVp2tFvrFGwn4Nrt
 Public IP Address: xx.xx.67.50
 PID: 2532
-Rewards balance: 0.00000202
+Rewards balance: 0.00000214
 Disk Usage: 114M
 CPU Usage: 1.2%
 ---------
@@ -226,7 +226,7 @@ Node: 12D3KooWP3nhtZqtC6Bn4jwjXuwdeyt8TJDBV8siFkEup1bG1mGi
 Public IP Address: xx.xx.67.50
 PID: 2502
 Rewards balance: 0.00000167
-Disk Usage: 156M
+Disk Usage: 157M
 CPU Usage: 1.1%
 ---------
 Number: 1:18
@@ -274,7 +274,7 @@ Node: 12D3KooWD3qpJfPp4YJ6YY2BqxBhpWjaFUubWKe9rkVT1Gm7sf4Q
 Public IP Address: xx.xx.67.50
 PID: 5959
 Rewards balance: 0.00000018
-Disk Usage: 189M
+Disk Usage: 190M
 CPU Usage: 1.5%
 ---------
 Number: 2:4
@@ -290,7 +290,7 @@ Node: 12D3KooWDoox3eRvzHYtebWt8ERA4fsCAPkt9UCTyGW7qSE9L2wz
 Public IP Address: xx.xx.67.50
 PID: 5855
 Rewards balance: 0.00000081
-Disk Usage: 135M
+Disk Usage: 136M
 CPU Usage: 1.1%
 ---------
 Number: 2:6
@@ -298,15 +298,15 @@ Node: 12D3KooWGb9RZ9No56YVt3W1WVJbqJPvFwn7RGTjg87sFoqdtUng
 Public IP Address: xx.xx.67.50
 PID: 5914
 Rewards balance: 0.00000200
-Disk Usage: 135M
+Disk Usage: 136M
 CPU Usage: 1.1%
 ---------
 Number: 2:7
 Node: 12D3KooWGfTMGfXiSsLf5BxMHwYr5WzyaYpCXK5a8iPpCNesGtUv
 Public IP Address: xx.xx.67.50
 PID: 5870
-Rewards balance: 0.00000847
-Disk Usage: 245M
+Rewards balance: 0.00000877
+Disk Usage: 246M
 CPU Usage: 1.4%
 ---------
 Number: 2:8
@@ -314,15 +314,15 @@ Node: 12D3KooWGqmYgmPSgye5WzaByYaG2nopVFM12GjoL3qWNb2fum3y
 Public IP Address: xx.xx.67.50
 PID: 5974
 Rewards balance: 0.00000012
-Disk Usage: 152M
+Disk Usage: 153M
 CPU Usage: 1.0%
 ---------
 Number: 2:9
 Node: 12D3KooWHBUTRGatiY4Ljxq1FQeHu5b65itZyWaWr6vx3fVbqc44
 Public IP Address: xx.xx.67.50
 PID: 5825
-Rewards balance: 0.00000236
-Disk Usage: 200M
+Rewards balance: 0.00000257
+Disk Usage: 201M
 CPU Usage: 1.4%
 ---------
 Number: 2:10
@@ -354,7 +354,7 @@ Node: 12D3KooWKgEYdnMasxXpqpkkfqi1HpN6qzQ6aP5sy7yid9D8ohhe
 Public IP Address: xx.xx.67.50
 PID: 5795
 Rewards balance: 0.00000153
-Disk Usage: 126M
+Disk Usage: 127M
 CPU Usage: 1.1%
 ---------
 Number: 2:14
@@ -369,9 +369,9 @@ Number: 2:15
 Node: 12D3KooWNj7CXQwvPJLyHUtPhJsC7ATfCKawP2mQwHwfMuFS6DKy
 Public IP Address: xx.xx.67.50
 PID: 6003
-Rewards balance: 0.00004435
+Rewards balance: 0.00004715
 Disk Usage: 202M
-CPU Usage: 1.6%
+CPU Usage: 1.7%
 ---------
 Number: 2:16
 Node: 12D3KooWNX6Yte2qYNZGMAu25xRPxczusxJ6UsRpE83eV4axkf95
@@ -410,7 +410,7 @@ Node: 12D3KooWAdPuRpKqKRfpyZbQCFTc8zFMfWmuX12aRBPjbPshy6sx
 Public IP Address: xx.xx.67.50
 PID: 3481
 Rewards balance: 0.00000056
-Disk Usage: 115M
+Disk Usage: 116M
 CPU Usage: 1.3%
 ---------
 Number: 3:1
@@ -450,7 +450,7 @@ Node: 12D3KooWE8iGHDhTcDCJCPVBWVv4KVcEF8oLv8HHojKAUFEv3BBi
 Public IP Address: xx.xx.67.50
 PID: 3255
 Rewards balance: 0.00000006
-Disk Usage: 165M
+Disk Usage: 166M
 CPU Usage: 2.5%
 ---------
 Number: 3:6
@@ -459,30 +459,30 @@ Public IP Address: xx.xx.67.50
 PID: 3406
 Rewards balance: 0.00013947
 Disk Usage: 157M
-CPU Usage: 1.5%
+CPU Usage: 1.6%
 ---------
 Number: 3:7
 Node: 12D3KooWEu1Xp4MbSigtHxyb3VE1HcY5tC1xDXWNrUNQjDqaBVX4
 Public IP Address: xx.xx.67.50
 PID: 3436
 Rewards balance: 0.00000054
-Disk Usage: 163M
+Disk Usage: 164M
 CPU Usage: 1.0%
 ---------
 Number: 3:8
 Node: 12D3KooWEUWRQA8mq7pUPJsayStZGgmQLirSHM4ANzgd5E8JGXJ1
 Public IP Address: xx.xx.67.50
 PID: 3346
-Rewards balance: 0.00000928
+Rewards balance: 0.00000969
 Disk Usage: 128M
-CPU Usage: 3.0%
+CPU Usage: 2.9%
 ---------
 Number: 3:9
 Node: 12D3KooWFivhaEAFuxjFpjyP4XNyruf1ZGa6Z4h6G1pYVSDpkyzx
 Public IP Address: xx.xx.67.50
 PID: 3391
-Rewards balance: 0.00005752
-Disk Usage: 157M
+Rewards balance: 0.00006477
+Disk Usage: 159M
 CPU Usage: 1.3%
 ---------
 Number: 3:10
@@ -514,7 +514,7 @@ Node: 12D3KooWJmQhM2cmpJmv7JoKupRWBLcH6Zr1EHux7b7K7eqCJK42
 Public IP Address: xx.xx.67.50
 PID: 3496
 Rewards balance: 0.00000000
-Disk Usage: 164M
+Disk Usage: 165M
 CPU Usage: 1.2%
 ---------
 Number: 3:14
@@ -530,7 +530,7 @@ Node: 12D3KooWM6WxwMPq3L9ZRUzNHnPxDWv971RYKYJYyoZ6uSwN9chb
 Public IP Address: xx.xx.67.50
 PID: 3361
 Rewards balance: 0.00000174
-Disk Usage: 254M
+Disk Usage: 255M
 CPU Usage: 1.3%
 ---------
 Number: 3:16
@@ -554,15 +554,15 @@ Node: 12D3KooWPZCnzXDBZoLJy3ABWk9NhXuZhW5reZ9DacA8WcA3E31T
 Public IP Address: xx.xx.67.50
 PID: 3240
 Rewards balance: 0.00000049
-Disk Usage: 122M
+Disk Usage: 123M
 CPU Usage: 1.1%
 ---------
 Number: 3:19
 Node: 12D3KooWQBA49MbenmeW6w94Ah87aEbzKogmie44ybjPbAHFnLbS
 Public IP Address: xx.xx.67.50
 PID: 3300
-Rewards balance: 0.00000454
-Disk Usage: 192M
+Rewards balance: 0.00000492
+Disk Usage: 193M
 CPU Usage: 1.5%
 ---------
 Number: 4:0
@@ -570,7 +570,7 @@ Node: 12D3KooWAdVJmA1y4EdsnqEFuYtQ87RWUT94og5H2dk6ZdBUdXBC
 Public IP Address: xx.xx.67.50
 PID: 2121
 Rewards balance: 0.00000040
-Disk Usage: 152M
+Disk Usage: 153M
 CPU Usage: 1.2%
 ---------
 Number: 4:1
@@ -585,8 +585,8 @@ Number: 4:2
 Node: 12D3KooWCyHMH1rZuFFhznfNmykSSTps5SUZDR4A6XsrLzMX6BvE
 Public IP Address: xx.xx.67.50
 PID: 2211
-Rewards balance: 0.00000662
-Disk Usage: 77M
+Rewards balance: 0.00000708
+Disk Usage: 78M
 CPU Usage: 0.9%
 ---------
 Number: 4:3
@@ -594,7 +594,7 @@ Node: 12D3KooWDEWCcVy3kAvRjvUUDZmp3SNefepFR91VeYHZqo8ToZwu
 Public IP Address: xx.xx.67.50
 PID: 1955
 Rewards balance: 0.00000090
-Disk Usage: 172M
+Disk Usage: 173M
 CPU Usage: 1.3%
 ---------
 Number: 4:4
@@ -618,7 +618,7 @@ Node: 12D3KooWENYi4fcModPzDF8DhJUc7HvX3ts6iFgaVzdqmf3ZoPh8
 Public IP Address: xx.xx.67.50
 PID: 2240
 Rewards balance: 0.00000131
-Disk Usage: 129M
+Disk Usage: 130M
 CPU Usage: 1.4%
 ---------
 Number: 4:7
@@ -626,7 +626,7 @@ Node: 12D3KooWEzyFfouPuHG4MBApvk7BqYP3HtoLHRBzm36BEKWqpr27
 Public IP Address: xx.xx.67.50
 PID: 2105
 Rewards balance: 0.00000023
-Disk Usage: 181M
+Disk Usage: 182M
 CPU Usage: 1.2%
 ---------
 Number: 4:8
@@ -634,7 +634,7 @@ Node: 12D3KooWGUhHztTBdQdBUY5fRgmJWURSx8gWQcwmEbMzQE5MTstX
 Public IP Address: xx.xx.67.50
 PID: 2151
 Rewards balance: 0.00000036
-Disk Usage: 156M
+Disk Usage: 157M
 CPU Usage: 1.2%
 ---------
 Number: 4:9
@@ -650,7 +650,7 @@ Node: 12D3KooWLVKYgKGr69n5ge9qLmh3eHLGZN6cfwUwnbQpaFV5FrMH
 Public IP Address: xx.xx.67.50
 PID: 1992
 Rewards balance: 0.00000002
-Disk Usage: 193M
+Disk Usage: 194M
 CPU Usage: 1.2%
 ---------
 Number: 4:11
@@ -658,15 +658,15 @@ Node: 12D3KooWMv25jVTxyUfN8DTQXNLrmotdExnpovrzzPeTLrhgEG37
 Public IP Address: xx.xx.67.50
 PID: 1977
 Rewards balance: 0.00000086
-Disk Usage: 92M
+Disk Usage: 93M
 CPU Usage: 1.3%
 ---------
 Number: 4:12
 Node: 12D3KooWMVW3mLmNGA5zS2Qiabxwnvd8vhRXqJnpWWyeZ1RLEX4v
 Public IP Address: xx.xx.67.50
 PID: 1940
-Rewards balance: 0.00003492
-Disk Usage: 287M
+Rewards balance: 0.00004093
+Disk Usage: 288M
 CPU Usage: 2.8%
 ---------
 Number: 4:13
@@ -698,14 +698,14 @@ Node: 12D3KooWRneeogfWFHFkz5zgi7xnQMDkPcdjNfyJb8XgFzEsdeum
 Public IP Address: xx.xx.67.50
 PID: 1918
 Rewards balance: 0.00000000
-Disk Usage: 98M
+Disk Usage: 100M
 CPU Usage: 1.0%
 ---------
 Number: 4:17
 Node: 12D3KooWRVGUw5PxqJdG1GhSGpd9XZF8oBiDhZcPmZ2sHYARayCR
 Public IP Address: xx.xx.67.50
 PID: 2196
-Rewards balance: 0.00000236
+Rewards balance: 0.00000247
 Disk Usage: 104M
 CPU Usage: 1.4%
 ---------
