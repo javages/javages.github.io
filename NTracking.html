@@ -340,6 +340,8 @@ window.addEventListener('load', function() {
   
   // Function to search within the fetched data for a specific query.
   function searchNodeData(query, data) {
+  // Reset the count display at the beginning of a new search
+  document.getElementById('zeroCountDisplay').textContent = '';
   let result = '';
   let startIndex = 0;
   let counter = 0;  // Counter for the number of matches
@@ -394,21 +396,43 @@ window.addEventListener('load', function() {
   }
 
   // Display the count of zero balance nodes. This can be changed to display in the desired format/location.
-  document.getElementById('zeroCountDisplay').textContent = `Number of Zero Earning Nodes: ${counter}`;
+  document.getElementById('zeroCountDisplay').textContent = `Found: ${counter}`;
 
   return result.trim() || 'No match found';
 }
 
 
-  // Function to set up the search interface and functionality.
-  async function setupSearch() {
-    const fileData = await fetchData(); // Fetches and stores the data from the file.
+// Function to set up the search interface and functionality.
+async function setupSearch() {
+const fileData = await fetchData(); // Fetches and stores the data from the file.
 
-    // Retrieves HTML elements by their IDs.
-    // const searchButton = document.getElementById('searchButton');
-    const clearButton = document.getElementById('clearButton');
-    const searchInput = document.getElementById('searchInput');
-    const resultDisplay = document.getElementById('resultDisplay');
+// Retrieves the clear button and other elements by their IDs.
+const clearButton = document.getElementById('clearButton');
+const searchInput = document.getElementById('searchInput');
+const resultDisplay = document.getElementById('resultDisplay');
+
+// Add an event listener for the 'click' event on the clear button
+clearButton.addEventListener('click', function() {
+  // Clear the count display when the clear button is clicked
+  document.getElementById('zeroCountDisplay').textContent = '';
+  // Optionally, clear the search input and result display
+  searchInput.value = '';
+  resultDisplay.textContent = '';
+});
+
+// Add an event listener for the 'keyup' event on the document
+document.addEventListener('keyup', function(event) {
+  if (event.key === 'Escape') {
+    // Clear the count display when the Escape key is pressed
+    document.getElementById('zeroCountDisplay').textContent = '';
+    // Optionally, clear the search input and result display
+    searchInput.value = '';
+    resultDisplay.textContent = '';
+
+    // Preventing the default action of the key, if necessary
+    event.preventDefault();
+  }
+});
   
     // Function to execute the search and display results.
     function performSearch() {
