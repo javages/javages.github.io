@@ -1,5 +1,5 @@
 = NTracking =
-Rewards: 0.00094712
+Rewards: 0.00094745
 Running: 90
 Dead: 0
 
@@ -145,8 +145,8 @@ Number: 1:7
 Node: 12D3KooWGkziWkLRFgCTBDYNEsTAUUW4shPAPEkmCCCy46csLtmV
 Public IP Address: xx.xx.67.50
 PID: 2412
-Rewards balance: 0.00000955
-Disk Usage: 207M
+Rewards balance: 0.00000983
+Disk Usage: 208M
 CPU Usage: 2.6%
 ---------
 Number: 1:8
@@ -201,7 +201,7 @@ Number: 1:14
 Node: 12D3KooWMpjzuQuNABD7oKXrDthvW5eydDsyeZtVZWQMgXUwfJRM
 Public IP Address: xx.xx.67.50
 PID: 2368
-Rewards balance: 0.00000256
+Rewards balance: 0.00000262
 Disk Usage: 188M
 CPU Usage: 1.8%
 ---------
@@ -274,7 +274,7 @@ Node: 12D3KooWD3qpJfPp4YJ6YY2BqxBhpWjaFUubWKe9rkVT1Gm7sf4Q
 Public IP Address: xx.xx.67.50
 PID: 5959
 Rewards balance: 0.00000018
-Disk Usage: 197M
+Disk Usage: 198M
 CPU Usage: 1.6%
 ---------
 Number: 2:4
@@ -443,7 +443,7 @@ Public IP Address: xx.xx.67.50
 PID: 3451
 Rewards balance: 0.00000000
 Disk Usage: 137M
-CPU Usage: 2.2%
+CPU Usage: 2.1%
 ---------
 Number: 3:5
 Node: 12D3KooWE8iGHDhTcDCJCPVBWVv4KVcEF8oLv8HHojKAUFEv3BBi
