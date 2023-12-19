@@ -10,12 +10,12 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>Safe Network Test Network Nodes</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
-  
+
   <style>
     * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
 
     body {
@@ -98,148 +98,146 @@
       box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     }
 
-    #topContainer {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: left;
-        width: 100%;
-        padding: 1px;
+    #mainContainer {
+      display: flex;
+      flex-direction: column;
+      /* Stack children vertically */
+      align-items: center;
+      /* Center children horizontally */
+      width: 100%;
+    }
+
+    .displayContainer {
+      display: flex;
+      justify-content: center;
+      /* Center the child divs horizontally */
+      width: 80%;
+      /* Take up full width for proper centering */
     }
 
     #dataWindow {
-    width: 70%;
-    max-height: 150px;
-    overflow-y: scroll;
-    border: 1px solid rgba(252, 252, 252, 0);
-    background-color: transparent;
-    padding: 15px;
-    padding-left: 0px;
-    border-radius: 5px;
-    margin-right: 5%;
-    margin-top: 20px;
-    text-align: left;
-    position: relative;
-}
-
-#dataWindow::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 10px;
-    pointer-events: none;
-}
-
-#dataWindow::-webkit-scrollbar {
-    width: 0;
-}
-
-#dataWindow pre {
-    color: white; 
-    font-weight: bold; 
-    -webkit-font-smoothing: antialiased; 
-    font-size: 16px;
-}
-
-#searchContainer {
-    width: 100%;        
-    display: flex;
-    justify-content: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-}
-
-#mainContainer {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;   
-    width: 100%;           
-    padding-left: 30px;    
-    margin-right: 5%;      
-}
-
-#searchInput {
-    color: white;                    
-    background-color: black;         
-    border: 1px solid grey;          
-    padding: 3px 3px;                
-    border-radius: 1px;             
-    font-size: 11px;                 
-}
-
-#searchInput::placeholder {
-    color: white;                    
-    opacity: 80%;            
-}
-
-
-.icon-button {
-  padding-left: 2px;
-  color: white;
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 1.4em;
-  opacity: 80%;
-}
-
-.icon-button:hover {  
-    color: white;      
-    opacity: 95%;  
-}
-
-@media screen and (max-width: 1500px) {
-    #iframesContainer {
-        padding-right: 20px; /* space for swiping on mobile */
+      width: 60%;
+      max-height: 170px;
+      overflow-y: scroll;
+      border: 1px solid rgba(252, 252, 252, 0);
+      background-color: transparent;
+      padding: 15px;
+      padding-left: 0px;
+      border-radius: 5px;
+      text-align: left;
+      position: relative;
     }
-}
 
+    #dataWindow::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 10px;
+      pointer-events: none;
+    }
 
-</style>
+    #CountDisplay {
+      flex: 1;
+      background-color: transparent;
+      /* Add your styles for the new div here */
+    }
+
+    #dataWindow::-webkit-scrollbar {
+      width: 0;
+    }
+
+    #dataWindow pre {
+      color: white;
+      font-weight: bold;
+      -webkit-font-smoothing: antialiased;
+      font-size: 16px;
+    }
+
+    #searchContainer {
+      width: 100%;
+      /* Full width to center the search input */
+      display: flex;
+      justify-content: center;
+      /* Center the search box */
+    }
+
+    #searchInput {
+      color: white;
+      background-color: black;
+      border: 1px solid grey;
+      padding: 3px 3px;
+      border-radius: 1px;
+      font-size: 11px;
+    }
+
+    #searchInput::placeholder {
+      color: white;
+      opacity: 80%;
+    }
+
+    .icon-button {
+      padding-left: 2px;
+      color: white;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.4em;
+      opacity: 80%;
+    }
+
+    .icon-button:hover {
+      color: white;
+      opacity: 95%;
+    }
+
+    @media screen and (max-width: 1500px) {
+      #iframesContainer {
+        padding-right: 20px;
+        /* space for swiping on mobile */
+      }
+    }
+  </style>
 </head>
 
-<body>
 <div id="mainContainer">
-    <div id="searchContainer">
-      <input type="text" id="searchInput" placeholder="Search (e.g. 1:1)">
-      <!-- <button id="searchButton">Search</button> -->
-      <button id="clearButton" class="icon-button">&times;</button>
-    </div>
-
+  <div id="searchContainer">
+    <input type="text" id="searchInput" placeholder="Search (e.g. 1:1)">
+    <button id="clearButton" class="icon-button">&times;</button>
+  </div>
+  <div class="displayContainer">
     <div id="dataWindow">
       <div id="resultDisplay"></div>
       <pre></pre>
     </div>
+    <div id="CountDisplay"></div>
+  </div>
 </div>
 
+<br />
+<div id="iframesContainer">
+  <div class="iframe-container">
+    <button class="iframe-btn-position fullscreen-btn-style"
+      onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
 
-  <br />
-  <button class="fullscreen-btn-style" onclick="toggleAllIframesFullscreen()">Full 4</button>
-  <div id="iframesContainer">
+    <iframe frameborder="0" height="400" src="bubble_rewards.html" width="100%"></iframe>
+  </div>
+
+  <div class="iframe-container">
+    <button class="iframe-btn-position fullscreen-btn-style"
+      onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
+
+    <iframe frameborder="0" height="400" src="rewards_balance_plot.html" width="100%"></iframe>
+  </div>
+
+  <div class="iframe-container">
+    <button class="iframe-btn-position fullscreen-btn-style"
+      onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
+
+    <iframe frameborder="0" height="400" src="memory_usage_plot.html" width="100%"></iframe>
+
     <div class="iframe-container">
-      <button class="iframe-btn-position fullscreen-btn-style"
-        onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-
-      <iframe frameborder="0" height="400" src="bubble_rewards.html" width="100%"></iframe>
-    </div>
-
-    <div class="iframe-container">
-      <button class="iframe-btn-position fullscreen-btn-style"
-        onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-
-      <iframe frameborder="0" height="400" src="rewards_balance_plot.html" width="100%"></iframe>
-    </div>
-
-    <div class="iframe-container">
-      <button class="iframe-btn-position fullscreen-btn-style"
-        onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-
-      <iframe frameborder="0" height="400" src="memory_usage_plot.html" width="100%"></iframe>
-      
-      <div class="iframe-container">
       <button class="iframe-btn-position fullscreen-btn-style"
         onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
 
@@ -248,99 +246,104 @@
       <div class="iframe-container">
         <button class="iframe-btn-position fullscreen-btn-style"
           onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-  
+
         <iframe frameborder="0" height="400" src="records.html" width="100%"></iframe>
+      </div>
     </div>
-  </div>
-  <br />
-  <br />
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      setInterval(function () {
-        var iframes = document.querySelectorAll("iframe");
-        iframes.forEach(function (iframe) {
-          iframe.src = iframe.src;
-        });
-      }, 600000); // 600,000 milliseconds = 10 minutes
-    });
-  </script>
-  <script>
-    function toggleFullscreen(iframe) {
-      if (!document.fullscreenElement) {
-        iframe.requestFullscreen();
-      } else {
-        document.exitFullscreen();
-      }
-    }
-
-function toggleAllIframesFullscreen() {
-  var containers = document.querySelectorAll('.iframe-container');
-
-  if (!document.fullscreenElement) {
-    containers.forEach(container => {
-      var iframe = container.querySelector("iframe");
-      iframe.style.height = "25vh";
-      iframe.style.width = "100vw";
-      container.classList.add('hide-individual-buttons');
-    });
-    document.getElementById("iframesContainer").requestFullscreen();
-  } else {
-    containers.forEach(container => {
-      var iframe = container.querySelector("iframe");
-      iframe.style.height = "400px";
-      iframe.style.width = "100%";
-      container.classList.remove('hide-individual-buttons');
-    });
-    document.exitFullscreen();
-  }
-}
-
-    document.addEventListener("fullscreenchange", function () {
-      var containers = document.querySelectorAll('.iframe-container');
-
-      if (!document.fullscreenElement) {
-        containers.forEach(function (container) {
-          var iframes = container.querySelectorAll("iframe");
+    <br />
+    <br />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        setInterval(function () {
+          var iframes = document.querySelectorAll("iframe");
           iframes.forEach(function (iframe) {
-            iframe.style.width = "100%";
-            iframe.style.height = "400px";
+            iframe.src = iframe.src;
           });
-
-          container.classList.remove('hide-individual-buttons');
-        });
+        }, 600000); // 600,000 milliseconds = 10 minutes
+      });
+    </script>
+    <script>
+      function toggleFullscreen(iframe) {
+        if (!document.fullscreenElement) {
+          iframe.requestFullscreen();
+        } else {
+          document.exitFullscreen();
+        }
       }
-    });
+
+      function toggleAllIframesFullscreen() {
+        var containers = document.querySelectorAll('.iframe-container');
+
+        if (!document.fullscreenElement) {
+          containers.forEach(container => {
+            var iframe = container.querySelector("iframe");
+            iframe.style.height = "25vh";
+            iframe.style.width = "100vw";
+            container.classList.add('hide-individual-buttons');
+          });
+          document.getElementById("iframesContainer").requestFullscreen();
+        } else {
+          containers.forEach(container => {
+            var iframe = container.querySelector("iframe");
+            iframe.style.height = "400px";
+            iframe.style.width = "100%";
+            container.classList.remove('hide-individual-buttons');
+          });
+          document.exitFullscreen();
+        }
+      }
+
+      document.addEventListener("fullscreenchange", function () {
+        var containers = document.querySelectorAll('.iframe-container');
+
+        if (!document.fullscreenElement) {
+          containers.forEach(function (container) {
+            var iframes = container.querySelectorAll("iframe");
+            iframes.forEach(function (iframe) {
+              iframe.style.width = "100%";
+              iframe.style.height = "400px";
+            });
+
+            container.classList.remove('hide-individual-buttons');
+          });
+        }
+      });
 
 
-  </script>
+    </script>
 
-<script>
-window.addEventListener('load', function() {
-  fetch('node_info.txt')
-    .then(response => response.text())
-    .then(data => {
-      const lines = data.split('\n').slice(0, 4); // Get the first four lines
-      const summary = lines.join('<br>');
-      document.getElementById('resultDisplay').innerHTML = summary;
-    })
-    .catch(error => {
-      console.error('Error fetching data:', error);
-    });
-});
-</script>
+    <script>
+      window.addEventListener('load', function () {
+        fetch('node_info.txt')
+          .then(response => response.text())
+          .then(data => {
+            const lines = data.split('\n').slice(0, 4); // Get the first four lines
+            const summary = lines.join('<br>');
+            document.getElementById('resultDisplay').innerHTML = summary;
+          })
+          .catch(error => {
+            console.error('Error fetching data:', error);
+          });
+      });
+    </script>
 
-<script>
-  // Defines an asynchronous function to fetch data from 'node_info.txt'.
-  async function fetchData() {
-    const response = await fetch('node_info.txt'); // Fetches the file.
-    const text = await response.text();            // Converts the fetched data to text.
-    return text.split('\n');                       // Splits the text into an array of lines.
+    <script>
+      // Defines an asynchronous function to fetch data from 'node_info.txt'.
+      async function fetchData() {
+        const response = await fetch('node_info.txt'); // Fetches the file.
+        const text = await response.text();            // Converts the fetched data to text.
+        return text.split('\n');                       // Splits the text into an array of lines.
+      }
+
+  function searchNodeData(query, data) {
+    if (!query.trim()) {
+    // If the query is empty or just whitespace, return without counting
+    document.getElementById('CountDisplay').textContent = '';
+    return 'Please enter a search term.';
   }
-  
-  // Function to search within the fetched data for a specific query.
-function searchNodeData(query, data) {
   let result = '';
   let startIndex = 0;
+  let counter = 0;  // Counter for the number of matches
 
   // Check if the query is the shorthand 'zero' and replace it with '0.00000000'.
   let searchQuery = query.toLowerCase() === 'zero' ? '0.00000000' : query;
@@ -366,6 +369,9 @@ function searchNodeData(query, data) {
     // If no more matches are found, break out of the loop.
     if (resultIndex === -1) break;
 
+    // Increment the counter if a match is found.
+    counter++;
+
     // Adjust resultIndex to the actual index in the data array.
     resultIndex += startIndex;
 
@@ -388,57 +394,76 @@ function searchNodeData(query, data) {
     startIndex = resultIndex;
   }
 
-   return result.trim() || 'No match found';
+  // Display the count
+  document.getElementById('CountDisplay').textContent = `Number of Results: ${counter}`;
+
+  return result.trim() || 'No match found';
 }
 
-  // Function to set up the search interface and functionality.
-  async function setupSearch() {
-    const fileData = await fetchData(); // Fetches and stores the data from the file.
+      // Function to set up the search interface and functionality.
+      async function setupSearch() {
+        const fileData = await fetchData(); // Fetches and stores the data from the file.
 
-    // Retrieves HTML elements by their IDs.
-    // const searchButton = document.getElementById('searchButton');
-    const clearButton = document.getElementById('clearButton');
-    const searchInput = document.getElementById('searchInput');
-    const resultDisplay = document.getElementById('resultDisplay');
-  
-    // Function to execute the search and display results.
-    function performSearch() {
-      const query = searchInput.value;                     // Gets the query from the input field.
-      const result = searchNodeData(query, fileData);      // Searches the data for the query.
-      resultDisplay.innerHTML = result.replace(/\n/g, '<br>'); // Displays the results, converting newlines to HTML breaks.
-    }
+        // Retrieves HTML elements by their IDs.
+        // const searchButton = document.getElementById('searchButton');
+        const clearButton = document.getElementById('clearButton');
 
-    // Adds an event listener to the search button to perform a search on click.
-    // searchButton.addEventListener('click', performSearch);
+        // Event listener for the clear button
+        clearButton.addEventListener('click', function() {
+            // Assuming you have other code here to clear your data or search results
 
-    // Adds an event listener to the search input for the 'Enter' key to perform a search.
-    searchInput.addEventListener('keypress', function(e) {
-      if (e.key === 'Enter') {
-        performSearch();
-      }
-    });
-
-    // Adds an event listener to the clear button to reset the search interface.
-    clearButton.addEventListener('click', function() {
-      searchInput.value = ''; // Clears the input field.
-      // Fetches and displays the first few lines of the file as a summary.
-      fetch('node_info.txt')
-        .then(response => response.text())
-        .then(data => {
-          const lines = data.split('\n').slice(0, 4);
-          const summary = lines.join('<br>');
-          resultDisplay.innerHTML = summary;
-        })
-        .catch(error => {
-          console.error('Error fetching data:', error); // Error handling for fetch operation.
+            // Reset the zeroCountDisplay element
+            document.getElementById('CountDisplay').textContent = ''; // This will clear the zero count display
         });
-    });
-  }
 
-  // Adds an event listener to call 'setupSearch' when the document content is fully loaded.
-  document.addEventListener('DOMContentLoaded', setupSearch);
-</script>
+        // Event listener for the 'Escape' key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                clearButton.click(); // This will trigger the clear button's functionality, including clearing the zero count display
+            }
+        });
 
-</body>
+        const searchInput = document.getElementById('searchInput');
+        const resultDisplay = document.getElementById('resultDisplay');
+
+        // Function to execute the search and display results.
+        function performSearch() {
+          const query = searchInput.value;                     // Gets the query from the input field.
+          const result = searchNodeData(query, fileData);      // Searches the data for the query.
+          resultDisplay.innerHTML = result.replace(/\n/g, '<br>'); // Displays the results, converting newlines to HTML breaks.
+        }
+
+        // Adds an event listener to the search button to perform a search on click.
+        // searchButton.addEventListener('click', performSearch);
+
+        // Adds an event listener to the search input for the 'Enter' key to perform a search.
+        searchInput.addEventListener('keypress', function (e) {
+          if (e.key === 'Enter') {
+            performSearch();
+          }
+        });
+
+        // Adds an event listener to the clear button to reset the search interface.
+        clearButton.addEventListener('click', function () {
+          searchInput.value = ''; // Clears the input field.
+          // Fetches and displays the first few lines of the file as a summary.
+          fetch('node_info.txt')
+            .then(response => response.text())
+            .then(data => {
+              const lines = data.split('\n').slice(0, 4);
+              const summary = lines.join('<br>');
+              resultDisplay.innerHTML = summary;
+            })
+            .catch(error => {
+              console.error('Error fetching data:', error); // Error handling for fetch operation.
+            });
+        });
+      }
+
+      // Adds an event listener to call 'setupSearch' when the document content is fully loaded.
+      document.addEventListener('DOMContentLoaded', setupSearch);
+    </script>
+
+    </body>
 
 </html>
