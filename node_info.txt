@@ -1,5 +1,5 @@
 = NTracking =
-Rewards: 0.00615395
+Rewards: 0.00627780
 Running: 135
 Dead: 0
 
@@ -10,30 +10,30 @@ Node: 12D3KooWBM6JAkk3mRQQu7YwrTFKgKtV5BCCvcppbwNnY1ceU42v
 Public IP Address: xx.xx.67.50
 PID: 2074
 Rewards balance: 0.00000626
-Disk Usage: 278M
+Disk Usage: 279M
 CPU Usage: 1.8%
-Memory Used: 39.9961MB
-Records: 651
+Memory Used: 38.8789MB
+Records: 653
 ---------
 Number: 0:1
 Node: 12D3KooWDgZoQFMeEH51g9SWLHjAbaYCLY2Mw6GHFfGsi2htfXN8
 Public IP Address: xx.xx.67.50
 PID: 2132
-Rewards balance: 0.00001075
+Rewards balance: 0.00001111
 Disk Usage: 218M
 CPU Usage: 1.2%
-Memory Used: 36.625MB
-Records: 515
+Memory Used: 36.3594MB
+Records: 517
 ---------
 Number: 0:2
 Node: 12D3KooWEHMB6ryHfoW5ZinLFCJCJRHrFZovKqprj7sLTDCdtVF7
 Public IP Address: xx.xx.67.50
 PID: 2059
-Rewards balance: 0.00000299
-Disk Usage: 235M
+Rewards balance: 0.00000303
+Disk Usage: 236M
 CPU Usage: 1.5%
-Memory Used: 38.082MB
-Records: 529
+Memory Used: 34.418MB
+Records: 531
 ---------
 Number: 0:3
 Node: 12D3KooWJ7K4C1WWteJFPJaw352djALxWUxTyL5XzCsf3eiv3YbQ
@@ -42,7 +42,7 @@ PID: 2111
 Rewards balance: 0.00000166
 Disk Usage: 263M
 CPU Usage: 1.4%
-Memory Used: 39.25MB
+Memory Used: 39.7773MB
 Records: 604
 ---------
 Number: 0:4
@@ -52,7 +52,7 @@ PID: 2170
 Rewards balance: 0.00000019
 Disk Usage: 134M
 CPU Usage: 1.2%
-Memory Used: 35.9414MB
+Memory Used: 36.7852MB
 Records: 312
 ---------
 Number: 0:5
@@ -62,7 +62,7 @@ PID: 2000
 Rewards balance: 0.00000017
 Disk Usage: 110M
 CPU Usage: 1.2%
-Memory Used: 32.3555MB
+Memory Used: 33.2109MB
 Records: 252
 ---------
 Number: 0:6
@@ -72,18 +72,18 @@ PID: 2147
 Rewards balance: 0.00000013
 Disk Usage: 317M
 CPU Usage: 1.8%
-Memory Used: 38.1055MB
-Records: 729
+Memory Used: 35.4805MB
+Records: 730
 ---------
 Number: 0:7
 Node: 12D3KooWPX9AgXQkYDgjjcbBurNKjvCNkNG6Kr5KgFBGoChNX3zX
 Public IP Address: xx.xx.67.50
 PID: 2022
-Rewards balance: 0.00000017
+Rewards balance: 0.00000019
 Disk Usage: 112M
 CPU Usage: 0.9%
-Memory Used: 37.4844MB
-Records: 251
+Memory Used: 36.0664MB
+Records: 252
 ---------
 Number: 0:8
 Node: 12D3KooWSQV8Lsh5r4hBufuQeBWCm53orjNhrR1bSQwRq4n35XGq
@@ -91,19 +91,19 @@ Public IP Address: xx.xx.67.50
 PID: 2037
 Rewards balance: 0.00000048
 Disk Usage: 223M
-CPU Usage: 3.4%
-Memory Used: 92.4492MB
-Records: 518
+CPU Usage: 3.3%
+Memory Used: 92.5078MB
+Records: 519
 ---------
 Number: 0:9
 Node: 12D3KooWSWKJBETcLxtUHUu7D2bzXv6vHPS5sSzBHYTAb7t3jbkt
 Public IP Address: xx.xx.67.50
 PID: 2096
 Rewards balance: 0.00000337
-Disk Usage: 169M
+Disk Usage: 170M
 CPU Usage: 1.0%
-Memory Used: 34.332MB
-Records: 405
+Memory Used: 35.0664MB
+Records: 406
 ---------
 Number: 0:10
 Node: 12D3KooWFoAZhACzDQtBYrF11jbbLeD4FFD72wV5WhxcYdvcnF7z
@@ -111,8 +111,8 @@ Public IP Address: xx.xx.67.50
 PID: 339115
 Rewards balance: 0.00000000
 Disk Usage: 281M
-CPU Usage: 2.6%
-Memory Used: 32.2891MB
+CPU Usage: 2.3%
+Memory Used: 32.543MB
 Records: 648
 ---------
 Number: 0:11
@@ -121,8 +121,8 @@ Public IP Address: xx.xx.67.50
 PID: 339062
 Rewards balance: 0.00000005
 Disk Usage: 165M
-CPU Usage: 1.5%
-Memory Used: 32.0547MB
+CPU Usage: 1.4%
+Memory Used: 32.8516MB
 Records: 380
 ---------
 Number: 0:12
@@ -130,10 +130,10 @@ Node: 12D3KooWNQCdyWRiEMFKs6taSBNHuHFnn69kw8ybTDg9X4i5Ac28
 Public IP Address: xx.xx.67.50
 PID: 339078
 Rewards balance: 0.00000000
-Disk Usage: 183M
-CPU Usage: 1.7%
-Memory Used: 32.0273MB
-Records: 421
+Disk Usage: 184M
+CPU Usage: 1.6%
+Memory Used: 31.2852MB
+Records: 424
 ---------
 Number: 0:13
 Node: 12D3KooWP17p44PBCisPS9HVaauGdQC48nmPEq8xtfzApSupUiTY
@@ -141,9 +141,9 @@ Public IP Address: xx.xx.67.50
 PID: 339100
 Rewards balance: 0.00000000
 Disk Usage: 298M
-CPU Usage: 2.0%
-Memory Used: 31.957MB
-Records: 688
+CPU Usage: 1.8%
+Memory Used: 31.168MB
+Records: 689
 ---------
 Number: 0:14
 Node: 12D3KooWSEpcRH296Xrm37FPBvjXUT9CYVGi8j77ydaSTnU2xBmX
@@ -151,8 +151,8 @@ Public IP Address: xx.xx.67.50
 PID: 339041
 Rewards balance: 0.00000000
 Disk Usage: 182M
-CPU Usage: 3.1%
-Memory Used: 38MB
+CPU Usage: 2.8%
+Memory Used: 38.6016MB
 Records: 414
 ---------
 Number: 1:0
@@ -162,18 +162,18 @@ PID: 2308
 Rewards balance: 0.00000241
 Disk Usage: 223M
 CPU Usage: 1.5%
-Memory Used: 37.9375MB
+Memory Used: 38.8438MB
 Records: 500
 ---------
 Number: 1:1
 Node: 12D3KooWAd9bpJ25xLUcy1toZy9zorFmuwnArTCQgio16NRANz1X
 Public IP Address: xx.xx.67.50
 PID: 2547
-Rewards balance: 0.00000000
-Disk Usage: 184M
+Rewards balance: 0.00001484
+Disk Usage: 185M
 CPU Usage: 1.1%
-Memory Used: 34.8516MB
-Records: 415
+Memory Used: 33.8359MB
+Records: 420
 ---------
 Number: 1:2
 Node: 12D3KooWBM37qAdVduDhcHPbKSxfRB6pZyKQNRHdLVjgc8NLnZ9c
@@ -182,7 +182,7 @@ PID: 2339
 Rewards balance: 0.00000065
 Disk Usage: 225M
 CPU Usage: 2.6%
-Memory Used: 87.7891MB
+Memory Used: 86.1016MB
 Records: 525
 ---------
 Number: 1:3
@@ -190,10 +190,10 @@ Node: 12D3KooWBvK6hvUEvbya11K18doWDnqiFBDsGxBTBDJXj651wq5H
 Public IP Address: xx.xx.67.50
 PID: 2457
 Rewards balance: 0.00000666
-Disk Usage: 198M
+Disk Usage: 199M
 CPU Usage: 1.1%
-Memory Used: 33.8359MB
-Records: 464
+Memory Used: 34.0195MB
+Records: 465
 ---------
 Number: 1:4
 Node: 12D3KooWCTuNszptxfoPAZph4MKD67AKCLEvoxGoYSK2kpPmgZFY
@@ -202,7 +202,7 @@ PID: 2323
 Rewards balance: 0.00000155
 Disk Usage: 139M
 CPU Usage: 1.2%
-Memory Used: 33.332MB
+Memory Used: 34.2383MB
 Records: 309
 ---------
 Number: 1:5
@@ -212,7 +212,7 @@ PID: 2293
 Rewards balance: 0.00000033
 Disk Usage: 188M
 CPU Usage: 2.0%
-Memory Used: 38.8555MB
+Memory Used: 38.4336MB
 Records: 439
 ---------
 Number: 1:6
@@ -220,10 +220,10 @@ Node: 12D3KooWDdx8x3cr2T6F2niQbwNoE6gheTqfyXbGmMWNnr6X8GAh
 Public IP Address: xx.xx.67.50
 PID: 2278
 Rewards balance: 0.00018926
-Disk Usage: 325M
+Disk Usage: 327M
 CPU Usage: 1.5%
-Memory Used: 39.6758MB
-Records: 749
+Memory Used: 39.7578MB
+Records: 752
 ---------
 Number: 1:7
 Node: 12D3KooWGkziWkLRFgCTBDYNEsTAUUW4shPAPEkmCCCy46csLtmV
@@ -232,7 +232,7 @@ PID: 2412
 Rewards balance: 0.00002323
 Disk Usage: 253M
 CPU Usage: 2.4%
-Memory Used: 68.0938MB
+Memory Used: 68.1094MB
 Records: 597
 ---------
 Number: 1:8
@@ -240,10 +240,10 @@ Node: 12D3KooWJpcAonrFHzG5UY5BP22jhng48uEF4v4pE859m9QcBgvt
 Public IP Address: xx.xx.67.50
 PID: 2397
 Rewards balance: 0.00000012
-Disk Usage: 211M
+Disk Usage: 212M
 CPU Usage: 1.2%
-Memory Used: 40.5312MB
-Records: 483
+Memory Used: 40.8008MB
+Records: 485
 ---------
 Number: 1:9
 Node: 12D3KooWJzEKiWVeNxvncRAVPya4L7YaeSFWgLX5zcihp5K2Rp4T
@@ -252,7 +252,7 @@ PID: 2442
 Rewards balance: 0.00000290
 Disk Usage: 247M
 CPU Usage: 1.2%
-Memory Used: 37.1055MB
+Memory Used: 38.0781MB
 Records: 577
 ---------
 Number: 1:10
@@ -262,7 +262,7 @@ PID: 2382
 Rewards balance: 0.00001606
 Disk Usage: 247M
 CPU Usage: 1.4%
-Memory Used: 34.6016MB
+Memory Used: 33.793MB
 Records: 555
 ---------
 Number: 1:11
@@ -272,8 +272,8 @@ PID: 2427
 Rewards balance: 0.00000394
 Disk Usage: 166M
 CPU Usage: 1.1%
-Memory Used: 39.3281MB
-Records: 380
+Memory Used: 47.6797MB
+Records: 381
 ---------
 Number: 1:12
 Node: 12D3KooWMfry9A3wp1Wp6A4tzJKf32sUyUPNtghd9DNBiVWPpvaH
@@ -282,8 +282,8 @@ PID: 2472
 Rewards balance: 0.00000968
 Disk Usage: 241M
 CPU Usage: 1.8%
-Memory Used: 40.6641MB
-Records: 562
+Memory Used: 41.4023MB
+Records: 563
 ---------
 Number: 1:13
 Node: 12D3KooWMFzVr8xxmW41vPotEzAcQs98BUdNR3XkvvopBYG8V1SM
@@ -292,38 +292,38 @@ PID: 2517
 Rewards balance: 0.00000172
 Disk Usage: 158M
 CPU Usage: 1.2%
-Memory Used: 40.9688MB
+Memory Used: 39.207MB
 Records: 373
 ---------
 Number: 1:14
 Node: 12D3KooWMpjzuQuNABD7oKXrDthvW5eydDsyeZtVZWQMgXUwfJRM
 Public IP Address: xx.xx.67.50
 PID: 2368
-Rewards balance: 0.00000456
-Disk Usage: 236M
+Rewards balance: 0.00000465
+Disk Usage: 241M
 CPU Usage: 1.9%
-Memory Used: 40.043MB
-Records: 550
+Memory Used: 39.8359MB
+Records: 561
 ---------
 Number: 1:15
 Node: 12D3KooWNMq8FtxdK7Tg8aLmxVzfWZJKneLyQVp2tFvrFGwn4Nrt
 Public IP Address: xx.xx.67.50
 PID: 2532
 Rewards balance: 0.00000663
-Disk Usage: 156M
+Disk Usage: 157M
 CPU Usage: 1.2%
-Memory Used: 37.7852MB
-Records: 355
+Memory Used: 34.8945MB
+Records: 357
 ---------
 Number: 1:16
 Node: 12D3KooWNtgVCEkQGe9g6bXEV9b9PdegJiXHG2L8y8xiVNbtDvDj
 Public IP Address: xx.xx.67.50
 PID: 2487
 Rewards balance: 0.00000007
-Disk Usage: 156M
+Disk Usage: 157M
 CPU Usage: 1.1%
-Memory Used: 37.8711MB
-Records: 365
+Memory Used: 39.9727MB
+Records: 367
 ---------
 Number: 1:17
 Node: 12D3KooWP3nhtZqtC6Bn4jwjXuwdeyt8TJDBV8siFkEup1bG1mGi
@@ -332,7 +332,7 @@ PID: 2502
 Rewards balance: 0.00000392
 Disk Usage: 201M
 CPU Usage: 1.1%
-Memory Used: 39.1289MB
+Memory Used: 34.168MB
 Records: 458
 ---------
 Number: 1:18
@@ -342,7 +342,7 @@ PID: 2353
 Rewards balance: 0.00000000
 Disk Usage: 107M
 CPU Usage: 0.9%
-Memory Used: 38.332MB
+Memory Used: 38.4531MB
 Records: 241
 ---------
 Number: 1:19
@@ -352,18 +352,18 @@ PID: 2257
 Rewards balance: 0.00000000
 Disk Usage: 186M
 CPU Usage: 1.0%
-Memory Used: 38.7852MB
-Records: 432
+Memory Used: 42.8711MB
+Records: 433
 ---------
 Number: 1:20
 Node: 12D3KooWB1iN3SFuzqtpbWjn5GDrCFKnkNLhR5CdMrR2QYtdRmKj
 Public IP Address: xx.xx.67.50
 PID: 621639
-Rewards balance: 0.00000007
-Disk Usage: 187M
-CPU Usage: 2.0%
-Memory Used: 34.7695MB
-Records: 437
+Rewards balance: 0.00000010
+Disk Usage: 188M
+CPU Usage: 1.8%
+Memory Used: 39.9414MB
+Records: 439
 ---------
 Number: 1:21
 Node: 12D3KooWDPbY6njMq3nwhyRCGyzFibchxPuqx6Q3NQsNZLHvaJYi
@@ -372,7 +372,7 @@ PID: 621626
 Rewards balance: 0.00000065
 Disk Usage: 117M
 CPU Usage: 1.0%
-Memory Used: 46.1133MB
+Memory Used: 45.4336MB
 Records: 270
 ---------
 Number: 1:22
@@ -381,8 +381,8 @@ Public IP Address: xx.xx.67.50
 PID: 621560
 Rewards balance: 0.00000000
 Disk Usage: 130M
-CPU Usage: 1.6%
-Memory Used: 32.7227MB
+CPU Usage: 1.5%
+Memory Used: 29.9844MB
 Records: 306
 ---------
 Number: 1:23
@@ -391,8 +391,8 @@ Public IP Address: xx.xx.67.50
 PID: 621573
 Rewards balance: 0.00000000
 Disk Usage: 96M
-CPU Usage: 2.2%
-Memory Used: 35.4492MB
+CPU Usage: 2.1%
+Memory Used: 36.2461MB
 Records: 207
 ---------
 Number: 1:24
@@ -401,8 +401,8 @@ Public IP Address: xx.xx.67.50
 PID: 621613
 Rewards balance: 0.00001523
 Disk Usage: 211M
-CPU Usage: 2.0%
-Memory Used: 31.9102MB
+CPU Usage: 1.8%
+Memory Used: 32.0352MB
 Records: 492
 ---------
 Number: 1:25
@@ -411,19 +411,19 @@ Public IP Address: xx.xx.67.50
 PID: 621678
 Rewards balance: 0.00000175
 Disk Usage: 282M
-CPU Usage: 2.5%
-Memory Used: 32.3555MB
-Records: 645
+CPU Usage: 2.3%
+Memory Used: 33.375MB
+Records: 646
 ---------
 Number: 1:26
 Node: 12D3KooWMhrFjp8o5jBrnZ1Y9H8jfrZUXwfTmNU4rXnDgg4b27fP
 Public IP Address: xx.xx.67.50
 PID: 621665
-Rewards balance: 0.00000000
+Rewards balance: 0.00000097
 Disk Usage: 225M
-CPU Usage: 1.8%
-Memory Used: 33.0859MB
-Records: 518
+CPU Usage: 1.7%
+Memory Used: 32.75MB
+Records: 519
 ---------
 Number: 1:27
 Node: 12D3KooWMQaUcfgp1wN8H62SVFYFrjSjZKGV1he73YaTUL5jNXF4
@@ -431,8 +431,8 @@ Public IP Address: xx.xx.67.50
 PID: 621587
 Rewards balance: 0.00000000
 Disk Usage: 169M
-CPU Usage: 1.6%
-Memory Used: 32.332MB
+CPU Usage: 1.5%
+Memory Used: 32.3828MB
 Records: 397
 ---------
 Number: 1:28
@@ -441,8 +441,8 @@ Public IP Address: xx.xx.67.50
 PID: 621652
 Rewards balance: 0.00000017
 Disk Usage: 250M
-CPU Usage: 3.2%
-Memory Used: 46.0273MB
+CPU Usage: 2.9%
+Memory Used: 41.6797MB
 Records: 573
 ---------
 Number: 1:29
@@ -451,9 +451,9 @@ Public IP Address: xx.xx.67.50
 PID: 621600
 Rewards balance: 0.00000186
 Disk Usage: 250M
-CPU Usage: 2.4%
-Memory Used: 32.1289MB
-Records: 576
+CPU Usage: 2.2%
+Memory Used: 31.8047MB
+Records: 577
 ---------
 Number: 2:0
 Node: 12D3KooWAVRduxCcHeE3Uw499vFpKyZdEidWeLiqK5UiYyGUAsck
@@ -462,18 +462,18 @@ PID: 6033
 Rewards balance: 0.00000032
 Disk Usage: 166M
 CPU Usage: 1.4%
-Memory Used: 35.832MB
+Memory Used: 34.7891MB
 Records: 395
 ---------
 Number: 2:1
 Node: 12D3KooWBXx4nHh3TVRqRwLXM3oP6CAAaxsTWFG4vTR8Ek4JfHNK
 Public IP Address: xx.xx.67.50
 PID: 5899
-Rewards balance: 0.00001597
+Rewards balance: 0.00001641
 Disk Usage: 176M
 CPU Usage: 1.1%
-Memory Used: 37.1406MB
-Records: 404
+Memory Used: 35.0469MB
+Records: 405
 ---------
 Number: 2:2
 Node: 12D3KooWCerTGuo3YqMTzP4T6x86KLMM4vhapxhrxEN7ZF5WZe8B
@@ -482,7 +482,7 @@ PID: 5744
 Rewards balance: 0.00000049
 Disk Usage: 255M
 CPU Usage: 1.6%
-Memory Used: 38.1758MB
+Memory Used: 40.7656MB
 Records: 590
 ---------
 Number: 2:3
@@ -492,18 +492,18 @@ PID: 5959
 Rewards balance: 0.00000018
 Disk Usage: 251M
 CPU Usage: 1.7%
-Memory Used: 42.5508MB
-Records: 577
+Memory Used: 39.4609MB
+Records: 578
 ---------
 Number: 2:4
 Node: 12D3KooWD71vgHAX1VM3ftFSgkGzJh44UUDRo52vtwQNKtn3h8JT
 Public IP Address: xx.xx.67.50
 PID: 5988
 Rewards balance: 0.00000043
-Disk Usage: 166M
+Disk Usage: 167M
 CPU Usage: 1.1%
-Memory Used: 40.6992MB
-Records: 387
+Memory Used: 40.8438MB
+Records: 388
 ---------
 Number: 2:5
 Node: 12D3KooWDoox3eRvzHYtebWt8ERA4fsCAPkt9UCTyGW7qSE9L2wz
@@ -512,7 +512,7 @@ PID: 5855
 Rewards balance: 0.00000081
 Disk Usage: 174M
 CPU Usage: 1.1%
-Memory Used: 41.125MB
+Memory Used: 40.8047MB
 Records: 396
 ---------
 Number: 2:6
@@ -522,7 +522,7 @@ PID: 5914
 Rewards balance: 0.00000379
 Disk Usage: 182M
 CPU Usage: 1.1%
-Memory Used: 39.3047MB
+Memory Used: 38.1133MB
 Records: 429
 ---------
 Number: 2:7
@@ -532,7 +532,7 @@ PID: 5870
 Rewards balance: 0.00003519
 Disk Usage: 343M
 CPU Usage: 1.5%
-Memory Used: 39.1328MB
+Memory Used: 38.6914MB
 Records: 789
 ---------
 Number: 2:8
@@ -542,7 +542,7 @@ PID: 5974
 Rewards balance: 0.00000012
 Disk Usage: 194M
 CPU Usage: 1.0%
-Memory Used: 34.7031MB
+Memory Used: 35.2578MB
 Records: 441
 ---------
 Number: 2:9
@@ -552,7 +552,7 @@ PID: 5825
 Rewards balance: 0.00000467
 Disk Usage: 265M
 CPU Usage: 1.5%
-Memory Used: 42.0391MB
+Memory Used: 40.0547MB
 Records: 615
 ---------
 Number: 2:10
@@ -562,18 +562,18 @@ PID: 6018
 Rewards balance: 0.00000000
 Disk Usage: 157M
 CPU Usage: 1.1%
-Memory Used: 34.9375MB
+Memory Used: 35.3633MB
 Records: 362
 ---------
 Number: 2:11
 Node: 12D3KooWK9yUBNcSmevFoNXDCcqMZFXvfRVggKBgsSe6aPQRyS7x
 Public IP Address: xx.xx.67.50
 PID: 5929
-Rewards balance: 0.00000563
+Rewards balance: 0.00000571
 Disk Usage: 129M
 CPU Usage: 1.7%
-Memory Used: 64.5781MB
-Records: 303
+Memory Used: 64.7812MB
+Records: 304
 ---------
 Number: 2:12
 Node: 12D3KooWKCogF3UqmjVp4ts5HawkfGkwXgpnyMzHkpxmCQ2c6zc4
@@ -582,38 +582,38 @@ PID: 5944
 Rewards balance: 0.00000076
 Disk Usage: 191M
 CPU Usage: 1.5%
-Memory Used: 37.6641MB
+Memory Used: 37.0391MB
 Records: 453
 ---------
 Number: 2:13
 Node: 12D3KooWKgEYdnMasxXpqpkkfqi1HpN6qzQ6aP5sy7yid9D8ohhe
 Public IP Address: xx.xx.67.50
 PID: 5795
-Rewards balance: 0.00000322
+Rewards balance: 0.00000331
 Disk Usage: 172M
 CPU Usage: 1.2%
-Memory Used: 38.8125MB
-Records: 399
+Memory Used: 37.5508MB
+Records: 400
 ---------
 Number: 2:14
 Node: 12D3KooWL5hEan3dChWHcsZPRizHwZCyCopyVAaqaonsby1LTqWk
 Public IP Address: xx.xx.67.50
 PID: 5840
 Rewards balance: 0.00000415
-Disk Usage: 201M
+Disk Usage: 202M
 CPU Usage: 1.1%
-Memory Used: 37.9688MB
-Records: 474
+Memory Used: 37.0234MB
+Records: 476
 ---------
 Number: 2:15
 Node: 12D3KooWNj7CXQwvPJLyHUtPhJsC7ATfCKawP2mQwHwfMuFS6DKy
 Public IP Address: xx.xx.67.50
 PID: 6003
-Rewards balance: 0.00018909
-Disk Usage: 264M
+Rewards balance: 0.00019258
+Disk Usage: 265M
 CPU Usage: 1.9%
-Memory Used: 38.3789MB
-Records: 616
+Memory Used: 38.6289MB
+Records: 617
 ---------
 Number: 2:16
 Node: 12D3KooWNX6Yte2qYNZGMAu25xRPxczusxJ6UsRpE83eV4axkf95
@@ -622,7 +622,7 @@ PID: 5780
 Rewards balance: 0.00001062
 Disk Usage: 189M
 CPU Usage: 1.2%
-Memory Used: 38.1406MB
+Memory Used: 37.7773MB
 Records: 428
 ---------
 Number: 2:17
@@ -632,7 +632,7 @@ PID: 5810
 Rewards balance: 0.00000638
 Disk Usage: 110M
 CPU Usage: 1.0%
-Memory Used: 38.5273MB
+Memory Used: 39.6719MB
 Records: 256
 ---------
 Number: 2:18
@@ -642,7 +642,7 @@ PID: 5765
 Rewards balance: 0.00000000
 Disk Usage: 209M
 CPU Usage: 1.2%
-Memory Used: 41.0508MB
+Memory Used: 39.0508MB
 Records: 472
 ---------
 Number: 2:19
@@ -652,7 +652,7 @@ PID: 5884
 Rewards balance: 0.00000000
 Disk Usage: 192M
 CPU Usage: 1.2%
-Memory Used: 35.957MB
+Memory Used: 37.5469MB
 Records: 454
 ---------
 Number: 2:20
@@ -660,10 +660,10 @@ Node: 12D3KooWDVxYHa5eUaXd346UZxKrM1SN3w78W1pmSzkN5Cjg9Pba
 Public IP Address: xx.xx.67.50
 PID: 680003
 Rewards balance: 0.00000008
-Disk Usage: 173M
-CPU Usage: 2.9%
-Memory Used: 40.8789MB
-Records: 406
+Disk Usage: 177M
+CPU Usage: 2.5%
+Memory Used: 38.6367MB
+Records: 420
 ---------
 Number: 2:21
 Node: 12D3KooWEV552cek6A6CoiaAxCZGtxixk9oxzraXUoeUHjNesBPH
@@ -671,8 +671,8 @@ Public IP Address: xx.xx.67.50
 PID: 679990
 Rewards balance: 0.00000000
 Disk Usage: 202M
-CPU Usage: 1.8%
-Memory Used: 37.8164MB
+CPU Usage: 1.7%
+Memory Used: 40.8672MB
 Records: 472
 ---------
 Number: 2:22
@@ -681,8 +681,8 @@ Public IP Address: xx.xx.67.50
 PID: 679925
 Rewards balance: 0.00000000
 Disk Usage: 179M
-CPU Usage: 2.2%
-Memory Used: 32.2031MB
+CPU Usage: 2.1%
+Memory Used: 33.6836MB
 Records: 418
 ---------
 Number: 2:23
@@ -691,8 +691,8 @@ Public IP Address: xx.xx.67.50
 PID: 679912
 Rewards balance: 0.00000313
 Disk Usage: 111M
-CPU Usage: 2.4%
-Memory Used: 36.9961MB
+CPU Usage: 2.2%
+Memory Used: 35.2031MB
 Records: 270
 ---------
 Number: 2:24
@@ -700,10 +700,10 @@ Node: 12D3KooWL6zFeRS9baJ6MzWtcTg87Y6BVBxRcGpGN2SRW2cfuhRJ
 Public IP Address: xx.xx.67.50
 PID: 679977
 Rewards balance: 0.00000000
-Disk Usage: 168M
-CPU Usage: 1.8%
-Memory Used: 31.9453MB
-Records: 381
+Disk Usage: 169M
+CPU Usage: 1.6%
+Memory Used: 31.5273MB
+Records: 382
 ---------
 Number: 2:25
 Node: 12D3KooWLH7e8nGLELg2XVWq3ANf3N2L3LVUJcSAgLJwHMCKqYVN
@@ -711,8 +711,8 @@ Public IP Address: xx.xx.67.50
 PID: 679951
 Rewards balance: 0.00000000
 Disk Usage: 155M
-CPU Usage: 2.0%
-Memory Used: 37.5742MB
+CPU Usage: 1.8%
+Memory Used: 36.5469MB
 Records: 353
 ---------
 Number: 2:26
@@ -721,8 +721,8 @@ Public IP Address: xx.xx.67.50
 PID: 679964
 Rewards balance: 0.00000000
 Disk Usage: 205M
-CPU Usage: 1.6%
-Memory Used: 32.9453MB
+CPU Usage: 1.5%
+Memory Used: 33.543MB
 Records: 480
 ---------
 Number: 2:27
@@ -732,7 +732,7 @@ PID: 679938
 Rewards balance: 0.00000655
 Disk Usage: 119M
 CPU Usage: 1.2%
-Memory Used: 30.1758MB
+Memory Used: 31.7656MB
 Records: 262
 ---------
 Number: 2:28
@@ -741,8 +741,8 @@ Public IP Address: xx.xx.67.50
 PID: 679899
 Rewards balance: 0.00000000
 Disk Usage: 120M
-CPU Usage: 2.9%
-Memory Used: 34.8477MB
+CPU Usage: 2.7%
+Memory Used: 35.7773MB
 Records: 285
 ---------
 Number: 2:29
@@ -750,20 +750,20 @@ Node: 12D3KooWStev8QMwmL6j7x7ya4xCXag1AvRyuvmknBg7xeuDqbnm
 Public IP Address: xx.xx.67.50
 PID: 679886
 Rewards balance: 0.00000000
-Disk Usage: 134M
-CPU Usage: 1.9%
-Memory Used: 29.7656MB
-Records: 305
+Disk Usage: 135M
+CPU Usage: 1.8%
+Memory Used: 31.3984MB
+Records: 306
 ---------
 Number: 3:0
 Node: 12D3KooWAdPuRpKqKRfpyZbQCFTc8zFMfWmuX12aRBPjbPshy6sx
 Public IP Address: xx.xx.67.50
 PID: 3481
 Rewards balance: 0.00000313
-Disk Usage: 158M
+Disk Usage: 159M
 CPU Usage: 1.5%
-Memory Used: 37.9258MB
-Records: 363
+Memory Used: 36.5703MB
+Records: 364
 ---------
 Number: 3:1
 Node: 12D3KooWAyDx8XymnaSDGiPEroDyGMcP8R1dyNzjWResGQvFgrhb
@@ -772,28 +772,28 @@ PID: 3315
 Rewards balance: 0.00000000
 Disk Usage: 234M
 CPU Usage: 2.2%
-Memory Used: 64.0078MB
+Memory Used: 63.6172MB
 Records: 543
 ---------
 Number: 3:2
 Node: 12D3KooWCitEpjxocaHZ9tjWBgEDZjM41kEL7vBzM7m4MCojEjA7
 Public IP Address: xx.xx.67.50
 PID: 3466
-Rewards balance: 0.00003600
+Rewards balance: 0.00003674
 Disk Usage: 98M
 CPU Usage: 1.3%
-Memory Used: 42MB
-Records: 231
+Memory Used: 36.1719MB
+Records: 232
 ---------
 Number: 3:3
 Node: 12D3KooWD7Z1C6zkXT13sWjwTChGCPcq8Mx6ufLFLsxT8oEuTKuj
 Public IP Address: xx.xx.67.50
 PID: 3331
 Rewards balance: 0.00000384
-Disk Usage: 160M
+Disk Usage: 161M
 CPU Usage: 1.3%
-Memory Used: 34.8281MB
-Records: 366
+Memory Used: 34.832MB
+Records: 368
 ---------
 Number: 3:4
 Node: 12D3KooWDMCKu3DULTmfp4tyxaLweEHrAXRNjs2moLtuAH8hKit1
@@ -802,8 +802,8 @@ PID: 3451
 Rewards balance: 0.00000000
 Disk Usage: 170M
 CPU Usage: 1.9%
-Memory Used: 66.1211MB
-Records: 404
+Memory Used: 65.8867MB
+Records: 405
 ---------
 Number: 3:5
 Node: 12D3KooWE8iGHDhTcDCJCPVBWVv4KVcEF8oLv8HHojKAUFEv3BBi
@@ -811,39 +811,39 @@ Public IP Address: xx.xx.67.50
 PID: 3255
 Rewards balance: 0.00000039
 Disk Usage: 207M
-CPU Usage: 2.1%
-Memory Used: 64.6406MB
+CPU Usage: 2.0%
+Memory Used: 64.0039MB
 Records: 471
 ---------
 Number: 3:6
 Node: 12D3KooWEfHYjHNg63wn39b3N6YZrzxDyzBDShuCCfDAWMWxit9i
 Public IP Address: xx.xx.67.50
 PID: 3406
-Rewards balance: 0.00049330
+Rewards balance: 0.00049354
 Disk Usage: 193M
 CPU Usage: 4.7%
-Memory Used: 44.6445MB
-Records: 421
+Memory Used: 58.8281MB
+Records: 422
 ---------
 Number: 3:7
 Node: 12D3KooWEu1Xp4MbSigtHxyb3VE1HcY5tC1xDXWNrUNQjDqaBVX4
 Public IP Address: xx.xx.67.50
 PID: 3436
-Rewards balance: 0.00001795
-Disk Usage: 209M
+Rewards balance: 0.00002126
+Disk Usage: 210M
 CPU Usage: 1.1%
-Memory Used: 40.7266MB
-Records: 472
+Memory Used: 39.3516MB
+Records: 474
 ---------
 Number: 3:8
 Node: 12D3KooWEUWRQA8mq7pUPJsayStZGgmQLirSHM4ANzgd5E8JGXJ1
 Public IP Address: xx.xx.67.50
 PID: 3346
-Rewards balance: 0.00002893
-Disk Usage: 160M
+Rewards balance: 0.00002953
+Disk Usage: 161M
 CPU Usage: 2.3%
-Memory Used: 65.5508MB
-Records: 371
+Memory Used: 65.5312MB
+Records: 372
 ---------
 Number: 3:9
 Node: 12D3KooWFivhaEAFuxjFpjyP4XNyruf1ZGa6Z4h6G1pYVSDpkyzx
@@ -852,8 +852,8 @@ PID: 3391
 Rewards balance: 0.00032346
 Disk Usage: 209M
 CPU Usage: 1.3%
-Memory Used: 35.8672MB
-Records: 483
+Memory Used: 36.9219MB
+Records: 484
 ---------
 Number: 3:10
 Node: 12D3KooWGA2vbgHXQsX7rXXrvFgTcDx9sHYUWvaVNFbAuFyUJwKH
@@ -862,8 +862,8 @@ PID: 3270
 Rewards balance: 0.00000018
 Disk Usage: 198M
 CPU Usage: 1.1%
-Memory Used: 38.5938MB
-Records: 451
+Memory Used: 39.75MB
+Records: 452
 ---------
 Number: 3:11
 Node: 12D3KooWHWZmWEYwoPixUn1PtSLmW9vKoiMqgattWKn3BkFNC729
@@ -872,7 +872,7 @@ PID: 3285
 Rewards balance: 0.00001052
 Disk Usage: 210M
 CPU Usage: 1.2%
-Memory Used: 40.457MB
+Memory Used: 38.3125MB
 Records: 490
 ---------
 Number: 3:12
@@ -880,10 +880,10 @@ Node: 12D3KooWJLsFRQ31hdpXj3UP9oA84yLNHgCW9PbPRN3sJZUTcHo1
 Public IP Address: xx.xx.67.50
 PID: 3511
 Rewards balance: 0.00000000
-Disk Usage: 162M
+Disk Usage: 163M
 CPU Usage: 1.1%
-Memory Used: 37.5391MB
-Records: 381
+Memory Used: 36.1211MB
+Records: 382
 ---------
 Number: 3:13
 Node: 12D3KooWJmQhM2cmpJmv7JoKupRWBLcH6Zr1EHux7b7K7eqCJK42
@@ -892,18 +892,18 @@ PID: 3496
 Rewards balance: 0.00000000
 Disk Usage: 232M
 CPU Usage: 1.3%
-Memory Used: 35.1953MB
+Memory Used: 32.6602MB
 Records: 540
 ---------
 Number: 3:14
 Node: 12D3KooWKy4JzC2nz8A5fYLqpo3gdmj9ax8UCZ3f6nBigAogr61b
 Public IP Address: xx.xx.67.50
 PID: 3219
-Rewards balance: 0.00000012
+Rewards balance: 0.00000091
 Disk Usage: 194M
 CPU Usage: 1.0%
-Memory Used: 39.8516MB
-Records: 456
+Memory Used: 42.582MB
+Records: 458
 ---------
 Number: 3:15
 Node: 12D3KooWM6WxwMPq3L9ZRUzNHnPxDWv971RYKYJYyoZ6uSwN9chb
@@ -912,8 +912,8 @@ PID: 3361
 Rewards balance: 0.00000744
 Disk Usage: 315M
 CPU Usage: 1.3%
-Memory Used: 34.918MB
-Records: 716
+Memory Used: 36.4961MB
+Records: 717
 ---------
 Number: 3:16
 Node: 12D3KooWMe4nJVUjiLS7FyeeLnYK41gBVJeeHfYLQQ1yoif8edxV
@@ -922,18 +922,18 @@ PID: 3376
 Rewards balance: 0.00000049
 Disk Usage: 150M
 CPU Usage: 1.2%
-Memory Used: 35.1875MB
-Records: 345
+Memory Used: 35.2852MB
+Records: 346
 ---------
 Number: 3:17
 Node: 12D3KooWP4fus2Kr5kebENQsZMSbHRJdTBA5Qf9xRVDhsyegV49t
 Public IP Address: xx.xx.67.50
 PID: 3421
 Rewards balance: 0.00141953
-Disk Usage: 284M
+Disk Usage: 285M
 CPU Usage: 2.8%
-Memory Used: 98.6836MB
-Records: 658
+Memory Used: 98.5898MB
+Records: 659
 ---------
 Number: 3:18
 Node: 12D3KooWPZCnzXDBZoLJy3ABWk9NhXuZhW5reZ9DacA8WcA3E31T
@@ -942,18 +942,18 @@ PID: 3240
 Rewards balance: 0.00000049
 Disk Usage: 164M
 CPU Usage: 1.1%
-Memory Used: 38.8281MB
+Memory Used: 40.1016MB
 Records: 383
 ---------
 Number: 3:19
 Node: 12D3KooWQBA49MbenmeW6w94Ah87aEbzKogmie44ybjPbAHFnLbS
 Public IP Address: xx.xx.67.50
 PID: 3300
-Rewards balance: 0.00004652
-Disk Usage: 260M
+Rewards balance: 0.00004960
+Disk Usage: 262M
 CPU Usage: 1.7%
-Memory Used: 41.5273MB
-Records: 590
+Memory Used: 41.5508MB
+Records: 592
 ---------
 Number: 3:20
 Node: 12D3KooWBE6WXLzUKFvsQHEuLnLsUz2E3VPJLPxhkcgyLpKLxdgW
@@ -961,8 +961,8 @@ Public IP Address: xx.xx.67.50
 PID: 1206455
 Rewards balance: 0.00000000
 Disk Usage: 147M
-CPU Usage: 2.0%
-Memory Used: 32.0391MB
+CPU Usage: 1.8%
+Memory Used: 36.0195MB
 Records: 332
 ---------
 Number: 3:21
@@ -971,9 +971,9 @@ Public IP Address: xx.xx.67.50
 PID: 1206416
 Rewards balance: 0.00000000
 Disk Usage: 283M
-CPU Usage: 3.2%
-Memory Used: 41.9727MB
-Records: 680
+CPU Usage: 2.9%
+Memory Used: 43.0508MB
+Records: 682
 ---------
 Number: 3:22
 Node: 12D3KooWEJg1i9hWgFPnmz8ufGmprBvyiisNpihuUNPWHHnqAXBi
@@ -981,9 +981,9 @@ Public IP Address: xx.xx.67.50
 PID: 1206390
 Rewards balance: 0.00002140
 Disk Usage: 177M
-CPU Usage: 1.7%
-Memory Used: 31.8047MB
-Records: 422
+CPU Usage: 1.6%
+Memory Used: 32.8477MB
+Records: 423
 ---------
 Number: 3:23
 Node: 12D3KooWFnN8KP5KMvJEKQq4WrvvngdUHxYj387Rvt7WTsVef468
@@ -991,9 +991,9 @@ Public IP Address: xx.xx.67.50
 PID: 1206403
 Rewards balance: 0.00000000
 Disk Usage: 208M
-CPU Usage: 1.7%
-Memory Used: 32.2422MB
-Records: 476
+CPU Usage: 1.5%
+Memory Used: 32.1758MB
+Records: 477
 ---------
 Number: 3:24
 Node: 12D3KooWLQc4GBpYfbLbE1QsBLqxkKkAXTFuYvPEPoyH9UrNdrfA
@@ -1001,19 +1001,19 @@ Public IP Address: xx.xx.67.50
 PID: 1206377
 Rewards balance: 0.00000039
 Disk Usage: 217M
-CPU Usage: 1.9%
-Memory Used: 31.2305MB
+CPU Usage: 1.8%
+Memory Used: 31.6562MB
 Records: 505
 ---------
 Number: 3:25
 Node: 12D3KooWLwvKfSKYSZefJfQJbFwa1Z5FUaxCSPCjdkVnF8AMcEKa
 Public IP Address: xx.xx.67.50
 PID: 1206468
-Rewards balance: 0.00000000
-Disk Usage: 164M
+Rewards balance: 0.00000034
+Disk Usage: 165M
 CPU Usage: 1.3%
-Memory Used: 45.2461MB
-Records: 372
+Memory Used: 44.3984MB
+Records: 373
 ---------
 Number: 3:26
 Node: 12D3KooWLXxM6TACftSSbW3N1ReyNL3HUhF7FKn8eCaUygfEN3NM
@@ -1021,8 +1021,8 @@ Public IP Address: xx.xx.67.50
 PID: 1206481
 Rewards balance: 0.00000000
 Disk Usage: 173M
-CPU Usage: 1.9%
-Memory Used: 33.4688MB
+CPU Usage: 1.8%
+Memory Used: 33.7812MB
 Records: 397
 ---------
 Number: 3:27
@@ -1030,10 +1030,10 @@ Node: 12D3KooWN52PBhvRCFqBje5smAxogi3e5MeaQXEMeC9tp8vm9Tfa
 Public IP Address: xx.xx.67.50
 PID: 1206442
 Rewards balance: 0.00000000
-Disk Usage: 151M
-CPU Usage: 2.0%
-Memory Used: 42.4062MB
-Records: 353
+Disk Usage: 152M
+CPU Usage: 1.9%
+Memory Used: 45.0469MB
+Records: 355
 ---------
 Number: 3:28
 Node: 12D3KooWQxhMpTMe33mw7q7wXpRLUtvZSmTyb56cPgHzXNTcrXwH
@@ -1041,8 +1041,8 @@ Public IP Address: xx.xx.67.50
 PID: 1206364
 Rewards balance: 0.00000000
 Disk Usage: 213M
-CPU Usage: 2.3%
-Memory Used: 36.7227MB
+CPU Usage: 2.1%
+Memory Used: 33.6406MB
 Records: 500
 ---------
 Number: 3:29
@@ -1051,8 +1051,8 @@ Public IP Address: xx.xx.67.50
 PID: 1206429
 Rewards balance: 0.00000000
 Disk Usage: 146M
-CPU Usage: 2.7%
-Memory Used: 41.9961MB
+CPU Usage: 2.6%
+Memory Used: 42.7266MB
 Records: 333
 ---------
 Number: 4:0
@@ -1062,8 +1062,8 @@ PID: 2121
 Rewards balance: 0.00000227
 Disk Usage: 197M
 CPU Usage: 1.3%
-Memory Used: 32.9531MB
-Records: 472
+Memory Used: 34.957MB
+Records: 473
 ---------
 Number: 4:1
 Node: 12D3KooWBAUJTorXYvUgd1adVxeWoDHZSRCVdLMQ5uskx4wYJe32
@@ -1072,7 +1072,7 @@ PID: 2136
 Rewards balance: 0.00000535
 Disk Usage: 147M
 CPU Usage: 1.4%
-Memory Used: 36.8555MB
+Memory Used: 36.3242MB
 Records: 341
 ---------
 Number: 4:2
@@ -1082,7 +1082,7 @@ PID: 2211
 Rewards balance: 0.00003135
 Disk Usage: 109M
 CPU Usage: 1.0%
-Memory Used: 33.8867MB
+Memory Used: 36.25MB
 Records: 249
 ---------
 Number: 4:3
@@ -1092,7 +1092,7 @@ PID: 1955
 Rewards balance: 0.00000090
 Disk Usage: 223M
 CPU Usage: 1.2%
-Memory Used: 39.2539MB
+Memory Used: 37.4219MB
 Records: 499
 ---------
 Number: 4:4
@@ -1102,7 +1102,7 @@ PID: 2030
 Rewards balance: 0.00000012
 Disk Usage: 287M
 CPU Usage: 1.4%
-Memory Used: 35.6484MB
+Memory Used: 33.5MB
 Records: 665
 ---------
 Number: 4:5
@@ -1110,10 +1110,10 @@ Node: 12D3KooWEa1bCF18DK5PEdFTbnTqD6GnEiJAXh7KNhuekYPSa5Aj
 Public IP Address: xx.xx.67.50
 PID: 2014
 Rewards balance: 0.00005091
-Disk Usage: 211M
+Disk Usage: 212M
 CPU Usage: 1.2%
-Memory Used: 34.0273MB
-Records: 465
+Memory Used: 34.793MB
+Records: 467
 ---------
 Number: 4:6
 Node: 12D3KooWENYi4fcModPzDF8DhJUc7HvX3ts6iFgaVzdqmf3ZoPh8
@@ -1122,7 +1122,7 @@ PID: 2240
 Rewards balance: 0.00000177
 Disk Usage: 156M
 CPU Usage: 1.5%
-Memory Used: 35.7227MB
+Memory Used: 34.375MB
 Records: 357
 ---------
 Number: 4:7
@@ -1130,10 +1130,10 @@ Node: 12D3KooWEzyFfouPuHG4MBApvk7BqYP3HtoLHRBzm36BEKWqpr27
 Public IP Address: xx.xx.67.50
 PID: 2105
 Rewards balance: 0.00000023
-Disk Usage: 247M
+Disk Usage: 248M
 CPU Usage: 1.3%
-Memory Used: 33.0547MB
-Records: 569
+Memory Used: 36.9297MB
+Records: 570
 ---------
 Number: 4:8
 Node: 12D3KooWGUhHztTBdQdBUY5fRgmJWURSx8gWQcwmEbMzQE5MTstX
@@ -1142,7 +1142,7 @@ PID: 2151
 Rewards balance: 0.00000054
 Disk Usage: 204M
 CPU Usage: 1.2%
-Memory Used: 33.3594MB
+Memory Used: 33.0703MB
 Records: 460
 ---------
 Number: 4:9
@@ -1150,20 +1150,20 @@ Node: 12D3KooWHtQ9ikXmcBs66fL4yfuc8Ja3gN7qrZqCzQiu3yypD1gf
 Public IP Address: xx.xx.67.50
 PID: 2052
 Rewards balance: 0.00000000
-Disk Usage: 211M
+Disk Usage: 212M
 CPU Usage: 1.1%
-Memory Used: 34.9258MB
-Records: 483
+Memory Used: 34.4141MB
+Records: 485
 ---------
 Number: 4:10
 Node: 12D3KooWLVKYgKGr69n5ge9qLmh3eHLGZN6cfwUwnbQpaFV5FrMH
 Public IP Address: xx.xx.67.50
 PID: 1992
 Rewards balance: 0.00000519
-Disk Usage: 257M
+Disk Usage: 258M
 CPU Usage: 1.3%
-Memory Used: 38.3164MB
-Records: 593
+Memory Used: 38.2539MB
+Records: 594
 ---------
 Number: 4:11
 Node: 12D3KooWMv25jVTxyUfN8DTQXNLrmotdExnpovrzzPeTLrhgEG37
@@ -1172,18 +1172,18 @@ PID: 1977
 Rewards balance: 0.00000086
 Disk Usage: 136M
 CPU Usage: 1.4%
-Memory Used: 37.9805MB
+Memory Used: 38.7812MB
 Records: 306
 ---------
 Number: 4:12
 Node: 12D3KooWMVW3mLmNGA5zS2Qiabxwnvd8vhRXqJnpWWyeZ1RLEX4v
 Public IP Address: xx.xx.67.50
 PID: 1940
-Rewards balance: 0.00300404
-Disk Usage: 381M
+Rewards balance: 0.00309113
+Disk Usage: 382M
 CPU Usage: 2.4%
-Memory Used: 61.8008MB
-Records: 889
+Memory Used: 63.9375MB
+Records: 892
 ---------
 Number: 4:13
 Node: 12D3KooWMzgzhG4DkfWJZGvsVJxcAdBvHJrFiJekdx3Sd2Nq5aAN
@@ -1192,8 +1192,8 @@ PID: 2067
 Rewards balance: 0.00000111
 Disk Usage: 193M
 CPU Usage: 1.1%
-Memory Used: 37.8047MB
-Records: 454
+Memory Used: 40.625MB
+Records: 456
 ---------
 Number: 4:14
 Node: 12D3KooWNErB4o1mVQ3KSScmrwcLsnFZVLUAVej1KbJaFWdUhFog
@@ -1202,8 +1202,8 @@ PID: 2181
 Rewards balance: 0.00000012
 Disk Usage: 156M
 CPU Usage: 1.5%
-Memory Used: 33.6094MB
-Records: 365
+Memory Used: 33.4102MB
+Records: 366
 ---------
 Number: 4:15
 Node: 12D3KooWNHQxhqWh9G3fpGz2SQwvJaEzm5gkukfLq9u6dSAKYLHj
@@ -1212,8 +1212,8 @@ PID: 2225
 Rewards balance: 0.00000157
 Disk Usage: 220M
 CPU Usage: 1.5%
-Memory Used: 35.8281MB
-Records: 506
+Memory Used: 35.4492MB
+Records: 507
 ---------
 Number: 4:16
 Node: 12D3KooWRneeogfWFHFkz5zgi7xnQMDkPcdjNfyJb8XgFzEsdeum
@@ -1222,7 +1222,7 @@ PID: 1918
 Rewards balance: 0.00000018
 Disk Usage: 127M
 CPU Usage: 1.0%
-Memory Used: 41.1641MB
+Memory Used: 40.0273MB
 Records: 293
 ---------
 Number: 4:17
@@ -1232,7 +1232,7 @@ PID: 2196
 Rewards balance: 0.00000653
 Disk Usage: 136M
 CPU Usage: 1.4%
-Memory Used: 34.9297MB
+Memory Used: 34.5898MB
 Records: 328
 ---------
 Number: 4:18
@@ -1242,18 +1242,18 @@ PID: 2090
 Rewards balance: 0.00000007
 Disk Usage: 123M
 CPU Usage: 1.0%
-Memory Used: 35.8555MB
-Records: 298
+Memory Used: 33.6562MB
+Records: 299
 ---------
 Number: 4:19
 Node: 12D3KooWShmkRYDX2o8HAq5aN79839XFqkaaYcWcw1tbyXH3PYkE
 Public IP Address: xx.xx.67.50
 PID: 2166
-Rewards balance: 0.00001435
-Disk Usage: 235M
+Rewards balance: 0.00001555
+Disk Usage: 236M
 CPU Usage: 1.5%
-Memory Used: 34.8594MB
-Records: 542
+Memory Used: 33.9727MB
+Records: 544
 ---------
 Number: 4:20
 Node: 12D3KooWBzRHA47iogoNypK664vwvpXB2x3iiuXubwx6tjmZbdZK
@@ -1261,8 +1261,8 @@ Public IP Address: xx.xx.67.50
 PID: 1216752
 Rewards balance: 0.00000000
 Disk Usage: 192M
-CPU Usage: 1.7%
-Memory Used: 36.5117MB
+CPU Usage: 1.5%
+Memory Used: 38.3438MB
 Records: 465
 ---------
 Number: 4:21
@@ -1271,9 +1271,9 @@ Public IP Address: xx.xx.67.50
 PID: 1216732
 Rewards balance: 0.00000000
 Disk Usage: 209M
-CPU Usage: 2.0%
-Memory Used: 43.4297MB
-Records: 491
+CPU Usage: 1.8%
+Memory Used: 45.0586MB
+Records: 493
 ---------
 Number: 4:22
 Node: 12D3KooWKTUTkaJgK1Xop4w4HerKeEw5hcAb7BjKLDJHtdBkp6nd
@@ -1281,29 +1281,29 @@ Public IP Address: xx.xx.67.50
 PID: 1216782
 Rewards balance: 0.00000000
 Disk Usage: 181M
-CPU Usage: 2.6%
-Memory Used: 37.1641MB
+CPU Usage: 2.5%
+Memory Used: 37.875MB
 Records: 425
 ---------
 Number: 4:23
 Node: 12D3KooWM2KxBASPAoweKTDJrxSJHwfDQoyrhjaZC5m12rx7VMX5
 Public IP Address: xx.xx.67.50
 PID: 1216797
-Rewards balance: 0.00000010
-Disk Usage: 157M
-CPU Usage: 1.7%
-Memory Used: 36.5273MB
-Records: 359
+Rewards balance: 0.00000020
+Disk Usage: 159M
+CPU Usage: 1.6%
+Memory Used: 33.5586MB
+Records: 364
 ---------
 Number: 4:24
 Node: 12D3KooWNcutXHyKqiMAiMgwSjWKjcyR8DYuGtLEmBsnoX5hih86
 Public IP Address: xx.xx.67.50
 PID: 1216767
-Rewards balance: 0.00000107
+Rewards balance: 0.00000162
 Disk Usage: 89M
-CPU Usage: 3.1%
-Memory Used: 46.9727MB
-Records: 213
+CPU Usage: 2.8%
+Memory Used: 46.9141MB
+Records: 214
 ---------
 Number: 4:25
 Node: 12D3KooWCnnnxqWkZAn8jWcSixdiG91D3ScnHYGivbeHjjE5nWHB
@@ -1311,9 +1311,9 @@ Public IP Address: xx.xx.67.50
 PID: 1217752
 Rewards balance: 0.00000000
 Disk Usage: 185M
-CPU Usage: 2.0%
-Memory Used: 36.3828MB
-Records: 436
+CPU Usage: 1.8%
+Memory Used: 33.8086MB
+Records: 437
 ---------
 Number: 4:26
 Node: 12D3KooWKsAFKq2PdbHc94NK6ah1dVt7Bc5jadsD2q3TiqfyWpSt
@@ -1321,19 +1321,19 @@ Public IP Address: xx.xx.67.50
 PID: 1217123
 Rewards balance: 0.00000000
 Disk Usage: 168M
-CPU Usage: 2.0%
-Memory Used: 39.7109MB
-Records: 394
+CPU Usage: 1.8%
+Memory Used: 37.7852MB
+Records: 396
 ---------
 Number: 4:27
 Node: 12D3KooWL4D7Yhk8thf3PQrY9KtBS25qyBQeAv3bTDDM4hZUSqdL
 Public IP Address: xx.xx.67.50
 PID: 1217587
 Rewards balance: 0.00000000
-Disk Usage: 182M
-CPU Usage: 1.5%
-Memory Used: 32.918MB
-Records: 423
+Disk Usage: 184M
+CPU Usage: 1.4%
+Memory Used: 32.5898MB
+Records: 426
 ---------
 Number: 4:28
 Node: 12D3KooWMc1HpKG8L55nNjo7PVJiVEYAP7tfcUV5aCRDvN39GCKS
@@ -1341,17 +1341,17 @@ Public IP Address: xx.xx.67.50
 PID: 1217767
 Rewards balance: 0.00000000
 Disk Usage: 125M
-CPU Usage: 1.7%
-Memory Used: 32.3125MB
+CPU Usage: 1.6%
+Memory Used: 32.5117MB
 Records: 308
 ---------
 Number: 4:29
 Node: 12D3KooWSahWgUR7uLzF3m4bCYS89bQDPYz3j2BVP3VvNoVeiSqr
 Public IP Address: xx.xx.67.50
 PID: 1217737
-Rewards balance: 0.00000000
+Rewards balance: 0.00000537
 Disk Usage: 193M
-CPU Usage: 1.5%
-Memory Used: 45.3594MB
-Records: 448
+CPU Usage: 1.3%
+Memory Used: 45.6289MB
+Records: 449
 ---------
