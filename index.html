@@ -110,9 +110,8 @@
     .displayContainer {
       display: flex;
       justify-content: center;
-      /* Center the child divs horizontally */
       width: 80%;
-      /* Take up full width for proper centering */
+      padding-bottom: 5px;
     }
 
     #dataWindow {
@@ -141,7 +140,7 @@
     #CountDisplay {
       flex: 1;
       background-color: transparent;
-      /* Add your styles for the new div here */
+      padding-top: 10px;
     }
 
     #dataWindow::-webkit-scrollbar {
@@ -339,7 +338,7 @@
     if (!query.trim()) {
     // If the query is empty or just whitespace, return without counting
     document.getElementById('CountDisplay').textContent = '';
-    return 'Please enter a search term.';
+    return 'Enter a search term.';
   }
   let result = '';
   let startIndex = 0;
