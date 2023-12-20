@@ -165,12 +165,13 @@
       border: 1px solid grey;
       padding: 3px 3px;
       border-radius: 1px;
-      font-size: 11px;
+      font-size: 12px;
+      text-align: center;
     }
 
     #searchInput::placeholder {
       color: white;
-      opacity: 80%;
+      opacity: 70%;
     }
 
     .icon-button {
@@ -188,19 +189,27 @@
       opacity: 95%;
     }
 
-    @media screen and (max-width: 1500px) {
+    @media screen and (max-width: 1000px) {
       #iframesContainer {
         padding-right: 20px;
         /* space for swiping on mobile */
       }
     }
+
+    /* Hide the clearButton on screens wider than 1500px */
+    @media screen and (min-width: 1000px) {
+      .touch-only {
+        display: none;
+      }
+    }
+
   </style>
 </head>
 
 <div id="mainContainer">
   <div id="searchContainer">
-    <input type="text" id="searchInput" placeholder="Search (e.g. 1:1)">
-    <button id="clearButton" class="icon-button">&times;</button>
+    <input type="text" id="searchInput" placeholder="Search">
+    <button id="clearButton" class="icon-button touch-only">&times;</button>
   </div>
   <div class="displayContainer">
     <div id="dataWindow">
@@ -232,12 +241,6 @@
       onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
 
     <iframe frameborder="0" height="400" src="memory_usage_plot.html" width="100%"></iframe>
-
-    <div class="iframe-container">
-      <button class="iframe-btn-position fullscreen-btn-style"
-        onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-
-      <iframe frameborder="0" height="400" src="tcp.html" width="100%"></iframe>
 
       <div class="iframe-container">
         <button class="iframe-btn-position fullscreen-btn-style"
