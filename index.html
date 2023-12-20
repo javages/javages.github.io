@@ -68,27 +68,6 @@
       z-index: 10;
     }
 
-    .hide-individual-buttons button[onclick^="toggleFullscreen"] {
-      display: none;
-    }
-
-    .fullscreen-btn-style {
-      background-color: rgba(255, 255, 255, 0.1);
-      font-size: 10px;
-      color: rgba(255, 255, 255, 0.6);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      padding: 1px 1px;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s, color 0.3s;
-    }
-
-    .fullscreen-btn-style:hover {
-      background-color: rgba(255, 255, 255, 0.2);
-      color: rgba(255, 255, 255, 0.8);
-      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-    }
-
     .iframe-btn-position {
       position: absolute;
       top: 10px;
@@ -222,34 +201,23 @@
 <br />
 <div id="iframesContainer">
   <div class="iframe-container">
-    <button class="iframe-btn-position fullscreen-btn-style"
-      onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-
     <iframe frameborder="0" height="400" src="bubble_rewards.html" width="100%"></iframe>
   </div>
 
   <div class="iframe-container">
-    <button class="iframe-btn-position fullscreen-btn-style"
-      onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-
     <iframe frameborder="0" height="400" src="rewards_balance_plot.html" width="100%"></iframe>
   </div>
 
   <div class="iframe-container">
-    <button class="iframe-btn-position fullscreen-btn-style"
-      onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-
     <iframe frameborder="0" height="400" src="memory_usage_plot.html" width="100%"></iframe>
 
       <div class="iframe-container">
-        <button class="iframe-btn-position fullscreen-btn-style"
-          onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-
         <iframe frameborder="0" height="400" src="records.html" width="100%"></iframe>
       </div>
     </div>
     <br />
     <br />
+    
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         setInterval(function () {
@@ -260,56 +228,7 @@
         }, 600000); // 600,000 milliseconds = 10 minutes
       });
     </script>
-    <script>
-      function toggleFullscreen(iframe) {
-        if (!document.fullscreenElement) {
-          iframe.requestFullscreen();
-        } else {
-          document.exitFullscreen();
-        }
-      }
-
-      function toggleAllIframesFullscreen() {
-        var containers = document.querySelectorAll('.iframe-container');
-
-        if (!document.fullscreenElement) {
-          containers.forEach(container => {
-            var iframe = container.querySelector("iframe");
-            iframe.style.height = "25vh";
-            iframe.style.width = "100vw";
-            container.classList.add('hide-individual-buttons');
-          });
-          document.getElementById("iframesContainer").requestFullscreen();
-        } else {
-          containers.forEach(container => {
-            var iframe = container.querySelector("iframe");
-            iframe.style.height = "400px";
-            iframe.style.width = "100%";
-            container.classList.remove('hide-individual-buttons');
-          });
-          document.exitFullscreen();
-        }
-      }
-
-      document.addEventListener("fullscreenchange", function () {
-        var containers = document.querySelectorAll('.iframe-container');
-
-        if (!document.fullscreenElement) {
-          containers.forEach(function (container) {
-            var iframes = container.querySelectorAll("iframe");
-            iframes.forEach(function (iframe) {
-              iframe.style.width = "100%";
-              iframe.style.height = "400px";
-            });
-
-            container.classList.remove('hide-individual-buttons');
-          });
-        }
-      });
-
-
-    </script>
-
+ 
     <script>
       window.addEventListener('load', function () {
         fetch('node_info.txt')
