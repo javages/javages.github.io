@@ -10,6 +10,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>Safe Network Test Network Nodes</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
 
   <style>
     * {
@@ -165,7 +166,7 @@
       border: 1px solid grey;
       padding: 3px 3px;
       border-radius: 1px;
-      font-size: 12px;
+      font-size: 13px;
       text-align: center;
     }
 
@@ -175,18 +176,19 @@
     }
 
     .icon-button {
-      padding-left: 2px;
+      padding-left: 6px;
+      padding-top: 5px;
       color: white;
       background: none;
       border: none;
       cursor: pointer;
       font-size: 1.4em;
-      opacity: 80%;
+      opacity: 60%;
     }
 
     .icon-button:hover {
       color: white;
-      opacity: 95%;
+      opacity: 90%;
     }
 
     @media screen and (max-width: 1000px) {
@@ -209,7 +211,9 @@
 <div id="mainContainer">
   <div id="searchContainer">
     <input type="text" id="searchInput" placeholder="Search">
-    <button id="clearButton" class="icon-button touch-only">&times;</button>
+    <button id="clearButton" class="icon-button touch-only">
+      <span class="material-symbols-outlined">delete</span>
+  </button>    
   </div>
   <div class="displayContainer">
     <div id="dataWindow">
