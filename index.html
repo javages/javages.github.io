@@ -263,7 +263,7 @@
   let counter = 0;  // Counter for the number of matches
 
   // Check if the query is the shorthand 'zero' and replace it with '0.00000000'.
-  let searchQuery = query.toLowerCase() === 'zero' ? '0.00000000' : query;
+  let searchQuery = query.toLowerCase() === 'zero' ? '0.000000000' : query;
   let lowerCaseQuery = searchQuery.toLowerCase(); // Convert query to lower case for case-insensitive search
 
   // Determine if the query requires an exact match.
