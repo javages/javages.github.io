@@ -1,0 +1,107 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                background-color: black; /* Light grey background */
+                color: #333; /* Dark text for readability */
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
+                padding: 0;
+                text-align: left;
+            }
+
+            .container {
+                position: relative;
+                max-width: 800px;
+                margin: 20px auto;
+                background-color: #242323;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                border-radius: 8px;
+            }
+
+            .home-icon {
+                position: absolute;
+                top: 2px; /* Adjust as needed for spacing from the top */
+                right: 20px; /* Adjust as needed for spacing from the left */
+                z-index: 10; /* Ensures the icon is above other elements */
+            }
+
+            .home-icon img {
+                width: 24px; /* Set the width as desired */
+                height: auto; /* Height is set to auto to maintain aspect ratio */
+                display: block;
+            }
+                
+            h2 {
+                font-size: 18px;
+                text-align: center;
+                color: #9ecae1; /* A blue shade from tab20c */
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 1.6;
+            }
+
+            hr {
+                border: 0; /* Remove the default border */
+                height: 1px; /* Set the height of the line */
+                background: #333; /* Light grey color for the faint line */
+                margin: 30px 0; /* Add some space before and after the line */
+            }
+
+            .data-section {
+                padding: 10px;
+                margin: 10px 0;
+                border-radius: 4px;
+            }
+
+            .data-section:nth-child(odd) {
+                background-color: #636363;
+                color: white;
+            }
+
+            .data-section:nth-child(even) {
+                background-color: #969696;
+                color: white;
+            }
+
+            .data-title {
+                font-weight: bold;
+                color: white; /* A green shade from tab20c */
+            }
+            
+            .data-row {
+                display: flex;
+                justify-content: start; /* Align to the start to bring items closer */
+                margin-bottom: 5px; /* Adjust as needed for space between rows */
+            }
+
+            .data-title {
+                flex: 0 0 auto; /* Do not grow or shrink, but based on content width */
+                margin-right: 10px; /* Adjust the space between the title and the value */
+                white-space: nowrap; /* Prevents wrapping of the title text */
+            }
+
+            .data-value {
+                flex: 1; /* Allows this element to grow and fill the remaining space */
+                text-align: left; /* Aligns the text to the left */
+            }
+
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <a href="index.html" class="home-icon">
+            <img src="home.png" alt="Home">
+        </a>
+    
+    </div>
+    </body>
+    </html>
+    
