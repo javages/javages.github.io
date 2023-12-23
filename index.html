@@ -13,6 +13,18 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
 
   <style>
+
+    .machines-link {
+      position: absolute;
+      top: 10px; /* Adjust the value as needed */
+      right: 10px; /* Adjust the value as needed */
+      padding: 10px;
+      color: #838080; /* or any color that suits your design */
+      text-decoration: none;
+      font-size: 1em;
+      z-index: 1000; /* To ensure it is above other elements */
+    }
+
     * {
       margin: 0;
       padding: 0;
@@ -190,6 +202,7 @@
   </button>    
   </div>
   <div class="displayContainer">
+    <a href="mtracking.html" class="machines-link">Machines</a>
     <div id="dataWindow">
       <div id="resultDisplay"></div>
       <pre></pre>
