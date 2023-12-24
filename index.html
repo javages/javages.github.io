@@ -118,7 +118,14 @@
       padding-bottom: 5px;
     }
 
+    .searchBox {
+      position: relative;
+      display: flex;
+      align-items: center;
+      }
+
     #searchInput {
+      flex-grow: 1;
       color: white;
       background-color: black;
       border: 1px solid grey;
@@ -133,6 +140,13 @@
       opacity: 70%;
     }
 
+    #clearButton {
+      position: absolute;
+      right: 3px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
     .icon-button {
       padding-left: 10px;
       padding-top: 5px;
@@ -140,13 +154,13 @@
       background: none;
       border: none;
       cursor: pointer;
-      font-size: 1.4em;
-      opacity: 25%;
+      font-size: 1.3em;
+      opacity: 35%;
     }
 
     .icon_m {
       position: absolute;
-      top: 5px;
+      top: 7px;
       left: 10px;
       padding: 10px;
       text-decoration: none;
@@ -175,13 +189,14 @@
   </style>
 </head>
 
-<div id="mainContainer">
-  <div id="searchContainer">
+<div id="searchContainer">
+  <div class="searchBox">
     <input type="text" id="searchInput" placeholder="Search">
     <button id="clearButton" class="icon-button touch-only">
       <span class="material-symbols-outlined">delete</span>
-  </button>    
+    </button>    
   </div>
+</div>
   <div class="displayContainer">
     <a href="mtracking.html">
       <img class="icon_m" src="machines.png" alt="Machines">
