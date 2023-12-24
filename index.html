@@ -14,17 +14,6 @@
 
   <style>
 
-    .machines-link {
-      position: absolute;
-      top: 10px; /* Adjust the value as needed */
-      left: 10px; /* Adjust the value as needed */
-      padding: 10px;
-      color: #838080; /* or any color that suits your design */
-      text-decoration: none;
-      font-size: 1em;
-      z-index: 1000; /* To ensure it is above other elements */
-    }
-
     * {
       margin: 0;
       padding: 0;
@@ -155,6 +144,18 @@
       opacity: 60%;
     }
 
+    .icon_m {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      padding: 10px;
+      text-decoration: none;
+      font-size: 1em;
+      z-index: 1000; 
+      filter: invert(100%);
+      opacity: 75%;
+    }
+
     @media screen and (max-width: 1000px) {
       #iframesContainer {
         padding-right: 20px;
@@ -180,7 +181,7 @@
   </button>    
   </div>
   <div class="displayContainer">
-    <a href="mtracking.html" class="machines-link">Machines</a>
+    <img class="icon_m" src="machines.png" alt="Machines">
     <div id="dataWindow">
       <div id="resultDisplay"></div>
       <pre></pre>
