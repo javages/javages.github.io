@@ -10,43 +10,23 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>Safe Network Test Network Nodes</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
-  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+
   <style>
+
     * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
 
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      margin-top: 30px;
+      margin-top: 15px;
       background: black;
       color: rgba(244, 244, 244, 0.8);
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    }
-
-    a {
-      text-decoration: none;
-      color: rgba(255, 102, 0, 0.8);
-      padding: 12px 20px;
-      width: 200px;
-      height: 22px;
-      line-height: 25px;
-      text-align: center;
-      border: 2px solid rgba(255, 102, 0, 0.8);
-      border-radius: 5px;
-      transition: background-color 0.3s, color 0.3s;
-      display: inline-block;
-      margin-bottom: 10px;
-      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    }
-
-    a:hover {
-      background-color: rgba(255, 102, 0, 0.8);
-      color: #222;
-      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
     }
 
     hr {
@@ -67,27 +47,6 @@
       z-index: 10;
     }
 
-    .hide-individual-buttons button[onclick^="toggleFullscreen"] {
-      display: none;
-    }
-
-    .fullscreen-btn-style {
-      background-color: rgba(255, 255, 255, 0.1);
-      font-size: 10px;
-      color: rgba(255, 255, 255, 0.6);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      padding: 1px 1px;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s, color 0.3s;
-    }
-
-    .fullscreen-btn-style:hover {
-      background-color: rgba(255, 255, 255, 0.2);
-      color: rgba(255, 255, 255, 0.8);
-      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-    }
-
     .iframe-btn-position {
       position: absolute;
       top: 10px;
@@ -98,248 +57,224 @@
       box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     }
 
-    #topContainer {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: left;
-        width: 100%;
-        padding: 1px;
+    #dataWindow {
+      flex: 2;
+      max-height: 170px;
+      overflow-y: scroll;
+      border: 1px solid rgba(252, 252, 252, 0);
+      background-color: red;
+      padding: 15px;
+      padding-left: 0px;
+      border-radius: 5px;
+      text-align: left;
+      position: relative;
     }
 
-    #dataWindow {
-    width: 70%;
-    max-height: 150px;
-    overflow-y: scroll;
-    border: 1px solid rgba(252, 252, 252, 0);
-    background-color: transparent;
-    padding: 15px;
-    padding-left: 0px;
-    border-radius: 5px;
-    margin-right: 5%;
-    margin-top: 20px;
-    text-align: left;
-    position: relative;
-}
+    #dataWindow::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 10px;
+      pointer-events: none;
+    }
 
-#dataWindow::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 10px;
-    pointer-events: none;
-}
+    #CountDisplay {
+      flex: 1;
+      background-color: blue;
+      padding: 15px;
+    }
 
-#dataWindow::-webkit-scrollbar {
-    width: 0;
-}
+    #dataWindow::-webkit-scrollbar {
+      width: 0;
+    }
 
-#dataWindow pre {
-    white-space: pre-wrap;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: left; 
-}
+    #dataWindow pre {
+      color: white;
+      font-weight: bold;
+      -webkit-font-smoothing: antialiased;
+      font-size: 16px;
+    }
 
-#searchContainer {
-    width: 100%;        
-    display: flex;
-    justify-content: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-}
+    #mainContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
 
-#mainContainer {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;   
-    width: 100%;           
-    padding-left: 30px;    
-    margin-right: 5%;      
-}
+    .displayContainer {
+      display: flex;
+      justify-content: center;
+      width: 80%;
+      padding-top: 5px;
+    }
 
-#searchInput {
-    color: white;                    
-    background-color: black;         
-    border: 1px solid grey;          
-    padding: 3px 3px;                
-    border-radius: 1px;             
-    font-size: 11px;                 
-}
+    #searchContainer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 5px;
+    }
 
-#searchInput::placeholder {
-    color: white;                    
-    opacity: 1;            
-}
+    .searchBox {
+      position: relative;
+      display: flex;
+      align-items: center;
+      }
 
+    #searchInput {
+      flex-grow: 1;
+      color: white;
+      background-color: black;
+      border: 1px solid grey;
+      padding: 3px 3px;
+      border-radius: 1px;
+      font-size: 13px;
+      text-align: center;
+    }
 
-#searchButton, #clearButton {
-    color: white;               
-    background-color: black;   
-    border: 1px solid grey;    
-    padding: 3px 3px;      
-    border-radius: 1px;         
-    font-size: 11px;           
-    cursor: pointer;           
-    transition: background-color 0.3s, color 0.3s; 
-}
+    #searchInput::placeholder {
+      color: white;
+      opacity: 70%;
+    }
 
-#searchButton:hover, #clearButton:hover {
-    background-color: grey;     
-    color: black;        
-}
+    #clearButton {
+      position: absolute;
+      right: 3px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
 
+    .icon-button {
+      padding-left: 10px;
+      padding-top: 5px;
+      color: white;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.3em;
+      opacity: 35%;
+    }
 
-</style>
+    .icon_m {
+      position: absolute;
+      top: 7px;
+      left: 10px;
+      padding: 10px;
+      text-decoration: none;
+      font-size: 1em;
+      z-index: 1000; 
+      filter: invert(100%);
+      opacity: 75%;
+      width: 45px;
+      height: 45px;
+    }
+
+    @media screen and (max-width: 1000px) {
+      #iframesContainer {
+        padding-right: 20px;
+        /* space for swiping on mobile */
+      }
+    }
+
+    /* Hide the clearButton on screens wider than 1500px */
+    @media screen and (min-width: 1000px) {
+      .touch-only {
+        display: none;
+      }
+    }
+
+  </style>
 </head>
 
-<body>
 <div id="mainContainer">
-    <div id="searchContainer">
-      <input type="text" id="searchInput" placeholder="Search (e.g. 1:1)">
-      <button id="searchButton">Search</button>
-      <button id="clearButton">Clear</button>
-    </div>
-
-    <div id="dataWindow">
+<div id="searchContainer">
+  <a href="mtracking.html">
+    <img class="icon_m" src="machines.png" alt="Machines">
+  </a> <!-- Close the anchor tag here -->
+  <div class="searchBox">
+    <input type="text" id="searchInput" placeholder="Search">
+    <button id="clearButton" class="icon-button touch-only">
+      <span class="material-symbols-outlined">delete</span>
+    </button>    
+  </div>
+</div>
+<div class="displayContainer">
+  <div id="dataWindow">
       <div id="resultDisplay"></div>
-      <pre></pre>
-    </div>
+  </div>
+  <div id="CountDisplay"></div>
+</div>
 </div>
 
-
-  <br />
-  <button class="fullscreen-btn-style" onclick="toggleAllIframesFullscreen()">Full 4</button>
-  <div id="iframesContainer">
-    <div class="iframe-container">
-      <button class="iframe-btn-position fullscreen-btn-style"
-        onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-
-      <iframe frameborder="0" height="400" src="bubble_rewards.html" width="100%"></iframe>
-    </div>
-
-    <div class="iframe-container">
-      <button class="iframe-btn-position fullscreen-btn-style"
-        onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-
-      <iframe frameborder="0" height="400" src="rewards_balance_plot.html" width="100%"></iframe>
-    </div>
-
-    <div class="iframe-container">
-      <button class="iframe-btn-position fullscreen-btn-style"
-        onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-
-      <iframe frameborder="0" height="400" src="memory_usage_plot.html" width="100%"></iframe>
-      
-      <div class="iframe-container">
-      <button class="iframe-btn-position fullscreen-btn-style"
-        onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-
-      <iframe frameborder="0" height="400" src="tcp.html" width="100%"></iframe>
-
-      <div class="iframe-container">
-        <button class="iframe-btn-position fullscreen-btn-style"
-          onclick="toggleFullscreen(this.nextElementSibling)">Full</button>
-  
-        <iframe frameborder="0" height="400" src="records.html" width="100%"></iframe>
-    </div>
+<br />
+<div id="iframesContainer">
+  <div class="iframe-container">
+    <iframe frameborder="0" height="400" src="bubble_rewards.html" width="100%"></iframe>
   </div>
-  <br />
-  <br />
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      setInterval(function () {
-        var iframes = document.querySelectorAll("iframe");
-        iframes.forEach(function (iframe) {
-          iframe.src = iframe.src;
-        });
-      }, 600000); // 600,000 milliseconds = 10 minutes
-    });
-  </script>
-  <script>
-    function toggleFullscreen(iframe) {
-      if (!document.fullscreenElement) {
-        iframe.requestFullscreen();
-      } else {
-        document.exitFullscreen();
-      }
-    }
 
-function toggleAllIframesFullscreen() {
-  var containers = document.querySelectorAll('.iframe-container');
+  <div class="iframe-container">
+    <iframe frameborder="0" height="400" src="rewards_balance_plot.html" width="100%"></iframe>
+  </div>
 
-  if (!document.fullscreenElement) {
-    containers.forEach(container => {
-      var iframe = container.querySelector("iframe");
-      iframe.style.height = "25vh";
-      iframe.style.width = "100vw";
-      container.classList.add('hide-individual-buttons');
-    });
-    document.getElementById("iframesContainer").requestFullscreen();
-  } else {
-    containers.forEach(container => {
-      var iframe = container.querySelector("iframe");
-      iframe.style.height = "400px";
-      iframe.style.width = "100%";
-      container.classList.remove('hide-individual-buttons');
-    });
-    document.exitFullscreen();
-  }
-}
+  <div class="iframe-container">
+    <iframe frameborder="0" height="400" src="memory_usage_plot.html" width="100%"></iframe>
 
-
-    document.addEventListener("fullscreenchange", function () {
-      var containers = document.querySelectorAll('.iframe-container');
-
-      if (!document.fullscreenElement) {
-        containers.forEach(function (container) {
-          var iframes = container.querySelectorAll("iframe");
+      <div class="iframe-container">
+        <iframe frameborder="0" height="400" src="records.html" width="100%"></iframe>
+      </div>
+    </div>
+    <br />
+    <br />
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        setInterval(function () {
+          var iframes = document.querySelectorAll("iframe");
           iframes.forEach(function (iframe) {
-            iframe.style.width = "100%";
-            iframe.style.height = "400px";
+            iframe.src = iframe.src;
           });
+        }, 600000); // 600,000 milliseconds = 10 minutes
+      });
+    </script>
+ 
+    <script>
+      window.addEventListener('load', function () {
+        fetch('node_info.txt')
+          .then(response => response.text())
+          .then(data => {
+            const lines = data.split('\n').slice(0, 4); // Get the first four lines
+            const summary = lines.join('<br>');
+            document.getElementById('resultDisplay').innerHTML = summary;
+          })
+          .catch(error => {
+            console.error('Error fetching data:', error);
+          });
+      });
+    </script>
 
-          container.classList.remove('hide-individual-buttons');
-        });
+    <script>
+      // Defines an asynchronous function to fetch data from 'node_info.txt'.
+      async function fetchData() {
+        const response = await fetch('node_info.txt'); // Fetches the file.
+        const text = await response.text();            // Converts the fetched data to text.
+        return text.split('\n');                       // Splits the text into an array of lines.
       }
-    });
 
-
-  </script>
-
-
-<script>
-window.addEventListener('load', function() {
-  fetch('node_info.txt')
-    .then(response => response.text())
-    .then(data => {
-      const lines = data.split('\n').slice(0, 4); // Get the first four lines
-      const summary = lines.join('<br>');
-      document.getElementById('resultDisplay').innerHTML = summary;
-    })
-    .catch(error => {
-      console.error('Error fetching data:', error);
-    });
-});
-</script>
-
-<script>
-  // Defines an asynchronous function to fetch data from 'node_info.txt'.
-  async function fetchData() {
-    const response = await fetch('node_info.txt'); // Fetches the file.
-    const text = await response.text();            // Converts the fetched data to text.
-    return text.split('\n');                       // Splits the text into an array of lines.
+  function searchNodeData(query, data) {
+    if (!query.trim()) {
+    // If the query is empty or just whitespace, return without counting
+    document.getElementById('CountDisplay').textContent = '';
+    return 'Enter a search term.';
   }
-  
-  // Function to search within the fetched data for a specific query.
-function searchNodeData(query, data) {
   let result = '';
   let startIndex = 0;
+  let counter = 0;  // Counter for the number of matches
 
   // Check if the query is the shorthand 'zero' and replace it with '0.00000000'.
-  let searchQuery = query.toLowerCase() === 'zero' ? '0.00000000' : query;
+  let searchQuery = query.toLowerCase() === 'zero' ? '0.000000000' : query;
   let lowerCaseQuery = searchQuery.toLowerCase(); // Convert query to lower case for case-insensitive search
 
   // Determine if the query requires an exact match.
@@ -361,6 +296,9 @@ function searchNodeData(query, data) {
 
     // If no more matches are found, break out of the loop.
     if (resultIndex === -1) break;
+
+    // Increment the counter if a match is found.
+    counter++;
 
     // Adjust resultIndex to the actual index in the data array.
     resultIndex += startIndex;
@@ -384,58 +322,76 @@ function searchNodeData(query, data) {
     startIndex = resultIndex;
   }
 
-   return result.trim() || 'No match found';
+  // Display the count
+  document.getElementById('CountDisplay').textContent = `Results: ${counter}`;
+
+  return result.trim() || 'Shit out of luck';
 }
 
-  // Function to set up the search interface and functionality.
-  async function setupSearch() {
-    const fileData = await fetchData(); // Fetches and stores the data from the file.
+      // Function to set up the search interface and functionality.
+      async function setupSearch() {
+        const fileData = await fetchData(); // Fetches and stores the data from the file.
 
-    // Retrieves HTML elements by their IDs.
-    const searchButton = document.getElementById('searchButton');
-    const clearButton = document.getElementById('clearButton');
-    const searchInput = document.getElementById('searchInput');
-    const resultDisplay = document.getElementById('resultDisplay');
-  
-    // Function to execute the search and display results.
-    function performSearch() {
-      const query = searchInput.value;                     // Gets the query from the input field.
-      const result = searchNodeData(query, fileData);      // Searches the data for the query.
-      resultDisplay.innerHTML = result.replace(/\n/g, '<br>'); // Displays the results, converting newlines to HTML breaks.
-    }
+        // Retrieves HTML elements by their IDs.
+        // const searchButton = document.getElementById('searchButton');
+        const clearButton = document.getElementById('clearButton');
 
-    // Adds an event listener to the search button to perform a search on click.
-    searchButton.addEventListener('click', performSearch);
+        // Event listener for the clear button
+        clearButton.addEventListener('click', function() {
+            // Assuming you have other code here to clear your data or search results
 
-    // Adds an event listener to the search input for the 'Enter' key to perform a search.
-    searchInput.addEventListener('keypress', function(e) {
-      if (e.key === 'Enter') {
-        performSearch();
-      }
-    });
-
-    // Adds an event listener to the clear button to reset the search interface.
-    clearButton.addEventListener('click', function() {
-      searchInput.value = ''; // Clears the input field.
-      // Fetches and displays the first few lines of the file as a summary.
-      fetch('node_info.txt')
-        .then(response => response.text())
-        .then(data => {
-          const lines = data.split('\n').slice(0, 4);
-          const summary = lines.join('<br>');
-          resultDisplay.innerHTML = summary;
-        })
-        .catch(error => {
-          console.error('Error fetching data:', error); // Error handling for fetch operation.
+            // Reset the zeroCountDisplay element
+            document.getElementById('CountDisplay').textContent = ''; // This will clear the zero count display
         });
-    });
-  }
 
-  // Adds an event listener to call 'setupSearch' when the document content is fully loaded.
-  document.addEventListener('DOMContentLoaded', setupSearch);
-</script>
+        // Event listener for the 'Escape' key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                clearButton.click(); // This will trigger the clear button's functionality, including clearing the zero count display
+            }
+        });
 
-  
-</body>
+        const searchInput = document.getElementById('searchInput');
+        const resultDisplay = document.getElementById('resultDisplay');
+
+        // Function to execute the search and display results.
+        function performSearch() {
+          const query = searchInput.value;                     // Gets the query from the input field.
+          const result = searchNodeData(query, fileData);      // Searches the data for the query.
+          resultDisplay.innerHTML = result.replace(/\n/g, '<br>'); // Displays the results, converting newlines to HTML breaks.
+        }
+
+        // Adds an event listener to the search button to perform a search on click.
+        // searchButton.addEventListener('click', performSearch);
+
+        // Adds an event listener to the search input for the 'Enter' key to perform a search.
+        searchInput.addEventListener('keypress', function (e) {
+          if (e.key === 'Enter') {
+            performSearch();
+          }
+        });
+
+        // Adds an event listener to the clear button to reset the search interface.
+        clearButton.addEventListener('click', function () {
+          searchInput.value = ''; // Clears the input field.
+          // Fetches and displays the first few lines of the file as a summary.
+          fetch('node_info.txt')
+            .then(response => response.text())
+            .then(data => {
+              const lines = data.split('\n').slice(0, 4);
+              const summary = lines.join('<br>');
+              resultDisplay.innerHTML = summary;
+            })
+            .catch(error => {
+              console.error('Error fetching data:', error); // Error handling for fetch operation.
+            });
+        });
+      }
+
+      // Adds an event listener to call 'setupSearch' when the document content is fully loaded.
+      document.addEventListener('DOMContentLoaded', setupSearch);
+    </script>
+
+    </body>
 
 </html>
