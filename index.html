@@ -59,7 +59,7 @@
 
     #dataWindow {
       flex: 2;
-      max-height: 180px;
+      max-height: 170px;
       overflow-y: scroll;
       border: 1px solid rgba(252, 252, 252, 0);
       background-color: transparent;
@@ -99,8 +99,7 @@
 
     #mainContainer {
       display: flex;
-      flex-direction: row;
-      align-items: center;
+      flex-direction: column;
       align-items: center;
       width: 100%;
     }
@@ -108,7 +107,7 @@
     .displayContainer {
       display: flex;
       justify-content: center;
-      width: 80%;
+      width: 100%;
       padding-top: 5px;
     }
 
@@ -193,7 +192,7 @@
 <div id="searchContainer">
   <a href="mtracking.html">
     <img class="icon_m" src="machines.png" alt="Machines">
-  </a>
+  </a> <!-- Close the anchor tag here -->
   <div class="searchBox">
     <input type="text" id="searchInput" placeholder="Search">
     <button id="clearButton" class="icon-button touch-only">
