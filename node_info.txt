@@ -12,7 +12,7 @@ PID: 6751
 Rewards balance: 0.000000010
 Disk Usage: 2.6M
 CPU Usage: 1.1%
-Memory Used: 27.6484MB
+Memory Used: 28.9844MB
 Records: 9
 ---------
 Number: 0:1
@@ -21,8 +21,8 @@ Public IP Address: xx.xx.67.50
 PID: 6738
 Rewards balance: 0.000000020
 Disk Usage: 4.1M
-CPU Usage: 1.0%
-Memory Used: 26.5703MB
+CPU Usage: 0.9%
+Memory Used: 27.2266MB
 Records: 11
 ---------
 Number: 0:2
@@ -31,8 +31,8 @@ Public IP Address: xx.xx.67.50
 PID: 6712
 Rewards balance: 0.000000020
 Disk Usage: 2.5M
-CPU Usage: 1.0%
-Memory Used: 28.707MB
+CPU Usage: 0.9%
+Memory Used: 28.3984MB
 Records: 8
 ---------
 Number: 0:3
@@ -41,8 +41,8 @@ Public IP Address: xx.xx.67.50
 PID: 6764
 Rewards balance: 0.000000000
 Disk Usage: 4.1M
-CPU Usage: 1.0%
-Memory Used: 26.957MB
+CPU Usage: 0.9%
+Memory Used: 28.8359MB
 Records: 13
 ---------
 Number: 0:4
@@ -52,7 +52,7 @@ PID: 6686
 Rewards balance: 0.000000010
 Disk Usage: 5.6M
 CPU Usage: 1.1%
-Memory Used: 29.2812MB
+Memory Used: 30.1641MB
 Records: 13
 ---------
 Number: 0:5
@@ -61,8 +61,8 @@ Public IP Address: xx.xx.67.50
 PID: 6829
 Rewards balance: 0.000000000
 Disk Usage: 2.8M
-CPU Usage: 1.1%
-Memory Used: 30.8203MB
+CPU Usage: 1.0%
+Memory Used: 28.9336MB
 Records: 8
 ---------
 Number: 0:6
@@ -72,7 +72,7 @@ PID: 6803
 Rewards balance: 0.000000010
 Disk Usage: 1.6M
 CPU Usage: 0.9%
-Memory Used: 27.7227MB
+Memory Used: 28.0156MB
 Records: 4
 ---------
 Number: 0:7
@@ -82,7 +82,7 @@ PID: 6725
 Rewards balance: 0.000000000
 Disk Usage: 3.6M
 CPU Usage: 1.0%
-Memory Used: 27.7695MB
+Memory Used: 28.0039MB
 Records: 10
 ---------
 Number: 0:8
@@ -91,8 +91,8 @@ Public IP Address: xx.xx.67.50
 PID: 6671
 Rewards balance: 0.000000010
 Disk Usage: 4.5M
-CPU Usage: 1.1%
-Memory Used: 27.0039MB
+CPU Usage: 1.0%
+Memory Used: 27.6836MB
 Records: 11
 ---------
 Number: 0:9
@@ -101,8 +101,8 @@ Public IP Address: xx.xx.67.50
 PID: 6790
 Rewards balance: 0.000000010
 Disk Usage: 6.6M
-CPU Usage: 1.0%
-Memory Used: 27.7422MB
+CPU Usage: 0.9%
+Memory Used: 28.043MB
 Records: 15
 ---------
 Number: 0:10
@@ -111,8 +111,8 @@ Public IP Address: xx.xx.67.50
 PID: 6699
 Rewards balance: 0.000000010
 Disk Usage: 7.0M
-CPU Usage: 1.1%
-Memory Used: 28.9883MB
+CPU Usage: 1.0%
+Memory Used: 29.5MB
 Records: 18
 ---------
 Number: 0:11
@@ -122,7 +122,7 @@ PID: 6777
 Rewards balance: 0.000000010
 Disk Usage: 5.6M
 CPU Usage: 1.1%
-Memory Used: 28.2148MB
+Memory Used: 28.3789MB
 Records: 13
 ---------
 Number: 0:12
@@ -132,7 +132,7 @@ PID: 6816
 Rewards balance: 0.000000000
 Disk Usage: 3.6M
 CPU Usage: 1.0%
-Memory Used: 29.1953MB
+Memory Used: 29.8242MB
 Records: 9
 ---------
 Number: 1:0
@@ -142,7 +142,7 @@ PID: 5120
 Rewards balance: 0.000000000
 Disk Usage: 1.6M
 CPU Usage: 1.0%
-Memory Used: 33.293MB
+Memory Used: 35.7344MB
 Records: 5
 ---------
 Number: 1:1
@@ -150,10 +150,10 @@ Node: 12D3KooWAf2pP7AVrGyBk4P2Ay9HgccghwQQH1RRqfybjYbycPS4
 Public IP Address: xx.xx.67.50
 PID: 5042
 Rewards balance: 0.000000010
-Disk Usage: 2.3M
+Disk Usage: 3.9M
 CPU Usage: 1.0%
-Memory Used: 26.7773MB
-Records: 7
+Memory Used: 27.0469MB
+Records: 10
 ---------
 Number: 1:2
 Node: 12D3KooWAgvWQSQnfHdqVYin3TGZEkMBDG5gk4zviKrYEngMNGUR
@@ -161,8 +161,8 @@ Public IP Address: xx.xx.67.50
 PID: 4964
 Rewards balance: 0.000000010
 Disk Usage: 1.6M
-CPU Usage: 1.1%
-Memory Used: 41.5078MB
+CPU Usage: 1.0%
+Memory Used: 40.5273MB
 Records: 8
 ---------
 Number: 1:3
@@ -171,8 +171,8 @@ Public IP Address: xx.xx.67.50
 PID: 5133
 Rewards balance: 0.000000010
 Disk Usage: 3.0M
-CPU Usage: 1.1%
-Memory Used: 28.4492MB
+CPU Usage: 1.0%
+Memory Used: 28.8867MB
 Records: 7
 ---------
 Number: 1:4
@@ -181,8 +181,8 @@ Public IP Address: xx.xx.67.50
 PID: 5159
 Rewards balance: 0.000000010
 Disk Usage: 6.1M
-CPU Usage: 1.1%
-Memory Used: 33.5859MB
+CPU Usage: 1.0%
+Memory Used: 33.1641MB
 Records: 16
 ---------
 Number: 1:5
@@ -192,7 +192,7 @@ PID: 5003
 Rewards balance: 0.000000000
 Disk Usage: 3.1M
 CPU Usage: 1.1%
-Memory Used: 27.6094MB
+Memory Used: 27.8125MB
 Records: 8
 ---------
 Number: 1:6
@@ -202,7 +202,7 @@ PID: 5263
 Rewards balance: 0.000000000
 Disk Usage: 1.1M
 CPU Usage: 1.0%
-Memory Used: 33.3086MB
+Memory Used: 35.918MB
 Records: 3
 ---------
 Number: 1:7
@@ -212,7 +212,7 @@ PID: 5315
 Rewards balance: 0.000000010
 Disk Usage: 4.1M
 CPU Usage: 1.0%
-Memory Used: 28.5039MB
+Memory Used: 28.9922MB
 Records: 8
 ---------
 Number: 1:8
@@ -222,7 +222,7 @@ PID: 5224
 Rewards balance: 0.000000010
 Disk Usage: 2.1M
 CPU Usage: 1.0%
-Memory Used: 30.5195MB
+Memory Used: 28.9766MB
 Records: 6
 ---------
 Number: 1:9
@@ -231,8 +231,8 @@ Public IP Address: xx.xx.67.50
 PID: 5081
 Rewards balance: 0.000000010
 Disk Usage: 4.1M
-CPU Usage: 1.1%
-Memory Used: 28.5391MB
+CPU Usage: 1.0%
+Memory Used: 28.1367MB
 Records: 10
 ---------
 Number: 1:10
@@ -241,8 +241,8 @@ Public IP Address: xx.xx.67.50
 PID: 5211
 Rewards balance: 0.000000010
 Disk Usage: 2.1M
-CPU Usage: 1.1%
-Memory Used: 33.6953MB
+CPU Usage: 1.0%
+Memory Used: 33.9844MB
 Records: 5
 ---------
 Number: 1:11
@@ -252,7 +252,7 @@ PID: 5016
 Rewards balance: 0.000000010
 Disk Usage: 4.5M
 CPU Usage: 1.0%
-Memory Used: 28.3203MB
+Memory Used: 28.6523MB
 Records: 13
 ---------
 Number: 1:12
@@ -262,7 +262,7 @@ PID: 5289
 Rewards balance: 0.000000010
 Disk Usage: 2.9M
 CPU Usage: 1.1%
-Memory Used: 27.5938MB
+Memory Used: 28.4648MB
 Records: 10
 ---------
 Number: 1:13
@@ -271,8 +271,8 @@ Public IP Address: xx.xx.67.50
 PID: 5068
 Rewards balance: 0.000000010
 Disk Usage: 4.1M
-CPU Usage: 1.1%
-Memory Used: 33.0625MB
+CPU Usage: 1.0%
+Memory Used: 31.5859MB
 Records: 10
 ---------
 Number: 1:14
@@ -282,7 +282,7 @@ PID: 5029
 Rewards balance: 0.000000000
 Disk Usage: 2.1M
 CPU Usage: 0.9%
-Memory Used: 31.4102MB
+Memory Used: 31.9766MB
 Records: 5
 ---------
 Number: 1:15
@@ -291,8 +291,8 @@ Public IP Address: xx.xx.67.50
 PID: 5172
 Rewards balance: 0.000000000
 Disk Usage: 2.6M
-CPU Usage: 1.2%
-Memory Used: 28.2031MB
+CPU Usage: 1.1%
+Memory Used: 28.0391MB
 Records: 6
 ---------
 Number: 1:17
@@ -301,8 +301,8 @@ Public IP Address: xx.xx.67.50
 PID: 5185
 Rewards balance: 0.000000010
 Disk Usage: 6.5M
-CPU Usage: 1.2%
-Memory Used: 28.3711MB
+CPU Usage: 1.1%
+Memory Used: 29.1836MB
 Records: 19
 ---------
 Number: 1:18
@@ -311,8 +311,8 @@ Public IP Address: xx.xx.67.50
 PID: 4951
 Rewards balance: 0.000000000
 Disk Usage: 5.8M
-CPU Usage: 1.2%
-Memory Used: 28.8672MB
+CPU Usage: 1.1%
+Memory Used: 29MB
 Records: 19
 ---------
 Number: 1:19
@@ -322,7 +322,7 @@ PID: 5055
 Rewards balance: 0.000000000
 Disk Usage: 3.6M
 CPU Usage: 1.1%
-Memory Used: 32.1602MB
+Memory Used: 32.7969MB
 Records: 8
 ---------
 Number: 1:20
@@ -332,7 +332,7 @@ PID: 5328
 Rewards balance: 0.000000010
 Disk Usage: 3.0M
 CPU Usage: 1.0%
-Memory Used: 28.0586MB
+Memory Used: 28.2461MB
 Records: 8
 ---------
 Number: 1:21
@@ -342,7 +342,7 @@ PID: 5146
 Rewards balance: 0.000000000
 Disk Usage: 2.1M
 CPU Usage: 1.1%
-Memory Used: 33.5547MB
+Memory Used: 35.6016MB
 Records: 10
 ---------
 Number: 1:22
@@ -351,8 +351,8 @@ Public IP Address: xx.xx.67.50
 PID: 5094
 Rewards balance: 0.000000000
 Disk Usage: 4.6M
-CPU Usage: 1.0%
-Memory Used: 26.6758MB
+CPU Usage: 0.9%
+Memory Used: 27.582MB
 Records: 13
 ---------
 Number: 1:23
@@ -361,8 +361,8 @@ Public IP Address: xx.xx.67.50
 PID: 5276
 Rewards balance: 0.000000000
 Disk Usage: 2.1M
-CPU Usage: 1.1%
-Memory Used: 30.1133MB
+CPU Usage: 1.0%
+Memory Used: 30.8594MB
 Records: 5
 ---------
 Number: 1:24
@@ -370,10 +370,10 @@ Node: 12D3KooWQFFJCB87HiJjDVwV3oSX6f253i4pqVtzMK62EPzsZL2Q
 Public IP Address: xx.xx.67.50
 PID: 5250
 Rewards balance: 0.000000010
-Disk Usage: 7.4M
-CPU Usage: 1.2%
-Memory Used: 33.1055MB
-Records: 19
+Disk Usage: 8.0M
+CPU Usage: 1.1%
+Memory Used: 33.4414MB
+Records: 20
 ---------
 Number: 1:25
 Node: 12D3KooWQXar9kQ9ugbTB2JyyX3JLxNWRubGhShn9dUnyMSy4Qxb
@@ -382,7 +382,7 @@ PID: 5198
 Rewards balance: 0.000000000
 Disk Usage: 1.5M
 CPU Usage: 1.0%
-Memory Used: 27.8281MB
+Memory Used: 28.9766MB
 Records: 5
 ---------
 Number: 1:26
@@ -392,7 +392,7 @@ PID: 5107
 Rewards balance: 0.000000010
 Disk Usage: 2.6M
 CPU Usage: 1.0%
-Memory Used: 30.0469MB
+Memory Used: 31.0273MB
 Records: 6
 ---------
 Number: 1:27
@@ -402,7 +402,7 @@ PID: 4990
 Rewards balance: 0.000000000
 Disk Usage: 1.6M
 CPU Usage: 1.0%
-Memory Used: 29.8125MB
+Memory Used: 29.2031MB
 Records: 7
 ---------
 Number: 1:28
@@ -412,7 +412,7 @@ PID: 5302
 Rewards balance: 0.000000000
 Disk Usage: 2.1M
 CPU Usage: 1.1%
-Memory Used: 30.5508MB
+Memory Used: 30.418MB
 Records: 8
 ---------
 Number: 1:29
@@ -422,7 +422,7 @@ PID: 4977
 Rewards balance: 0.000000000
 Disk Usage: 7.4M
 CPU Usage: 1.0%
-Memory Used: 27.1641MB
+Memory Used: 28.4141MB
 Records: 20
 ---------
 Number: 2:0
@@ -432,7 +432,7 @@ PID: 23908
 Rewards balance: 0.000000010
 Disk Usage: 2.6M
 CPU Usage: 1.0%
-Memory Used: 27.5352MB
+Memory Used: 27.4609MB
 Records: 8
 ---------
 Number: 2:1
@@ -441,8 +441,8 @@ Public IP Address: xx.xx.67.50
 PID: 23737
 Rewards balance: 0.000000010
 Disk Usage: 3.0M
-CPU Usage: 1.1%
-Memory Used: 28.8984MB
+CPU Usage: 1.0%
+Memory Used: 29.5586MB
 Records: 6
 ---------
 Number: 2:2
@@ -452,7 +452,7 @@ PID: 24090
 Rewards balance: 0.000000020
 Disk Usage: 4.5M
 CPU Usage: 1.1%
-Memory Used: 30.6641MB
+Memory Used: 29.8945MB
 Records: 12
 ---------
 Number: 2:3
@@ -461,8 +461,8 @@ Public IP Address: xx.xx.67.50
 PID: 23723
 Rewards balance: 0.000000010
 Disk Usage: 5.1M
-CPU Usage: 1.2%
-Memory Used: 29.6055MB
+CPU Usage: 1.1%
+Memory Used: 30.4023MB
 Records: 14
 ---------
 Number: 2:4
@@ -472,7 +472,7 @@ PID: 23986
 Rewards balance: 0.000000020
 Disk Usage: 1.6M
 CPU Usage: 1.1%
-Memory Used: 29.2266MB
+Memory Used: 28.5352MB
 Records: 3
 ---------
 Number: 2:5
@@ -482,7 +482,7 @@ PID: 24025
 Rewards balance: 0.000000010
 Disk Usage: 3.5M
 CPU Usage: 1.1%
-Memory Used: 29.5938MB
+Memory Used: 28.7656MB
 Records: 13
 ---------
 Number: 2:6
@@ -491,8 +491,8 @@ Public IP Address: xx.xx.67.50
 PID: 23867
 Rewards balance: 0.000000010
 Disk Usage: 4.1M
-CPU Usage: 1.1%
-Memory Used: 33.4648MB
+CPU Usage: 1.0%
+Memory Used: 32.3359MB
 Records: 15
 ---------
 Number: 2:7
@@ -502,7 +502,7 @@ PID: 24038
 Rewards balance: 0.000000000
 Disk Usage: 4.6M
 CPU Usage: 1.1%
-Memory Used: 28.5977MB
+Memory Used: 29.7344MB
 Records: 15
 ---------
 Number: 2:8
@@ -512,7 +512,7 @@ PID: 23999
 Rewards balance: 0.000000000
 Disk Usage: 1.6M
 CPU Usage: 0.9%
-Memory Used: 28.625MB
+Memory Used: 29.457MB
 Records: 6
 ---------
 Number: 2:9
@@ -521,8 +521,8 @@ Public IP Address: xx.xx.67.50
 PID: 23947
 Rewards balance: 0.000000010
 Disk Usage: 4.1M
-CPU Usage: 1.0%
-Memory Used: 30.1211MB
+CPU Usage: 0.9%
+Memory Used: 31.9023MB
 Records: 11
 ---------
 Number: 2:10
@@ -531,8 +531,8 @@ Public IP Address: xx.xx.67.50
 PID: 23802
 Rewards balance: 0.000000010
 Disk Usage: 7.1M
-CPU Usage: 1.2%
-Memory Used: 27.8672MB
+CPU Usage: 1.1%
+Memory Used: 29.0547MB
 Records: 18
 ---------
 Number: 2:11
@@ -541,8 +541,8 @@ Public IP Address: xx.xx.67.50
 PID: 23882
 Rewards balance: 0.000000010
 Disk Usage: 5.1M
-CPU Usage: 1.0%
-Memory Used: 29.1562MB
+CPU Usage: 0.9%
+Memory Used: 29.75MB
 Records: 12
 ---------
 Number: 2:12
@@ -552,7 +552,7 @@ PID: 23763
 Rewards balance: 0.000000010
 Disk Usage: 5.3M
 CPU Usage: 0.9%
-Memory Used: 37.5625MB
+Memory Used: 38.0664MB
 Records: 16
 ---------
 Number: 2:13
@@ -561,8 +561,8 @@ Public IP Address: xx.xx.67.50
 PID: 23841
 Rewards balance: 0.000000010
 Disk Usage: 2.1M
-CPU Usage: 1.0%
-Memory Used: 27.707MB
+CPU Usage: 0.9%
+Memory Used: 27.4219MB
 Records: 5
 ---------
 Number: 2:14
@@ -571,8 +571,8 @@ Public IP Address: xx.xx.67.50
 PID: 23815
 Rewards balance: 0.000000000
 Disk Usage: 4.8M
-CPU Usage: 1.1%
-Memory Used: 27.2031MB
+CPU Usage: 1.0%
+Memory Used: 28.7422MB
 Records: 11
 ---------
 Number: 2:15
@@ -581,8 +581,8 @@ Public IP Address: xx.xx.67.50
 PID: 23710
 Rewards balance: 0.000000030
 Disk Usage: 8.7M
-CPU Usage: 1.1%
-Memory Used: 31.6836MB
+CPU Usage: 1.0%
+Memory Used: 33.4922MB
 Records: 20
 ---------
 Number: 2:16
@@ -592,7 +592,7 @@ PID: 23973
 Rewards balance: 0.000000010
 Disk Usage: 4.0M
 CPU Usage: 1.0%
-Memory Used: 29.2578MB
+Memory Used: 31.207MB
 Records: 9
 ---------
 Number: 2:17
@@ -602,7 +602,7 @@ PID: 23828
 Rewards balance: 0.000000000
 Disk Usage: 3.0M
 CPU Usage: 1.0%
-Memory Used: 26.3828MB
+Memory Used: 26.6289MB
 Records: 9
 ---------
 Number: 2:19
@@ -612,7 +612,7 @@ PID: 23750
 Rewards balance: 0.000000010
 Disk Usage: 5.2M
 CPU Usage: 1.1%
-Memory Used: 32.2695MB
+Memory Used: 34.6055MB
 Records: 13
 ---------
 Number: 2:20
@@ -622,7 +622,7 @@ PID: 24012
 Rewards balance: 0.000000000
 Disk Usage: 1.6M
 CPU Usage: 0.9%
-Memory Used: 27.5508MB
+Memory Used: 27.8906MB
 Records: 7
 ---------
 Number: 2:21
@@ -632,7 +632,7 @@ PID: 24077
 Rewards balance: 0.000000010
 Disk Usage: 5.1M
 CPU Usage: 1.1%
-Memory Used: 29.1758MB
+Memory Used: 29.0117MB
 Records: 11
 ---------
 Number: 2:22
@@ -642,7 +642,7 @@ PID: 23934
 Rewards balance: 0.000000000
 Disk Usage: 8.5M
 CPU Usage: 1.1%
-Memory Used: 28.5039MB
+Memory Used: 28.7969MB
 Records: 19
 ---------
 Number: 2:23
@@ -652,7 +652,7 @@ PID: 24064
 Rewards balance: 0.000000000
 Disk Usage: 7.5M
 CPU Usage: 1.0%
-Memory Used: 29.1016MB
+Memory Used: 29.832MB
 Records: 20
 ---------
 Number: 2:24
@@ -662,7 +662,7 @@ PID: 23789
 Rewards balance: 0.000000010
 Disk Usage: 4.4M
 CPU Usage: 0.9%
-Memory Used: 38.9922MB
+Memory Used: 38.5977MB
 Records: 14
 ---------
 Number: 2:25
@@ -671,8 +671,8 @@ Public IP Address: xx.xx.67.50
 PID: 23776
 Rewards balance: 0.000000000
 Disk Usage: 2.6M
-CPU Usage: 1.1%
-Memory Used: 27.2852MB
+CPU Usage: 1.0%
+Memory Used: 26.793MB
 Records: 7
 ---------
 Number: 2:26
@@ -681,8 +681,8 @@ Public IP Address: xx.xx.67.50
 PID: 23960
 Rewards balance: 0.000000000
 Disk Usage: 3.1M
-CPU Usage: 1.0%
-Memory Used: 30.25MB
+CPU Usage: 0.9%
+Memory Used: 30.1875MB
 Records: 9
 ---------
 Number: 2:27
@@ -691,8 +691,8 @@ Public IP Address: xx.xx.67.50
 PID: 23854
 Rewards balance: 0.000000000
 Disk Usage: 2.6M
-CPU Usage: 0.9%
-Memory Used: 39.0703MB
+CPU Usage: 0.8%
+Memory Used: 38.3008MB
 Records: 7
 ---------
 Number: 2:28
@@ -702,7 +702,7 @@ PID: 24051
 Rewards balance: 0.000000000
 Disk Usage: 3.6M
 CPU Usage: 1.0%
-Memory Used: 32.6445MB
+Memory Used: 35.5547MB
 Records: 8
 ---------
 Number: 2:29
@@ -710,10 +710,10 @@ Node: 12D3KooWSB1anMJDGWnrZXJdXSVccQBEhHMFGpNkBY3ULdDtuHqv
 Public IP Address: xx.xx.67.50
 PID: 23921
 Rewards balance: 0.000000000
-Disk Usage: 2.5M
+Disk Usage: 3.0M
 CPU Usage: 1.0%
-Memory Used: 28.0352MB
-Records: 6
+Memory Used: 28.3359MB
+Records: 7
 ---------
 Number: 3:0
 Node: 12D3KooW9q4Mizto3ZPDtDJkmvBAx6AUFQDnvKpZcxoGEhTh7jcT
@@ -721,8 +721,8 @@ Public IP Address: xx.xx.67.50
 PID: 7079
 Rewards balance: 0.000000030
 Disk Usage: 9.6M
-CPU Usage: 1.3%
-Memory Used: 34.8516MB
+CPU Usage: 1.2%
+Memory Used: 34.9414MB
 Records: 27
 ---------
 Number: 3:1
@@ -732,7 +732,7 @@ PID: 7040
 Rewards balance: 0.000000010
 Disk Usage: 3.6M
 CPU Usage: 1.0%
-Memory Used: 28.3477MB
+Memory Used: 28.1719MB
 Records: 11
 ---------
 Number: 3:2
@@ -742,7 +742,7 @@ PID: 6855
 Rewards balance: 0.000000033
 Disk Usage: 3.5M
 CPU Usage: 1.1%
-Memory Used: 27.8203MB
+Memory Used: 27.3594MB
 Records: 8
 ---------
 Number: 3:3
@@ -751,8 +751,8 @@ Public IP Address: xx.xx.67.50
 PID: 6881
 Rewards balance: 0.000000010
 Disk Usage: 5.9M
-CPU Usage: 1.0%
-Memory Used: 28.7266MB
+CPU Usage: 0.9%
+Memory Used: 28.1055MB
 Records: 18
 ---------
 Number: 3:4
@@ -761,8 +761,8 @@ Public IP Address: xx.xx.67.50
 PID: 7027
 Rewards balance: 0.000000000
 Disk Usage: 3.5M
-CPU Usage: 1.1%
-Memory Used: 28.707MB
+CPU Usage: 1.0%
+Memory Used: 28.6289MB
 Records: 12
 ---------
 Number: 3:5
@@ -772,7 +772,7 @@ PID: 6973
 Rewards balance: 0.000000010
 Disk Usage: 4.5M
 CPU Usage: 1.1%
-Memory Used: 29.0039MB
+Memory Used: 29.0781MB
 Records: 11
 ---------
 Number: 3:6
@@ -782,7 +782,7 @@ PID: 6737
 Rewards balance: 0.000000010
 Disk Usage: 5.1M
 CPU Usage: 1.1%
-Memory Used: 27.1211MB
+Memory Used: 26.7773MB
 Records: 15
 ---------
 Number: 3:7
@@ -792,7 +792,7 @@ PID: 6764
 Rewards balance: 0.000000010
 Disk Usage: 5.5M
 CPU Usage: 1.0%
-Memory Used: 26.7578MB
+Memory Used: 27.4297MB
 Records: 13
 ---------
 Number: 3:8
@@ -801,8 +801,8 @@ Public IP Address: xx.xx.67.50
 PID: 6946
 Rewards balance: 0.000000020
 Disk Usage: 4.5M
-CPU Usage: 1.2%
-Memory Used: 34.8906MB
+CPU Usage: 1.1%
+Memory Used: 37.1133MB
 Records: 9
 ---------
 Number: 3:9
@@ -812,7 +812,7 @@ PID: 6724
 Rewards balance: 0.000000010
 Disk Usage: 6.1M
 CPU Usage: 1.1%
-Memory Used: 26.9023MB
+Memory Used: 27.2812MB
 Records: 16
 ---------
 Number: 3:10
@@ -821,8 +821,8 @@ Public IP Address: xx.xx.67.50
 PID: 6842
 Rewards balance: 0.000000010
 Disk Usage: 5.1M
-CPU Usage: 1.0%
-Memory Used: 29.2812MB
+CPU Usage: 0.9%
+Memory Used: 29.3945MB
 Records: 12
 ---------
 Number: 3:11
@@ -831,8 +831,8 @@ Public IP Address: xx.xx.67.50
 PID: 6960
 Rewards balance: 0.000000010
 Disk Usage: 6.9M
-CPU Usage: 1.2%
-Memory Used: 30.0195MB
+CPU Usage: 1.1%
+Memory Used: 30.9102MB
 Records: 17
 ---------
 Number: 3:12
@@ -841,8 +841,8 @@ Public IP Address: xx.xx.67.50
 PID: 6868
 Rewards balance: 0.000000000
 Disk Usage: 1.3M
-CPU Usage: 1.0%
-Memory Used: 27.1953MB
+CPU Usage: 0.9%
+Memory Used: 27.5312MB
 Records: 7
 ---------
 Number: 3:13
@@ -851,8 +851,8 @@ Public IP Address: xx.xx.67.50
 PID: 7014
 Rewards balance: 0.000000000
 Disk Usage: 4.6M
-CPU Usage: 1.1%
-Memory Used: 27.9023MB
+CPU Usage: 1.0%
+Memory Used: 27.5508MB
 Records: 13
 ---------
 Number: 3:14
@@ -862,7 +862,7 @@ PID: 6894
 Rewards balance: 0.000000000
 Disk Usage: 4.5M
 CPU Usage: 1.0%
-Memory Used: 28.9102MB
+Memory Used: 28.2695MB
 Records: 13
 ---------
 Number: 3:15
@@ -872,7 +872,7 @@ PID: 6751
 Rewards balance: 0.000000000
 Disk Usage: 3.5M
 CPU Usage: 1.0%
-Memory Used: 27.418MB
+Memory Used: 27.3164MB
 Records: 8
 ---------
 Number: 3:16
@@ -881,8 +881,8 @@ Public IP Address: xx.xx.67.50
 PID: 6803
 Rewards balance: 0.000000010
 Disk Usage: 5.1M
-CPU Usage: 1.0%
-Memory Used: 27.0547MB
+CPU Usage: 0.9%
+Memory Used: 27.2812MB
 Records: 12
 ---------
 Number: 3:17
@@ -892,7 +892,7 @@ PID: 6907
 Rewards balance: 0.000000010
 Disk Usage: 2.5M
 CPU Usage: 1.0%
-Memory Used: 27.6758MB
+Memory Used: 28.8281MB
 Records: 9
 ---------
 Number: 3:18
@@ -902,7 +902,7 @@ PID: 6777
 Rewards balance: 0.000000010
 Disk Usage: 4.1M
 CPU Usage: 1.1%
-Memory Used: 27.3828MB
+Memory Used: 28.2227MB
 Records: 13
 ---------
 Number: 3:19
@@ -912,7 +912,7 @@ PID: 7053
 Rewards balance: 0.000000000
 Disk Usage: 2.5M
 CPU Usage: 1.0%
-Memory Used: 28.625MB
+Memory Used: 28.5117MB
 Records: 7
 ---------
 Number: 3:20
@@ -922,7 +922,7 @@ PID: 7066
 Rewards balance: 0.000000000
 Disk Usage: 3.6M
 CPU Usage: 1.1%
-Memory Used: 29.4883MB
+Memory Used: 29.0312MB
 Records: 8
 ---------
 Number: 3:21
@@ -931,8 +931,8 @@ Public IP Address: xx.xx.67.50
 PID: 6999
 Rewards balance: 0.000000000
 Disk Usage: 1.1M
-CPU Usage: 1.0%
-Memory Used: 29.3711MB
+CPU Usage: 0.9%
+Memory Used: 30.6602MB
 Records: 6
 ---------
 Number: 3:22
@@ -941,8 +941,8 @@ Public IP Address: xx.xx.67.50
 PID: 6711
 Rewards balance: 0.000000000
 Disk Usage: 3.1M
-CPU Usage: 1.1%
-Memory Used: 27.6797MB
+CPU Usage: 1.0%
+Memory Used: 28.0703MB
 Records: 9
 ---------
 Number: 3:23
@@ -951,8 +951,8 @@ Public IP Address: xx.xx.67.50
 PID: 6696
 Rewards balance: 0.000000000
 Disk Usage: 2.2M
-CPU Usage: 1.0%
-Memory Used: 25.4297MB
+CPU Usage: 0.9%
+Memory Used: 25.2812MB
 Records: 7
 ---------
 Number: 3:24
@@ -961,8 +961,8 @@ Public IP Address: xx.xx.67.50
 PID: 6986
 Rewards balance: 0.000000000
 Disk Usage: 1.1M
-CPU Usage: 1.1%
-Memory Used: 35.2891MB
+CPU Usage: 1.0%
+Memory Used: 36.1094MB
 Records: 3
 ---------
 Number: 3:25
@@ -971,8 +971,8 @@ Public IP Address: xx.xx.67.50
 PID: 6829
 Rewards balance: 0.000000000
 Disk Usage: 5.5M
-CPU Usage: 1.1%
-Memory Used: 39.6992MB
+CPU Usage: 1.0%
+Memory Used: 38.6055MB
 Records: 13
 ---------
 Number: 3:26
@@ -981,8 +981,8 @@ Public IP Address: xx.xx.67.50
 PID: 6933
 Rewards balance: 0.000000000
 Disk Usage: 1.8M
-CPU Usage: 1.1%
-Memory Used: 34.5469MB
+CPU Usage: 1.0%
+Memory Used: 34.2852MB
 Records: 6
 ---------
 Number: 3:27
@@ -991,8 +991,8 @@ Public IP Address: xx.xx.67.50
 PID: 6790
 Rewards balance: 0.000000000
 Disk Usage: 3.6M
-CPU Usage: 1.0%
-Memory Used: 27.1719MB
+CPU Usage: 0.9%
+Memory Used: 27.1406MB
 Records: 11
 ---------
 Number: 3:28
@@ -1002,7 +1002,7 @@ PID: 6816
 Rewards balance: 0.000000000
 Disk Usage: 4.1M
 CPU Usage: 1.1%
-Memory Used: 26.9258MB
+Memory Used: 27.5195MB
 Records: 10
 ---------
 Number: 3:29
@@ -1012,7 +1012,7 @@ PID: 6920
 Rewards balance: 0.000000010
 Disk Usage: 4.0M
 CPU Usage: 1.0%
-Memory Used: 28.1758MB
+Memory Used: 28.8594MB
 Records: 9
 ---------
 Number: 4:0
@@ -1021,8 +1021,8 @@ Public IP Address: xx.xx.67.50
 PID: 7031
 Rewards balance: 0.000000010
 Disk Usage: 3.6M
-CPU Usage: 1.1%
-Memory Used: 35.4922MB
+CPU Usage: 1.0%
+Memory Used: 31.8438MB
 Records: 8
 ---------
 Number: 4:1
@@ -1031,8 +1031,8 @@ Public IP Address: xx.xx.67.50
 PID: 7083
 Rewards balance: 0.000000010
 Disk Usage: 4.1M
-CPU Usage: 1.2%
-Memory Used: 28.1523MB
+CPU Usage: 1.1%
+Memory Used: 28.6523MB
 Records: 10
 ---------
 Number: 4:2
@@ -1041,8 +1041,8 @@ Public IP Address: xx.xx.67.50
 PID: 7057
 Rewards balance: 0.000000020
 Disk Usage: 5.1M
-CPU Usage: 1.1%
-Memory Used: 27.7188MB
+CPU Usage: 1.0%
+Memory Used: 28.2031MB
 Records: 14
 ---------
 Number: 4:3
@@ -1052,7 +1052,7 @@ PID: 7216
 Rewards balance: 0.000000000
 Disk Usage: 3.0M
 CPU Usage: 1.1%
-Memory Used: 30.3984MB
+Memory Used: 29.6797MB
 Records: 10
 ---------
 Number: 4:4
@@ -1062,7 +1062,7 @@ PID: 7109
 Rewards balance: 0.000000010
 Disk Usage: 2.5M
 CPU Usage: 1.0%
-Memory Used: 28.4805MB
+Memory Used: 29.4297MB
 Records: 5
 ---------
 Number: 4:5
@@ -1071,8 +1071,8 @@ Public IP Address: xx.xx.67.50
 PID: 7190
 Rewards balance: 0.000000010
 Disk Usage: 2.1M
-CPU Usage: 1.1%
-Memory Used: 34.4688MB
+CPU Usage: 1.0%
+Memory Used: 34.1367MB
 Records: 7
 ---------
 Number: 4:6
@@ -1082,7 +1082,7 @@ PID: 7070
 Rewards balance: 0.000000010
 Disk Usage: 5.1M
 CPU Usage: 1.0%
-Memory Used: 32.3984MB
+Memory Used: 34.0508MB
 Records: 16
 ---------
 Number: 4:7
@@ -1092,7 +1092,7 @@ PID: 7242
 Rewards balance: 0.000000010
 Disk Usage: 4.1M
 CPU Usage: 1.1%
-Memory Used: 32.0312MB
+Memory Used: 30.5508MB
 Records: 14
 ---------
 Number: 4:8
@@ -1102,7 +1102,7 @@ PID: 7281
 Rewards balance: 0.000000030
 Disk Usage: 4.6M
 CPU Usage: 1.2%
-Memory Used: 29.2695MB
+Memory Used: 28.9688MB
 Records: 13
 ---------
 Number: 4:9
@@ -1111,8 +1111,8 @@ Public IP Address: xx.xx.67.50
 PID: 6966
 Rewards balance: 0.000000010
 Disk Usage: 4.6M
-CPU Usage: 1.2%
-Memory Used: 28.168MB
+CPU Usage: 1.1%
+Memory Used: 27.8008MB
 Records: 10
 ---------
 Number: 4:10
@@ -1122,7 +1122,7 @@ PID: 7307
 Rewards balance: 0.000000010
 Disk Usage: 1.1M
 CPU Usage: 0.9%
-Memory Used: 30.2344MB
+Memory Used: 30.0938MB
 Records: 3
 ---------
 Number: 4:11
@@ -1131,8 +1131,8 @@ Public IP Address: xx.xx.67.50
 PID: 7161
 Rewards balance: 0.000000010
 Disk Usage: 2.1M
-CPU Usage: 1.2%
-Memory Used: 28.6055MB
+CPU Usage: 1.1%
+Memory Used: 29.6289MB
 Records: 4
 ---------
 Number: 4:12
@@ -1141,8 +1141,8 @@ Public IP Address: xx.xx.67.50
 PID: 7096
 Rewards balance: 0.000000000
 Disk Usage: 2.6M
-CPU Usage: 1.1%
-Memory Used: 26.6797MB
+CPU Usage: 1.0%
+Memory Used: 26.9688MB
 Records: 8
 ---------
 Number: 4:13
@@ -1151,8 +1151,8 @@ Public IP Address: xx.xx.67.50
 PID: 6992
 Rewards balance: 0.000000000
 Disk Usage: 2.1M
-CPU Usage: 1.1%
-Memory Used: 27.7852MB
+CPU Usage: 1.0%
+Memory Used: 27.1523MB
 Records: 6
 ---------
 Number: 4:14
@@ -1161,8 +1161,8 @@ Public IP Address: xx.xx.67.50
 PID: 7333
 Rewards balance: 0.000000000
 Disk Usage: 3.1M
-CPU Usage: 1.2%
-Memory Used: 29.6523MB
+CPU Usage: 1.1%
+Memory Used: 31.375MB
 Records: 8
 ---------
 Number: 4:15
@@ -1171,8 +1171,8 @@ Public IP Address: xx.xx.67.50
 PID: 7320
 Rewards balance: 0.000000000
 Disk Usage: 1.1M
-CPU Usage: 1.1%
-Memory Used: 29.7891MB
+CPU Usage: 1.0%
+Memory Used: 31.8008MB
 Records: 5
 ---------
 Number: 4:16
@@ -1181,8 +1181,8 @@ Public IP Address: xx.xx.67.50
 PID: 7229
 Rewards balance: 0.000000000
 Disk Usage: 4.5M
-CPU Usage: 1.1%
-Memory Used: 34.0898MB
+CPU Usage: 1.0%
+Memory Used: 32.5703MB
 Records: 11
 ---------
 Number: 4:17
@@ -1191,8 +1191,8 @@ Public IP Address: xx.xx.67.50
 PID: 6979
 Rewards balance: 0.000000010
 Disk Usage: 1.6M
-CPU Usage: 1.0%
-Memory Used: 32.7617MB
+CPU Usage: 0.9%
+Memory Used: 32.7148MB
 Records: 3
 ---------
 Number: 4:18
@@ -1201,8 +1201,8 @@ Public IP Address: xx.xx.67.50
 PID: 7268
 Rewards balance: 0.000000010
 Disk Usage: 4.5M
-CPU Usage: 1.1%
-Memory Used: 31.5508MB
+CPU Usage: 1.0%
+Memory Used: 30.125MB
 Records: 9
 ---------
 Number: 4:19
@@ -1212,7 +1212,7 @@ PID: 7005
 Rewards balance: 0.000000000
 Disk Usage: 1.5M
 CPU Usage: 1.1%
-Memory Used: 27.043MB
+Memory Used: 27.6445MB
 Records: 8
 ---------
 Number: 4:20
@@ -1222,7 +1222,7 @@ PID: 7294
 Rewards balance: 0.000000000
 Disk Usage: 3.6M
 CPU Usage: 1.0%
-Memory Used: 28.082MB
+Memory Used: 29.0078MB
 Records: 9
 ---------
 Number: 4:21
@@ -1232,7 +1232,7 @@ PID: 6953
 Rewards balance: 0.000000010
 Disk Usage: 6.7M
 CPU Usage: 1.0%
-Memory Used: 38.7188MB
+Memory Used: 40.0977MB
 Records: 15
 ---------
 Number: 4:22
@@ -1242,7 +1242,7 @@ PID: 7135
 Rewards balance: 0.000000000
 Disk Usage: 1.6M
 CPU Usage: 1.1%
-Memory Used: 29.3945MB
+Memory Used: 29.2891MB
 Records: 3
 ---------
 Number: 4:23
@@ -1252,7 +1252,7 @@ PID: 7174
 Rewards balance: 0.000000000
 Disk Usage: 1.7M
 CPU Usage: 1.0%
-Memory Used: 34.8477MB
+Memory Used: 33.7969MB
 Records: 5
 ---------
 Number: 4:24
@@ -1261,8 +1261,8 @@ Public IP Address: xx.xx.67.50
 PID: 7018
 Rewards balance: 0.000000000
 Disk Usage: 2.0M
-CPU Usage: 1.1%
-Memory Used: 32.9961MB
+CPU Usage: 1.0%
+Memory Used: 35.1602MB
 Records: 7
 ---------
 Number: 4:25
@@ -1271,8 +1271,8 @@ Public IP Address: xx.xx.67.50
 PID: 7255
 Rewards balance: 0.000000000
 Disk Usage: 2.6M
-CPU Usage: 1.2%
-Memory Used: 30.1328MB
+CPU Usage: 1.1%
+Memory Used: 29.7852MB
 Records: 7
 ---------
 Number: 4:26
@@ -1282,7 +1282,7 @@ PID: 7148
 Rewards balance: 0.000000000
 Disk Usage: 3.1M
 CPU Usage: 1.2%
-Memory Used: 33.3789MB
+Memory Used: 33.5977MB
 Records: 11
 ---------
 Number: 4:27
@@ -1291,8 +1291,8 @@ Public IP Address: xx.xx.67.50
 PID: 7044
 Rewards balance: 0.000000000
 Disk Usage: 4.5M
-CPU Usage: 1.1%
-Memory Used: 27.7266MB
+CPU Usage: 1.0%
+Memory Used: 30.043MB
 Records: 13
 ---------
 Number: 4:28
@@ -1301,8 +1301,8 @@ Public IP Address: xx.xx.67.50
 PID: 7122
 Rewards balance: 0.000000000
 Disk Usage: 2.5M
-CPU Usage: 1.1%
-Memory Used: 27.0781MB
+CPU Usage: 1.0%
+Memory Used: 26.9102MB
 Records: 7
 ---------
 Number: 4:29
@@ -1311,7 +1311,7 @@ Public IP Address: xx.xx.67.50
 PID: 7203
 Rewards balance: 0.000000000
 Disk Usage: 3.6M
-CPU Usage: 1.2%
-Memory Used: 34.2578MB
+CPU Usage: 1.1%
+Memory Used: 34.1953MB
 Records: 11
 ---------
