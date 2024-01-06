@@ -12,7 +12,7 @@ PID: 6751
 Rewards balance: 0.000000312
 Disk Usage: 50M
 CPU Usage: 1.1%
-Memory Used: 32.4102MB
+Memory Used: 31.4805MB
 Records: 121
 ---------
 Number: 0:1
@@ -22,7 +22,7 @@ PID: 6738
 Rewards balance: 0.000001522
 Disk Usage: 45M
 CPU Usage: 0.9%
-Memory Used: 31.3008MB
+Memory Used: 30.5938MB
 Records: 104
 ---------
 Number: 0:2
@@ -32,7 +32,7 @@ PID: 6712
 Rewards balance: 0.000000508
 Disk Usage: 37M
 CPU Usage: 0.9%
-Memory Used: 32.2852MB
+Memory Used: 29.7969MB
 Records: 83
 ---------
 Number: 0:3
@@ -42,7 +42,7 @@ PID: 6764
 Rewards balance: 0.000001058
 Disk Usage: 69M
 CPU Usage: 0.9%
-Memory Used: 31.4258MB
+Memory Used: 31.4805MB
 Records: 157
 ---------
 Number: 0:4
@@ -52,7 +52,7 @@ PID: 6686
 Rewards balance: 0.000001060
 Disk Usage: 62M
 CPU Usage: 1.2%
-Memory Used: 33.7109MB
+Memory Used: 32.6914MB
 Records: 130
 ---------
 Number: 0:5
@@ -62,7 +62,7 @@ PID: 6829
 Rewards balance: 0.000000120
 Disk Usage: 19M
 CPU Usage: 0.9%
-Memory Used: 33.5039MB
+Memory Used: 33.6484MB
 Records: 45
 ---------
 Number: 0:6
@@ -72,7 +72,7 @@ PID: 6803
 Rewards balance: 0.000000780
 Disk Usage: 33M
 CPU Usage: 0.9%
-Memory Used: 30.4336MB
+Memory Used: 31.6016MB
 Records: 74
 ---------
 Number: 0:7
@@ -82,7 +82,7 @@ PID: 6725
 Rewards balance: 0.000000468
 Disk Usage: 63M
 CPU Usage: 1.0%
-Memory Used: 30.1641MB
+Memory Used: 29.957MB
 Records: 142
 ---------
 Number: 0:8
@@ -92,7 +92,7 @@ PID: 6671
 Rewards balance: 0.000001126
 Disk Usage: 49M
 CPU Usage: 1.0%
-Memory Used: 30.1875MB
+Memory Used: 31.5859MB
 Records: 109
 ---------
 Number: 0:9
@@ -102,7 +102,7 @@ PID: 6790
 Rewards balance: 0.000000229
 Disk Usage: 22M
 CPU Usage: 0.8%
-Memory Used: 30.9141MB
+Memory Used: 30.5039MB
 Records: 49
 ---------
 Number: 0:10
@@ -112,7 +112,7 @@ PID: 6699
 Rewards balance: 0.000001325
 Disk Usage: 72M
 CPU Usage: 1.2%
-Memory Used: 34.9922MB
+Memory Used: 34.1523MB
 Records: 170
 ---------
 Number: 0:11
@@ -122,7 +122,7 @@ PID: 6777
 Rewards balance: 0.000000274
 Disk Usage: 67M
 CPU Usage: 1.1%
-Memory Used: 32.7734MB
+Memory Used: 32.0898MB
 Records: 141
 ---------
 Number: 0:12
@@ -132,7 +132,7 @@ PID: 6816
 Rewards balance: 0.000000203
 Disk Usage: 24M
 CPU Usage: 1.0%
-Memory Used: 30.3281MB
+Memory Used: 30.7578MB
 Records: 53
 ---------
 Number: 1:0
@@ -142,7 +142,7 @@ PID: 5120
 Rewards balance: 0.000000592
 Disk Usage: 24M
 CPU Usage: 0.9%
-Memory Used: 36.1211MB
+Memory Used: 33.4453MB
 Records: 52
 ---------
 Number: 1:1
@@ -152,7 +152,7 @@ PID: 5042
 Rewards balance: 0.000000991
 Disk Usage: 39M
 CPU Usage: 0.9%
-Memory Used: 28.918MB
+Memory Used: 30.1016MB
 Records: 90
 ---------
 Number: 1:2
@@ -162,7 +162,7 @@ PID: 4964
 Rewards balance: 0.000000230
 Disk Usage: 23M
 CPU Usage: 1.0%
-Memory Used: 44.1992MB
+Memory Used: 44.543MB
 Records: 56
 ---------
 Number: 1:3
@@ -172,7 +172,7 @@ PID: 5133
 Rewards balance: 0.000000408
 Disk Usage: 40M
 CPU Usage: 1.0%
-Memory Used: 34.2109MB
+Memory Used: 35.2969MB
 Records: 93
 ---------
 Number: 1:4
@@ -182,7 +182,7 @@ PID: 5159
 Rewards balance: 0.000001458
 Disk Usage: 55M
 CPU Usage: 0.9%
-Memory Used: 36.1758MB
+Memory Used: 37.3398MB
 Records: 124
 ---------
 Number: 1:5
@@ -192,7 +192,7 @@ PID: 5003
 Rewards balance: 0.000000275
 Disk Usage: 34M
 CPU Usage: 1.0%
-Memory Used: 37.1523MB
+Memory Used: 30.9336MB
 Records: 78
 ---------
 Number: 1:6
@@ -202,7 +202,7 @@ PID: 5263
 Rewards balance: 0.000000224
 Disk Usage: 30M
 CPU Usage: 0.9%
-Memory Used: 36.0039MB
+Memory Used: 36.9414MB
 Records: 63
 ---------
 Number: 1:7
@@ -212,7 +212,7 @@ PID: 5315
 Rewards balance: 0.000001139
 Disk Usage: 46M
 CPU Usage: 1.0%
-Memory Used: 30.5195MB
+Memory Used: 30.3516MB
 Records: 100
 ---------
 Number: 1:8
@@ -222,7 +222,7 @@ PID: 5224
 Rewards balance: 0.000001410
 Disk Usage: 43M
 CPU Usage: 0.9%
-Memory Used: 32.7852MB
+Memory Used: 34.0742MB
 Records: 99
 ---------
 Number: 1:9
@@ -232,7 +232,7 @@ PID: 5081
 Rewards balance: 0.000000886
 Disk Usage: 55M
 CPU Usage: 1.0%
-Memory Used: 31.0703MB
+Memory Used: 29.8906MB
 Records: 126
 ---------
 Number: 1:10
@@ -242,7 +242,7 @@ PID: 5211
 Rewards balance: 0.000000975
 Disk Usage: 46M
 CPU Usage: 1.0%
-Memory Used: 36.1836MB
+Memory Used: 39.7852MB
 Records: 107
 ---------
 Number: 1:11
@@ -252,7 +252,7 @@ PID: 5016
 Rewards balance: 0.000000415
 Disk Usage: 39M
 CPU Usage: 1.2%
-Memory Used: 30.9336MB
+Memory Used: 31.7812MB
 Records: 94
 ---------
 Number: 1:12
@@ -262,7 +262,7 @@ PID: 5289
 Rewards balance: 0.000000220
 Disk Usage: 48M
 CPU Usage: 1.2%
-Memory Used: 32.7617MB
+Memory Used: 32.2969MB
 Records: 110
 ---------
 Number: 1:13
@@ -272,7 +272,7 @@ PID: 5068
 Rewards balance: 0.000000455
 Disk Usage: 38M
 CPU Usage: 0.9%
-Memory Used: 34.0156MB
+Memory Used: 36.3867MB
 Records: 88
 ---------
 Number: 1:14
@@ -282,7 +282,7 @@ PID: 5029
 Rewards balance: 0.000000120
 Disk Usage: 32M
 CPU Usage: 0.8%
-Memory Used: 34.5664MB
+Memory Used: 33.293MB
 Records: 72
 ---------
 Number: 1:15
@@ -292,7 +292,7 @@ PID: 5172
 Rewards balance: 0.000000636
 Disk Usage: 56M
 CPU Usage: 1.1%
-Memory Used: 31.1367MB
+Memory Used: 32.5078MB
 Records: 133
 ---------
 Number: 1:16
@@ -302,7 +302,7 @@ PID: 5237
 Rewards balance: 0.000000398
 Disk Usage: 16M
 CPU Usage: 0.9%
-Memory Used: 37.3867MB
+Memory Used: 37.2031MB
 Records: 34
 ---------
 Number: 1:17
@@ -312,7 +312,7 @@ PID: 5185
 Rewards balance: 0.000000511
 Disk Usage: 48M
 CPU Usage: 1.1%
-Memory Used: 33.2695MB
+Memory Used: 33.5078MB
 Records: 117
 ---------
 Number: 1:18
@@ -322,7 +322,7 @@ PID: 4951
 Rewards balance: 0.000000060
 Disk Usage: 37M
 CPU Usage: 1.3%
-Memory Used: 33.9648MB
+Memory Used: 33MB
 Records: 88
 ---------
 Number: 1:19
@@ -332,7 +332,7 @@ PID: 5055
 Rewards balance: 0.000000327
 Disk Usage: 29M
 CPU Usage: 1.0%
-Memory Used: 35.5195MB
+Memory Used: 34.7461MB
 Records: 61
 ---------
 Number: 1:20
@@ -342,7 +342,7 @@ PID: 5328
 Rewards balance: 0.000000690
 Disk Usage: 44M
 CPU Usage: 0.9%
-Memory Used: 30.0742MB
+Memory Used: 30.5898MB
 Records: 107
 ---------
 Number: 1:21
@@ -352,7 +352,7 @@ PID: 5146
 Rewards balance: 0.000000136
 Disk Usage: 31M
 CPU Usage: 1.0%
-Memory Used: 37.0234MB
+Memory Used: 35.3867MB
 Records: 76
 ---------
 Number: 1:22
@@ -362,7 +362,7 @@ PID: 5094
 Rewards balance: 0.000000740
 Disk Usage: 43M
 CPU Usage: 1.3%
-Memory Used: 30.9297MB
+Memory Used: 29.9531MB
 Records: 97
 ---------
 Number: 1:23
@@ -372,7 +372,7 @@ PID: 5276
 Rewards balance: 0.000000450
 Disk Usage: 32M
 CPU Usage: 0.9%
-Memory Used: 31.5664MB
+Memory Used: 31.9766MB
 Records: 69
 ---------
 Number: 1:24
@@ -382,7 +382,7 @@ PID: 5250
 Rewards balance: 0.000001175
 Disk Usage: 81M
 CPU Usage: 1.1%
-Memory Used: 35.8711MB
+Memory Used: 37.1094MB
 Records: 185
 ---------
 Number: 1:25
@@ -392,7 +392,7 @@ PID: 5198
 Rewards balance: 0.000000284
 Disk Usage: 52M
 CPU Usage: 1.0%
-Memory Used: 31.9766MB
+Memory Used: 31.3008MB
 Records: 111
 ---------
 Number: 1:26
@@ -402,7 +402,7 @@ PID: 5107
 Rewards balance: 0.000000323
 Disk Usage: 42M
 CPU Usage: 1.0%
-Memory Used: 31.7188MB
+Memory Used: 31.9844MB
 Records: 98
 ---------
 Number: 1:27
@@ -412,7 +412,7 @@ PID: 4990
 Rewards balance: 0.000000150
 Disk Usage: 32M
 CPU Usage: 0.9%
-Memory Used: 33.4414MB
+Memory Used: 31.4883MB
 Records: 77
 ---------
 Number: 1:28
@@ -422,7 +422,7 @@ PID: 5302
 Rewards balance: 0.000000101
 Disk Usage: 44M
 CPU Usage: 1.1%
-Memory Used: 34.4688MB
+Memory Used: 33.3672MB
 Records: 99
 ---------
 Number: 1:29
@@ -432,7 +432,7 @@ PID: 4977
 Rewards balance: 0.000001104
 Disk Usage: 52M
 CPU Usage: 1.0%
-Memory Used: 32.75MB
+Memory Used: 32.3164MB
 Records: 113
 ---------
 Number: 2:0
@@ -442,7 +442,7 @@ PID: 23908
 Rewards balance: 0.000000550
 Disk Usage: 30M
 CPU Usage: 0.9%
-Memory Used: 31.2461MB
+Memory Used: 31.1406MB
 Records: 70
 ---------
 Number: 2:1
@@ -452,7 +452,7 @@ PID: 23737
 Rewards balance: 0.000000270
 Disk Usage: 37M
 CPU Usage: 1.0%
-Memory Used: 31.168MB
+Memory Used: 29.5391MB
 Records: 79
 ---------
 Number: 2:2
@@ -462,7 +462,7 @@ PID: 24090
 Rewards balance: 0.000001195
 Disk Usage: 45M
 CPU Usage: 1.0%
-Memory Used: 31.4727MB
+Memory Used: 32.7422MB
 Records: 101
 ---------
 Number: 2:3
@@ -472,7 +472,7 @@ PID: 23723
 Rewards balance: 0.000000535
 Disk Usage: 52M
 CPU Usage: 1.3%
-Memory Used: 34.0859MB
+Memory Used: 32.0508MB
 Records: 113
 ---------
 Number: 2:4
@@ -481,8 +481,8 @@ Public IP Address: xx.xx.67.50
 PID: 23986
 Rewards balance: 0.000000791
 Disk Usage: 22M
-CPU Usage: 1.0%
-Memory Used: 31.3633MB
+CPU Usage: 0.9%
+Memory Used: 31.4727MB
 Records: 45
 ---------
 Number: 2:5
@@ -492,7 +492,7 @@ PID: 24025
 Rewards balance: 0.000000908
 Disk Usage: 38M
 CPU Usage: 1.0%
-Memory Used: 30.6875MB
+Memory Used: 31.6094MB
 Records: 90
 ---------
 Number: 2:6
@@ -502,7 +502,7 @@ PID: 23867
 Rewards balance: 0.000000483
 Disk Usage: 44M
 CPU Usage: 1.0%
-Memory Used: 35.6289MB
+Memory Used: 37.3828MB
 Records: 103
 ---------
 Number: 2:7
@@ -512,7 +512,7 @@ PID: 24038
 Rewards balance: 0.000000222
 Disk Usage: 47M
 CPU Usage: 1.0%
-Memory Used: 32MB
+Memory Used: 31.6328MB
 Records: 106
 ---------
 Number: 2:8
@@ -522,7 +522,7 @@ PID: 23999
 Rewards balance: 0.000000469
 Disk Usage: 41M
 CPU Usage: 2.6%
-Memory Used: 34.1914MB
+Memory Used: 35.6641MB
 Records: 91
 ---------
 Number: 2:9
@@ -532,7 +532,7 @@ PID: 23947
 Rewards balance: 0.000000210
 Disk Usage: 25M
 CPU Usage: 0.9%
-Memory Used: 31.9297MB
+Memory Used: 31.5195MB
 Records: 58
 ---------
 Number: 2:10
@@ -542,7 +542,7 @@ PID: 23802
 Rewards balance: 0.000000324
 Disk Usage: 56M
 CPU Usage: 1.1%
-Memory Used: 32.2227MB
+Memory Used: 32.1016MB
 Records: 121
 ---------
 Number: 2:11
@@ -552,7 +552,7 @@ PID: 23882
 Rewards balance: 0.000000330
 Disk Usage: 47M
 CPU Usage: 0.9%
-Memory Used: 30.8945MB
+Memory Used: 31.8008MB
 Records: 109
 ---------
 Number: 2:12
@@ -562,7 +562,7 @@ PID: 23763
 Rewards balance: 0.000000724
 Disk Usage: 45M
 CPU Usage: 0.9%
-Memory Used: 41.3242MB
+Memory Used: 41.4609MB
 Records: 104
 ---------
 Number: 2:13
@@ -572,7 +572,7 @@ PID: 23841
 Rewards balance: 0.000000920
 Disk Usage: 42M
 CPU Usage: 0.9%
-Memory Used: 30.2461MB
+Memory Used: 30.2812MB
 Records: 99
 ---------
 Number: 2:14
@@ -582,7 +582,7 @@ PID: 23815
 Rewards balance: 0.000000153
 Disk Usage: 26M
 CPU Usage: 0.9%
-Memory Used: 29.2344MB
+Memory Used: 30.6016MB
 Records: 59
 ---------
 Number: 2:15
@@ -592,7 +592,7 @@ PID: 23710
 Rewards balance: 0.000001750
 Disk Usage: 66M
 CPU Usage: 1.0%
-Memory Used: 35.3594MB
+Memory Used: 35.2578MB
 Records: 142
 ---------
 Number: 2:16
@@ -602,7 +602,7 @@ PID: 23973
 Rewards balance: 0.000000212
 Disk Usage: 40M
 CPU Usage: 0.9%
-Memory Used: 33.0664MB
+Memory Used: 32.3555MB
 Records: 85
 ---------
 Number: 2:17
@@ -612,7 +612,7 @@ PID: 23828
 Rewards balance: 0.000001479
 Disk Usage: 57M
 CPU Usage: 1.0%
-Memory Used: 29.7383MB
+Memory Used: 29.9531MB
 Records: 133
 ---------
 Number: 2:18
@@ -622,7 +622,7 @@ PID: 23895
 Rewards balance: 0.000000556
 Disk Usage: 46M
 CPU Usage: 1.0%
-Memory Used: 32.1406MB
+Memory Used: 31.9492MB
 Records: 102
 ---------
 Number: 2:19
@@ -632,7 +632,7 @@ PID: 23750
 Rewards balance: 0.000000483
 Disk Usage: 45M
 CPU Usage: 1.0%
-Memory Used: 35.3633MB
+Memory Used: 35.0156MB
 Records: 105
 ---------
 Number: 2:20
@@ -642,7 +642,7 @@ PID: 24012
 Rewards balance: 0.000000148
 Disk Usage: 31M
 CPU Usage: 0.9%
-Memory Used: 30.7227MB
+Memory Used: 30.9492MB
 Records: 70
 ---------
 Number: 2:21
@@ -652,7 +652,7 @@ PID: 24077
 Rewards balance: 0.000000553
 Disk Usage: 49M
 CPU Usage: 1.3%
-Memory Used: 31.9414MB
+Memory Used: 33.0039MB
 Records: 111
 ---------
 Number: 2:22
@@ -662,7 +662,7 @@ PID: 23934
 Rewards balance: 0.000000587
 Disk Usage: 59M
 CPU Usage: 1.1%
-Memory Used: 32.1133MB
+Memory Used: 32.8516MB
 Records: 132
 ---------
 Number: 2:23
@@ -672,7 +672,7 @@ PID: 24064
 Rewards balance: 0.000001200
 Disk Usage: 74M
 CPU Usage: 1.0%
-Memory Used: 32.4805MB
+Memory Used: 34.2461MB
 Records: 169
 ---------
 Number: 2:24
@@ -682,7 +682,7 @@ PID: 23789
 Rewards balance: 0.000000721
 Disk Usage: 52M
 CPU Usage: 1.0%
-Memory Used: 44.6953MB
+Memory Used: 43.4805MB
 Records: 122
 ---------
 Number: 2:25
@@ -692,7 +692,7 @@ PID: 23776
 Rewards balance: 0.000000550
 Disk Usage: 29M
 CPU Usage: 1.1%
-Memory Used: 31.2812MB
+Memory Used: 31.5117MB
 Records: 68
 ---------
 Number: 2:26
@@ -702,7 +702,7 @@ PID: 23960
 Rewards balance: 0.000000177
 Disk Usage: 30M
 CPU Usage: 0.9%
-Memory Used: 33.5039MB
+Memory Used: 32.1523MB
 Records: 66
 ---------
 Number: 2:27
@@ -712,7 +712,7 @@ PID: 23854
 Rewards balance: 0.000000534
 Disk Usage: 27M
 CPU Usage: 0.8%
-Memory Used: 42.75MB
+Memory Used: 43.0039MB
 Records: 62
 ---------
 Number: 2:28
@@ -722,7 +722,7 @@ PID: 24051
 Rewards balance: 0.000000959
 Disk Usage: 39M
 CPU Usage: 0.9%
-Memory Used: 36.5078MB
+Memory Used: 34.5117MB
 Records: 88
 ---------
 Number: 2:29
@@ -732,7 +732,7 @@ PID: 23921
 Rewards balance: 0.000001572
 Disk Usage: 79M
 CPU Usage: 1.0%
-Memory Used: 31.9062MB
+Memory Used: 31.3242MB
 Records: 173
 ---------
 Number: 3:0
@@ -742,7 +742,7 @@ PID: 7079
 Rewards balance: 0.000001601
 Disk Usage: 81M
 CPU Usage: 1.2%
-Memory Used: 37.1992MB
+Memory Used: 40.707MB
 Records: 190
 ---------
 Number: 3:1
@@ -752,7 +752,7 @@ PID: 7040
 Rewards balance: 0.000000461
 Disk Usage: 49M
 CPU Usage: 1.0%
-Memory Used: 32.3359MB
+Memory Used: 32.1836MB
 Records: 109
 ---------
 Number: 3:2
@@ -762,7 +762,7 @@ PID: 6855
 Rewards balance: 0.000000819
 Disk Usage: 38M
 CPU Usage: 0.9%
-Memory Used: 31.7539MB
+Memory Used: 31.0742MB
 Records: 86
 ---------
 Number: 3:3
@@ -772,7 +772,7 @@ PID: 6881
 Rewards balance: 0.000000776
 Disk Usage: 48M
 CPU Usage: 0.9%
-Memory Used: 30.418MB
+Memory Used: 30.5156MB
 Records: 113
 ---------
 Number: 3:4
@@ -782,7 +782,7 @@ PID: 7027
 Rewards balance: 0.000000945
 Disk Usage: 58M
 CPU Usage: 1.0%
-Memory Used: 31.875MB
+Memory Used: 32.6797MB
 Records: 135
 ---------
 Number: 3:5
@@ -792,7 +792,7 @@ PID: 6973
 Rewards balance: 0.000000673
 Disk Usage: 43M
 CPU Usage: 1.1%
-Memory Used: 31.3008MB
+Memory Used: 31.7891MB
 Records: 99
 ---------
 Number: 3:6
@@ -802,7 +802,7 @@ PID: 6737
 Rewards balance: 0.000000476
 Disk Usage: 42M
 CPU Usage: 1.0%
-Memory Used: 30.0938MB
+Memory Used: 29.5352MB
 Records: 90
 ---------
 Number: 3:7
@@ -812,7 +812,7 @@ PID: 6764
 Rewards balance: 0.000000835
 Disk Usage: 71M
 CPU Usage: 1.0%
-Memory Used: 31.6211MB
+Memory Used: 30.293MB
 Records: 156
 ---------
 Number: 3:8
@@ -822,7 +822,7 @@ PID: 6946
 Rewards balance: 0.000000152
 Disk Usage: 46M
 CPU Usage: 1.0%
-Memory Used: 35.8359MB
+Memory Used: 37.0586MB
 Records: 100
 ---------
 Number: 3:9
@@ -832,7 +832,7 @@ PID: 6724
 Rewards balance: 0.000000837
 Disk Usage: 73M
 CPU Usage: 1.9%
-Memory Used: 36.7734MB
+Memory Used: 36.7773MB
 Records: 163
 ---------
 Number: 3:10
@@ -842,7 +842,7 @@ PID: 6842
 Rewards balance: 0.000000457
 Disk Usage: 29M
 CPU Usage: 1.0%
-Memory Used: 32.7422MB
+Memory Used: 31.0312MB
 Records: 62
 ---------
 Number: 3:11
@@ -852,7 +852,7 @@ PID: 6960
 Rewards balance: 0.000000215
 Disk Usage: 39M
 CPU Usage: 1.0%
-Memory Used: 34.3398MB
+Memory Used: 33.8047MB
 Records: 85
 ---------
 Number: 3:12
@@ -862,7 +862,7 @@ PID: 6868
 Rewards balance: 0.000000232
 Disk Usage: 39M
 CPU Usage: 0.9%
-Memory Used: 31.0312MB
+Memory Used: 29.5703MB
 Records: 89
 ---------
 Number: 3:13
@@ -872,7 +872,7 @@ PID: 7014
 Rewards balance: 0.000000295
 Disk Usage: 47M
 CPU Usage: 1.1%
-Memory Used: 31.3711MB
+Memory Used: 31.8125MB
 Records: 108
 ---------
 Number: 3:14
@@ -882,7 +882,7 @@ PID: 6894
 Rewards balance: 0.000000135
 Disk Usage: 27M
 CPU Usage: 1.0%
-Memory Used: 33.0234MB
+Memory Used: 33.2422MB
 Records: 60
 ---------
 Number: 3:15
@@ -892,7 +892,7 @@ PID: 6751
 Rewards balance: 0.000000104
 Disk Usage: 28M
 CPU Usage: 1.0%
-Memory Used: 30.1406MB
+Memory Used: 30.2578MB
 Records: 62
 ---------
 Number: 3:16
@@ -902,7 +902,7 @@ PID: 6803
 Rewards balance: 0.000000722
 Disk Usage: 47M
 CPU Usage: 0.9%
-Memory Used: 29.0195MB
+Memory Used: 29MB
 Records: 111
 ---------
 Number: 3:17
@@ -912,7 +912,7 @@ PID: 6907
 Rewards balance: 0.000000662
 Disk Usage: 50M
 CPU Usage: 1.0%
-Memory Used: 30.5742MB
+Memory Used: 31.8125MB
 Records: 117
 ---------
 Number: 3:18
@@ -922,7 +922,7 @@ PID: 6777
 Rewards balance: 0.000000813
 Disk Usage: 66M
 CPU Usage: 1.0%
-Memory Used: 30.6055MB
+Memory Used: 30.8477MB
 Records: 151
 ---------
 Number: 3:19
@@ -932,7 +932,7 @@ PID: 7053
 Rewards balance: 0.000001269
 Disk Usage: 36M
 CPU Usage: 1.0%
-Memory Used: 31.9141MB
+Memory Used: 32.5508MB
 Records: 84
 ---------
 Number: 3:20
@@ -942,7 +942,7 @@ PID: 7066
 Rewards balance: 0.000000339
 Disk Usage: 29M
 CPU Usage: 1.0%
-Memory Used: 36.1484MB
+Memory Used: 36.9531MB
 Records: 65
 ---------
 Number: 3:21
@@ -952,7 +952,7 @@ PID: 6999
 Rewards balance: 0.000000506
 Disk Usage: 47M
 CPU Usage: 1.0%
-Memory Used: 32.6094MB
+Memory Used: 33.8086MB
 Records: 107
 ---------
 Number: 3:22
@@ -962,7 +962,7 @@ PID: 6711
 Rewards balance: 0.000000485
 Disk Usage: 40M
 CPU Usage: 1.9%
-Memory Used: 32.6484MB
+Memory Used: 31.0352MB
 Records: 89
 ---------
 Number: 3:23
@@ -972,7 +972,7 @@ PID: 6696
 Rewards balance: 0.000000697
 Disk Usage: 39M
 CPU Usage: 0.9%
-Memory Used: 28.3242MB
+Memory Used: 28.293MB
 Records: 85
 ---------
 Number: 3:24
@@ -982,7 +982,7 @@ PID: 6986
 Rewards balance: 0.000000204
 Disk Usage: 31M
 CPU Usage: 0.9%
-Memory Used: 36.9062MB
+Memory Used: 41.0859MB
 Records: 66
 ---------
 Number: 3:25
@@ -992,7 +992,7 @@ PID: 6829
 Rewards balance: 0.000001179
 Disk Usage: 73M
 CPU Usage: 1.4%
-Memory Used: 43.1055MB
+Memory Used: 44.1797MB
 Records: 161
 ---------
 Number: 3:26
@@ -1002,7 +1002,7 @@ PID: 6933
 Rewards balance: 0.000000560
 Disk Usage: 45M
 CPU Usage: 1.0%
-Memory Used: 35.1094MB
+Memory Used: 34.6914MB
 Records: 100
 ---------
 Number: 3:27
@@ -1012,7 +1012,7 @@ PID: 6790
 Rewards balance: 0.000000954
 Disk Usage: 38M
 CPU Usage: 0.9%
-Memory Used: 30.5703MB
+Memory Used: 30.2227MB
 Records: 87
 ---------
 Number: 3:28
@@ -1022,7 +1022,7 @@ PID: 6816
 Rewards balance: 0.000000190
 Disk Usage: 33M
 CPU Usage: 1.1%
-Memory Used: 29.7227MB
+Memory Used: 29.1641MB
 Records: 79
 ---------
 Number: 3:29
@@ -1032,7 +1032,7 @@ PID: 6920
 Rewards balance: 0.000003781
 Disk Usage: 43M
 CPU Usage: 1.0%
-Memory Used: 32.4023MB
+Memory Used: 32.3867MB
 Records: 97
 ---------
 Number: 4:0
@@ -1042,7 +1042,7 @@ PID: 7031
 Rewards balance: 0.000001121
 Disk Usage: 45M
 CPU Usage: 1.0%
-Memory Used: 33.8203MB
+Memory Used: 34.0273MB
 Records: 98
 ---------
 Number: 4:1
@@ -1052,7 +1052,7 @@ PID: 7083
 Rewards balance: 0.000000674
 Disk Usage: 53M
 CPU Usage: 1.0%
-Memory Used: 31.0117MB
+Memory Used: 30.9844MB
 Records: 120
 ---------
 Number: 4:2
@@ -1062,7 +1062,7 @@ PID: 7057
 Rewards balance: 0.000000496
 Disk Usage: 43M
 CPU Usage: 0.9%
-Memory Used: 30.3633MB
+Memory Used: 30.4258MB
 Records: 99
 ---------
 Number: 4:3
@@ -1072,7 +1072,7 @@ PID: 7216
 Rewards balance: 0.000000300
 Disk Usage: 38M
 CPU Usage: 1.0%
-Memory Used: 30.9023MB
+Memory Used: 32.3594MB
 Records: 90
 ---------
 Number: 4:4
@@ -1082,7 +1082,7 @@ PID: 7109
 Rewards balance: 0.000000075
 Disk Usage: 22M
 CPU Usage: 0.9%
-Memory Used: 37.5156MB
+Memory Used: 35.5078MB
 Records: 46
 ---------
 Number: 4:5
@@ -1092,7 +1092,7 @@ PID: 7190
 Rewards balance: 0.000000491
 Disk Usage: 37M
 CPU Usage: 1.0%
-Memory Used: 38.6914MB
+Memory Used: 37.8867MB
 Records: 84
 ---------
 Number: 4:6
@@ -1102,7 +1102,7 @@ PID: 7070
 Rewards balance: 0.000000073
 Disk Usage: 23M
 CPU Usage: 0.9%
-Memory Used: 34.6641MB
+Memory Used: 36.043MB
 Records: 54
 ---------
 Number: 4:7
@@ -1112,7 +1112,7 @@ PID: 7242
 Rewards balance: 0.000000559
 Disk Usage: 74M
 CPU Usage: 1.0%
-Memory Used: 33.3477MB
+Memory Used: 30.6367MB
 Records: 168
 ---------
 Number: 4:8
@@ -1122,7 +1122,7 @@ PID: 7281
 Rewards balance: 0.000001523
 Disk Usage: 69M
 CPU Usage: 1.1%
-Memory Used: 31.4844MB
+Memory Used: 32.8516MB
 Records: 156
 ---------
 Number: 4:9
@@ -1132,7 +1132,7 @@ PID: 6966
 Rewards balance: 0.000000277
 Disk Usage: 27M
 CPU Usage: 0.9%
-Memory Used: 29.6836MB
+Memory Used: 29.6055MB
 Records: 59
 ---------
 Number: 4:10
@@ -1142,7 +1142,7 @@ PID: 7307
 Rewards balance: 0.000000356
 Disk Usage: 22M
 CPU Usage: 0.9%
-Memory Used: 31.9023MB
+Memory Used: 32.5508MB
 Records: 48
 ---------
 Number: 4:11
@@ -1152,7 +1152,7 @@ PID: 7161
 Rewards balance: 0.000000245
 Disk Usage: 40M
 CPU Usage: 1.0%
-Memory Used: 31.3086MB
+Memory Used: 32.5586MB
 Records: 86
 ---------
 Number: 4:12
@@ -1162,7 +1162,7 @@ PID: 7096
 Rewards balance: 0.000000570
 Disk Usage: 45M
 CPU Usage: 1.0%
-Memory Used: 29.4102MB
+Memory Used: 29.5469MB
 Records: 103
 ---------
 Number: 4:13
@@ -1172,7 +1172,7 @@ PID: 6992
 Rewards balance: 0.000001432
 Disk Usage: 30M
 CPU Usage: 0.9%
-Memory Used: 31.4336MB
+Memory Used: 30.5469MB
 Records: 77
 ---------
 Number: 4:14
@@ -1182,7 +1182,7 @@ PID: 7333
 Rewards balance: 0.000000503
 Disk Usage: 55M
 CPU Usage: 1.7%
-Memory Used: 38.293MB
+Memory Used: 38.3867MB
 Records: 120
 ---------
 Number: 4:15
@@ -1192,7 +1192,7 @@ PID: 7320
 Rewards balance: 0.000001275
 Disk Usage: 45M
 CPU Usage: 1.1%
-Memory Used: 32.5117MB
+Memory Used: 32.2578MB
 Records: 104
 ---------
 Number: 4:16
@@ -1202,7 +1202,7 @@ PID: 7229
 Rewards balance: 0.000000471
 Disk Usage: 47M
 CPU Usage: 0.9%
-Memory Used: 35.7656MB
+Memory Used: 36.6602MB
 Records: 111
 ---------
 Number: 4:17
@@ -1212,7 +1212,7 @@ PID: 6979
 Rewards balance: 0.000000175
 Disk Usage: 26M
 CPU Usage: 0.9%
-Memory Used: 34.2227MB
+Memory Used: 35.4922MB
 Records: 61
 ---------
 Number: 4:18
@@ -1222,7 +1222,7 @@ PID: 7268
 Rewards balance: 0.000000670
 Disk Usage: 42M
 CPU Usage: 0.9%
-Memory Used: 34.9375MB
+Memory Used: 32.8672MB
 Records: 88
 ---------
 Number: 4:19
@@ -1231,8 +1231,8 @@ Public IP Address: xx.xx.67.50
 PID: 7005
 Rewards balance: 0.000000050
 Disk Usage: 35M
-CPU Usage: 1.0%
-Memory Used: 31.0898MB
+CPU Usage: 1.1%
+Memory Used: 30.0664MB
 Records: 87
 ---------
 Number: 4:20
@@ -1242,7 +1242,7 @@ PID: 7294
 Rewards balance: 0.000000543
 Disk Usage: 46M
 CPU Usage: 1.0%
-Memory Used: 30.7852MB
+Memory Used: 33.5234MB
 Records: 105
 ---------
 Number: 4:21
@@ -1252,7 +1252,7 @@ PID: 6953
 Rewards balance: 0.000000670
 Disk Usage: 55M
 CPU Usage: 0.9%
-Memory Used: 41.9453MB
+Memory Used: 40.3672MB
 Records: 116
 ---------
 Number: 4:22
@@ -1262,7 +1262,7 @@ PID: 7135
 Rewards balance: 0.000000358
 Disk Usage: 48M
 CPU Usage: 1.1%
-Memory Used: 33.5352MB
+Memory Used: 31.3867MB
 Records: 104
 ---------
 Number: 4:23
@@ -1272,7 +1272,7 @@ PID: 7174
 Rewards balance: 0.000000236
 Disk Usage: 41M
 CPU Usage: 1.0%
-Memory Used: 35.8398MB
+Memory Used: 36.5MB
 Records: 96
 ---------
 Number: 4:24
@@ -1281,8 +1281,8 @@ Public IP Address: xx.xx.67.50
 PID: 7018
 Rewards balance: 0.000000176
 Disk Usage: 30M
-CPU Usage: 0.8%
-Memory Used: 30.1016MB
+CPU Usage: 0.7%
+Memory Used: 30.4883MB
 Records: 71
 ---------
 Number: 4:25
@@ -1292,7 +1292,7 @@ PID: 7255
 Rewards balance: 0.000000196
 Disk Usage: 39M
 CPU Usage: 1.1%
-Memory Used: 33.8242MB
+Memory Used: 34.457MB
 Records: 91
 ---------
 Number: 4:26
@@ -1302,7 +1302,7 @@ PID: 7148
 Rewards balance: 0.000000817
 Disk Usage: 57M
 CPU Usage: 1.1%
-Memory Used: 35.2891MB
+Memory Used: 36.7422MB
 Records: 134
 ---------
 Number: 4:27
@@ -1312,7 +1312,7 @@ PID: 7044
 Rewards balance: 0.000000517
 Disk Usage: 42M
 CPU Usage: 1.0%
-Memory Used: 31.0859MB
+Memory Used: 31.6172MB
 Records: 100
 ---------
 Number: 4:28
@@ -1322,7 +1322,7 @@ PID: 7122
 Rewards balance: 0.000001072
 Disk Usage: 46M
 CPU Usage: 1.0%
-Memory Used: 29.7461MB
+Memory Used: 29.3281MB
 Records: 105
 ---------
 Number: 4:29
@@ -1332,6 +1332,6 @@ PID: 7203
 Rewards balance: 0.000000669
 Disk Usage: 40M
 CPU Usage: 1.0%
-Memory Used: 35.9844MB
+Memory Used: 38.3867MB
 Records: 93
 ---------
